@@ -4,7 +4,7 @@ import AboutHomeTwo from './AboutHomeTwo';
 import ServiceHomeTwo from './ServiceHomeTwo';
 import ProjectHomeTwo from './ProjectHomeTwo';
 import ChooseHomeTwo from './ChooseHomeTwo';
-import TestimonialHomeTwo from './TestimonialHomeTwo';
+// import TestimonialHomeTwo from './TestimonialHomeTwo';
 import CtaHomeTwo from './CtaHomeTwo';
 import FaqHomeTwo from './FaqHomeTwo';
 import BlogHomeTwo from './BlogHomeTwo';
@@ -24,7 +24,7 @@ export default function HomeTwo() {
         <ServiceHomeTwo />
         <ProjectHomeTwo />
         <ChooseHomeTwo />
-        <TestimonialHomeTwo />
+        {/* <TestimonialHomeTwo /> */}
         <CtaHomeTwo />
         <FaqHomeTwo />
         <BlogHomeTwo />

@@ -20,28 +20,28 @@ type WhyChooseUsItem = {
 
 const reasons: WhyChooseUsItem[] = [
   {
-    title: "Certified Professionals",
+    title: "Experienced Specialists",
     description:
-      "Certified consultants bring deep Microsoft platform expertise, reliable delivery practices, and responsive support to every engagement.",
+      "Our consultants understand Microsoft platforms, cloud architecture, integrations, and the business processes behind successful delivery.",
     icon: Lightbulb,
   },
   {
-    title: "Business-Fit Solutions",
+    title: "Process-First Delivery",
     description:
-      "We shape ERP, CRM, cloud, and automation solutions around the way your business works, so technology supports measurable outcomes.",
+      "We study how your teams actually work, then configure ERP, CRM, cloud, and automation solutions around measurable operational goals.",
     icon: BriefcaseBusiness,
     compactTitle: true,
   },
   {
-    title: "Value for Money",
+    title: "Practical Value",
     description:
-      "Focused implementation plans, clear priorities, and practical architecture help you get strong returns from your Microsoft investments.",
+      "Clear priorities, lean implementation plans, and maintainable architecture help you get more from every technology investment.",
     icon: BadgeDollarSign,
   },
   {
-    title: "Transparent Delivery",
+    title: "Clear Communication",
     description:
-      "Open communication, fair estimates, and visible progress keep teams aligned from discovery through launch and ongoing support.",
+      "You get direct updates, visible progress, and honest guidance from discovery through launch, training, and ongoing support.",
     icon: BadgeHelp,
   },
 ];
@@ -135,10 +135,13 @@ export default function WhyChooseUsSection() {
               className="why-choose-us-title tv-section-title tv-spltv-text tv-spltv-in-right"
               variants={introVariants}
             >
-              Why Us?
+              Why Choose Infomeya?
             </motion.h2>
 
             <motion.p className="why-choose-us-copy" variants={introVariants}>
+              Infomeya combines platform knowledge with practical execution, helping
+              businesses improve operations, reduce manual work, and make better use
+              of their digital ecosystem.
               Working with Infomeya can help businesses accomplish their goals more
               effectively and get the most out of their Microsoft technology
               investments.

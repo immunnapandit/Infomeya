@@ -16,6 +16,13 @@ export default function AboutHomeTwo() {
                   About Us
                 </span>
                 <h4 className="tv-section-title tv-spltv-text tv-spltv-in-right">
+                  Infomeya - Practical Technology for Growing Businesses
+                </h4>
+                <p>
+                  Infomeya helps organizations turn business needs into dependable
+                  digital systems. From discovery and solution design to
+                  implementation, training, and support, we focus on technology that
+                  improves daily work and creates long-term value.
                   Infomeya - Your Ideas, Our Execution
                 </h4>
                 <p>
@@ -62,7 +69,7 @@ export default function AboutHomeTwo() {
                         />
                       </svg>
                     </span>
-                    End-to-End Solutions - From idea to delivery
+                    End-to-end delivery from discovery to support
                   </li>
                   <li>
                     <span>
@@ -97,7 +104,7 @@ export default function AboutHomeTwo() {
                         />
                       </svg>
                     </span>
-                    Modern Technology - Dynamics 365, Azure, AI
+                    Microsoft, cloud, data, AI, and automation expertise
                   </li>
                   <li>
                     <span>
@@ -132,7 +139,7 @@ export default function AboutHomeTwo() {
                         />
                       </svg>
                     </span>
-                    Client Focused - Solutions tailored to your needs
+                    Business-focused solutions shaped around your workflows
                   </li>
                 </ul>
               </div>

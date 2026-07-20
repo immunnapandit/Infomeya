@@ -14,33 +14,34 @@ import 'swiper/css/pagination';
 const heroSlides = [
   {
     backgroundImage: getCloudinaryAssetUrl(
-      '/assets/img/slider/financilabuilding.jpg',
+      '/assets/img/slider/Businees.jpg',
       CLOUDINARY_TRANSFORMS.hero,
     ),
-    subtitle: 'Microsoft Technology Experts',
-    title: 'Transform Your Business with Intelligent Digital Solutions',
+    subtitle: 'Infomeya Digital Solutions',
+    title: 'Modernize Operations with Technology That Fits',
     description:
+      'Infomeya helps growing teams connect systems, simplify processes, and build reliable digital foundations across Microsoft Dynamics 365, Azure, and modern cloud platforms.',
       'Infomeya helps organizations modernize operations with Microsoft Dynamics 365, Azure Cloud, and innovative technology solutions designed for scalability and growth.',
   },
   {
     backgroundImage: getCloudinaryAssetUrl(
-      '/assets/img/slider/Businees.jpg',
+      '/assets/img/slider/financilabuilding.jpg',
       CLOUDINARY_TRANSFORMS.hero,
     ),
-    subtitle: 'Microsoft Technology Experts',
-    title: 'Empowering Businesses with Microsoft Dynamics 365',
+    subtitle: 'ERP, CRM, and Cloud Experts',
+    title: 'Make Better Decisions with Connected Business Data',
     description:
-      'Streamline operations, automate processes, and gain real-time insights with powerful ERP and CRM solutions built on Microsoft Dynamics 365 and Power Platform.',
+      'Bring finance, sales, service, operations, and reporting into one smarter flow with practical ERP, CRM, automation, and analytics solutions.',
   },
   {
     backgroundImage: getCloudinaryAssetUrl(
       '/assets/img/slider/meeting.jpg',
       CLOUDINARY_TRANSFORMS.hero,
     ),
-    subtitle: 'Microsoft Technology Experts',
-    title: 'Build Powerful Solutions for the Future',
+    subtitle: 'Built for Scalable Growth',
+    title: 'Turn Ideas into Secure, High-Performing Applications',
     description:
-      'From modern web applications to enterprise systems, our expert team develops scalable solutions using Azure, React, .NET, and the latest technologies.',
+      'From cloud migration to custom web platforms, Infomeya designs and delivers systems that are easier to manage, integrate, and scale.',
   },
 ];
 

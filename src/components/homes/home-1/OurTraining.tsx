@@ -17,37 +17,37 @@ import "swiper/css/navigation";
 const trainings = [
   {
     title: "Microsoft Dynamics 365 F&O",
-    desc: "Enterprise ERP solutions for finance, operations, supply chain workflows, and process optimization across growing organizations.",
+    desc: "Role-focused learning for finance, operations, supply chain, reporting, and daily ERP execution in enterprise environments.",
     logo: "/assets/img/service/Dynamics365.svg",
     href: "/solutions/d365-for-finance-and-operations",
   },
   {
     title: "Microsoft Azure",
-    desc: "Cloud computing, infrastructure services, security, scalability, and modern application deployment for digital transformation initiatives.",
+    desc: "Hands-on cloud learning covering Azure services, security basics, infrastructure planning, deployment, and operational readiness.",
     logo: "/assets/img/service/azure-icon.svg",
     href: "/solutions/microsoft-azure",
   },
   {
     title: "Power BI & Data Analytics",
-    desc: "Business intelligence, interactive dashboards, reporting, and data visualization to turn raw data into practical decisions.",
+    desc: "Dashboard design, reporting models, data storytelling, and analytics skills that help teams turn information into action.",
     logo: "/assets/img/service/power-bi-icon.svg",
     href: "/solutions/microsoft-power-bi",
   },
   {
     title: "Business Central",
-    desc: "Integrated business management training covering finance, sales, operations, and customer service for streamlined performance.",
+    desc: "Practical Business Central training for finance, sales, purchasing, inventory, approvals, and everyday business management.",
     logo: "/assets/img/service/BusinessCentral.svg",
     href: "/solutions/business-central",
   },
   {
     title: "Cloud Technology",
-    desc: "Hands-on learning for cloud foundations, CI/CD pipelines, deployment practices, and automation-driven operational efficiency.",
+    desc: "Cloud foundations, deployment workflows, automation concepts, and DevOps practices for teams moving toward modern delivery.",
     logo: "/assets/img/service/cloud.png",
     href: "/solutions/cloud-technology",
   },
   {
     title: "Microsoft Power Platform",
-    desc: "Low-code tools for app development, workflow automation, dashboards, and business process improvement at scale.",
+    desc: "Build low-code apps, automate approvals, connect data, and create practical business tools with Power Platform.",
     logo: "/assets/img/service/PowerPlatform.svg",
     href: "/solutions/microsoft-power-platform",
   },
@@ -72,12 +72,12 @@ export default function TrainingsSection() {
           </span>
 
           <h2 className="training-title tv-section-title tv-spltv-text tv-spltv-in-right">
-            Our Training Programs
+            Infomeya Training Programs
           </h2>
 
           <p className="training-text">
-            We provide industry-focused training programs designed to enhance your
-            skills in cloud, ERP, and modern business technologies.
+            Learn the tools teams use in real projects, with training built around
+            ERP, cloud, analytics, automation, and practical workplace scenarios.
           </p>
         </motion.div>
 
