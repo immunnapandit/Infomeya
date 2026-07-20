@@ -34,7 +34,7 @@ const heroSlides = [
   },
   {
     backgroundImage: getCloudinaryAssetUrl(
-      '/assets/img/slider/cloud4.png',
+      '/assets/img/slider/meeting.jpg',
       CLOUDINARY_TRANSFORMS.hero,
     ),
     subtitle: 'Microsoft Technology Experts',
