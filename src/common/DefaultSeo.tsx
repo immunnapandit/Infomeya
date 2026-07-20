@@ -533,12 +533,6 @@ function buildSeoForPath(pathname: string): SeoProps {
       noindex: true,
       schema: organizationSchema,
     },
-    '/pay-now': {
-      title: 'Pay Now | Infomeya',
-      description: 'Securely complete your payment for Infomeya services and training.',
-      noindex: true,
-      schema: organizationSchema,
-    },
     '/service': {
       title: 'Services | ERP, CRM, Cloud, AI and Managed Services | Infomeya',
       description:

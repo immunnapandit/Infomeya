@@ -489,13 +489,7 @@ export default function MicrosoftCertifiedTrainerReadinessTraining() {
               </p>
             </div>
             <div className="mctrt-actions">
-              <Link to="/pay-now" className="tv-btn-primary p-relative mctrt-global-btn">
-                <span className="btn-wrap">
-                  <span className="btn-text1">Pay Now</span>
-                  <span className="btn-text2">Pay Now</span>
-                </span>
-              </Link>
-              <Link to="/contact" className="tv-btn-secondary p-relative mctrt-global-btn">
+              <Link to="/contact" className="tv-btn-primary p-relative mctrt-global-btn">
                 <span className="btn-wrap">
                   <span className="btn-text1">Enroll Now</span>
                   <span className="btn-text2">Enroll Now</span>

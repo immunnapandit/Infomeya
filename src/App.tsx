@@ -22,7 +22,6 @@ import CareerDetails from './components/careers/CareerDetails';
 import CareersAdmin from './components/careers/CareersAdmin';
 import BlogAdmin from './components/blog-admin/BlogAdmin';
 import BlogPreview from './components/blog-preview/BlogPreview';
-import PayNowPage from './components/pay-now';
 import D365Finance from './components/solutions/d365-finance';
 import WorkingProcess from './components/working-process';
 import PrivacyPolicy from './components/privacy-policy';
@@ -54,7 +53,6 @@ const router = createBrowserRouter([
   { path: '/careers/:slug', element: <CareerDetails /> },
   { path: '/admin/careers', element: <CareersAdmin /> },
   { path: '/admin/blog', element: <BlogAdmin /> },
-  { path: '/pay-now', element: <PayNowPage /> },
   { path: '/working-process', element: <WorkingProcess /> },
   { path: '/privacy-policy', element: <PrivacyPolicy /> },
   { path: '/terms-and-conditions', element: <TermsConditions /> },

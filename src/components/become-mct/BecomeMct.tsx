@@ -273,11 +273,7 @@ export default function BecomeMct() {
             </motion.div>
 
             <motion.div className="pm-actions" variants={fadeUpVariants}>
-              <Link to="/pay-now" className="pm-btn pm-btn-primary">
-                Pay Now
-                <ArrowRight size={18} />
-              </Link>
-              <Link to="/become-mct/enroll" className="pm-btn pm-btn-secondary">
+              <Link to="/become-mct/enroll" className="pm-btn pm-btn-primary">
                 Enroll Now
                 <ArrowRight size={18} />
               </Link>
