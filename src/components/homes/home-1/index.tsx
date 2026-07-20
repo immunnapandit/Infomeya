@@ -1,5 +1,5 @@
 import HeroHomeOne from './HeroHomeOne';
-import TestimonialHomeOne from './TestimonialHomeOne';
+// import TestimonialHomeOne from './TestimonialHomeOne';
 import Wrapper from '../../../layouts/Wrapper';
 import HeaderOne from '../../../layouts/headers/HeaderOne';
 import FooterOne from '../../../layouts/footers/FooterOne';
@@ -24,7 +24,7 @@ export default function HomeOne() {
         <IndustriesSection />
         <WhyChooseUsSection />
         <OurTraining />
-        <TestimonialHomeOne />
+        {/* <TestimonialHomeOne /> */}
          <OurClient />
         <BlogHomeTwo />
       </main>
