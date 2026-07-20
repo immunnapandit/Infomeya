@@ -61,10 +61,10 @@ export default function BlogHomeTwo() {
           <div className="col text-center">
             <div className="tv-section-title-box mb-60">
               <span className="tv-section-subtitle tv-spltv-text tv-spltv-in-right">
-                Our Blogs
+                Infomeya Insights
               </span>
               <h4 className="tv-section-title  tv-spltv-text tv-spltv-in-right">
-                Recent Blog & Articles About Technology
+                Latest Ideas on Business Technology
               </h4>
             </div>
           </div>

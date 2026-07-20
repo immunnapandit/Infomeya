@@ -15,63 +15,63 @@ import 'swiper/css/pagination';
 const services = [
   {
     title: 'Microsoft Dynamics 365',
-    desc: 'ERP and CRM solutions designed to streamline operations, improve visibility, and drive smarter business decisions.',
+    desc: 'ERP and CRM consulting to connect departments, strengthen controls, and make business information easier to act on.',
     img: '/assets/img/service/Dynamics365.svg',
     accent: '#2B4DFF',
     href: '/solutions/microsoft-dynamics-365',
   },
   {
     title: 'Microsoft Azure',
-    desc: 'Secure, scalable cloud solutions that modernize infrastructure and support enterprise-level growth.',
+    desc: 'Azure planning, migration, optimization, and support for teams that need secure and scalable cloud foundations.',
     img: '/assets/img/service/azure-icon.svg',
     accent: '#6C4DFF',
     href: '/solutions/microsoft-azure',
   },
   {
     title: 'Power Platform',
-    desc: 'Build apps, automate workflows, and unlock productivity with low-code Microsoft solutions.',
+    desc: 'Low-code apps, automated workflows, approvals, and connected tools that remove repetitive work from daily operations.',
     img: '/assets/img/service/PowerPlatform.svg',
     accent: '#0EA5E9',
     href: '/solutions/microsoft-power-platform',
   },
   {
     title: 'Microsoft Power BI',
-    desc: 'Transform raw data into interactive dashboards and clear insights for better business decisions.',
+    desc: 'Reporting models and dashboards that help leaders track performance, spot issues, and act with confidence.',
     img: '/assets/img/service/power-bi-icon.svg',
     accent: '#14B8A6',
     href: '/solutions/microsoft-power-bi',
   },
   {
     title: 'Cloud Technology',
-    desc: 'Comprehensive cloud services including migration, infrastructure management, and DevOps automation.',
+    desc: 'Cloud migration, infrastructure management, monitoring, DevOps automation, and performance-focused operations.',
     img: '/assets/img/service/Cloud.svg',
     accent: '#4F46E5',
     href: '/solutions/cloud-technology',
   },
   {
     title: 'Artificial Intelligence',
-    desc: 'Applied AI solutions that automate workflows, generate insights, and help teams make faster decisions.',
+    desc: 'Applied AI for workflow automation, document intelligence, forecasting, support tools, and decision assistance.',
     img: '/assets/img/service/aichip.svg',
     accent: '#EC4899',
     href: '/ai-solutions',
   },
   {
     title: 'ERP Implementation',
-    desc: 'End-to-end ERP implementation services covering planning, configuration, deployment, and post-go-live support.',
+    desc: 'Structured ERP implementation from process mapping and configuration to testing, launch, adoption, and support.',
     img: '/assets/img/service/erp-icon.svg',
     accent: '#F97316',
     href: '/what-we-do/erp-implementation',
   },
   {
     title: 'Office 365',
-    desc: 'Microsoft 365 and Office 365 services for secure collaboration, productivity, migration, and user enablement.',
+    desc: 'Microsoft 365 setup, migration, collaboration, identity, security, and user enablement for modern workplaces.',
     img: '/assets/img/service/Microsoft_365.svg',
     accent: '#2563EB',
     href: '/solutions/office-365',
   },
   {
     title: 'Web Development',
-    desc: 'Modern website and web application development focused on performance, usability, integrations, and growth.',
+    desc: 'Websites and business applications built for performance, usability, integrations, maintainability, and growth.',
     img: '/assets/img/service/webdevelopment.svg',
     accent: '#10B981',
     href: '/what-we-do/web-development',
@@ -121,13 +121,13 @@ export default function ServiceHomeTwo() {
             className="section-title tv-section-title tv-spltv-text tv-spltv-in-right"
             variants={fadeUp}
           >
-            Smart Business Solutions with Dynamics 365
+            Technology Services Built Around Your Business
           </motion.h2>
 
           <motion.div className="service-subtitle-row" variants={fadeUp}>
             <p className="section-subtitle">
-              Premium Microsoft technology services built to help your business
-              scale with confidence, clarity, and speed.
+              Infomeya delivers Microsoft, cloud, data, AI, and application services
+              that help teams simplify work and scale with confidence.
             </p>
           </motion.div>
         </motion.div>

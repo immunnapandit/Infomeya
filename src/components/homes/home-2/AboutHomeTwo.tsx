@@ -16,15 +16,13 @@ export default function AboutHomeTwo() {
                   About Us
                 </span>
                 <h4 className="tv-section-title tv-spltv-text tv-spltv-in-right">
-                  AtiSunya - Your Ideas, Our Execution
+                  Infomeya - Practical Technology for Growing Businesses
                 </h4>
                 <p>
-                  At AtiSunya, we bring your ideas to life through a complete
-                  end-to-end approach. From initial concept and planning to
-                  development, deployment, and ongoing support, we manage every
-                  stage with precision and care. Our focus is on delivering
-                  innovative, reliable, and scalable solutions that drive real
-                  business value.
+                  Infomeya helps organizations turn business needs into dependable
+                  digital systems. From discovery and solution design to
+                  implementation, training, and support, we focus on technology that
+                  improves daily work and creates long-term value.
                 </p>
               </div>
               <div className="tv-list-item">
@@ -62,7 +60,7 @@ export default function AboutHomeTwo() {
                         />
                       </svg>
                     </span>
-                    End-to-End Solutions - From idea to delivery
+                    End-to-end delivery from discovery to support
                   </li>
                   <li>
                     <span>
@@ -97,7 +95,7 @@ export default function AboutHomeTwo() {
                         />
                       </svg>
                     </span>
-                    Modern Technology - Dynamics 365, Azure, AI
+                    Microsoft, cloud, data, AI, and automation expertise
                   </li>
                   <li>
                     <span>
@@ -132,7 +130,7 @@ export default function AboutHomeTwo() {
                         />
                       </svg>
                     </span>
-                    Client Focused - Solutions tailored to your needs
+                    Business-focused solutions shaped around your workflows
                   </li>
                 </ul>
               </div>
