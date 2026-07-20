@@ -3,18 +3,18 @@ import WhatWeDoServiceLayout from '../../what-we-do/shared/WhatWeDoServiceLayout
 
 const pageConfig: ServicePageConfig = {
   title: 'Microsoft Azure',
-  subtitle: 'Secure cloud infrastructure, modernization, and scalable delivery',
+  subtitle: 'Azure services for secure, scalable business platforms',
   category: 'solution',
-  focus: 'cloud migration, infrastructure design, DevOps, security, and governance',
+  focus: 'Azure architecture, migration, integration, security, monitoring, and cloud operations',
   summary:
-    'Plan and deliver Azure environments that improve reliability, scalability, and operational control across modern cloud workloads.',
+    'Use Microsoft Azure to modernize infrastructure, applications, data, and integrations with secure architecture and a practical operating model.',
   image: '/assets/img/service/Azure.png',
   highlights: [
-    'Azure migration and cloud adoption planning',
-    'Infrastructure setup, security, and environment design',
-    'Monitoring, automation, and DevOps support',
-    'Performance, cost, and governance optimization'
-  ],
+    'Azure assessment and landing zone planning',
+    'Application, data, and infrastructure migration',
+    'Security, identity, monitoring, and governance',
+    'Optimization, support, and managed operations'
+  ]
 };
 
 export { pageConfig };

@@ -219,7 +219,7 @@ export default function CareerDetails() {
       <HeaderOne />
       <Seo
         title={`${job.title} | Careers at ${SITE_NAME}`}
-        description={`${job.description} Apply to AtiSunya for ${job.type.toLowerCase()} opportunities in ${job.location}.`}
+        description={`${job.description} Apply to Infomeya for ${job.type.toLowerCase()} opportunities in ${job.location}.`}
         path={`/careers/${job.slug}`}
         schema={buildJobPostingSchema(job)}
       />

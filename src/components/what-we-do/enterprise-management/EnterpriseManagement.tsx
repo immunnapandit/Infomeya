@@ -3,18 +3,18 @@ import WhatWeDoServiceLayout from '../shared/WhatWeDoServiceLayout';
 
 const pageConfig: ServicePageConfig = {
   title: 'Enterprise Management',
-  subtitle: 'Operational alignment for growing and complex organizations',
+  subtitle: 'Enterprise operations aligned through process and control',
   category: 'service',
-  focus: 'governance, process control, and business management visibility',
+  focus: 'operating models, governance, cross-functional visibility, controls, and reporting',
   summary:
-    'Support enterprise-scale operations with better governance, connected processes, and management visibility across functions.',
-  image: '/assets/img/service/Enterprises-managements.png',
+    'Improve management visibility and operational consistency with enterprise management support that standardizes processes, strengthens controls, and connects decision makers.',
+  image: '/assets/img/service/Enterprises-management.png',
   highlights: [
-    'Governance and operating model design',
-    'Process standardization support',
-    'Cross-functional visibility improvement',
-    'Management reporting and controls',
-  ],
+    'Operating model and governance design',
+    'Process standardization across functions',
+    'Management visibility and control alignment',
+    'Performance reporting and improvement cycles'
+  ]
 };
 
 export { pageConfig };

@@ -3,17 +3,17 @@ import WhatWeDoServiceLayout from '../../what-we-do/shared/WhatWeDoServiceLayout
 
 const pageConfig: ServicePageConfig = {
   title: 'Dynamics AX 7',
-  subtitle: 'Transition-ready ERP foundation for evolving businesses',
+  subtitle: 'Dynamics AX 7 services for stable operations and growth',
   category: 'solution',
-  focus: 'AX 7 support, rollout stabilization, and roadmap planning',
+  focus: 'AX 7 configuration, support, performance, integrations, and upgrade planning',
   summary:
-    'Support AX 7 environments with governance, enhancements, integrations, and a clear strategy for future platform evolution.',
-  image: '/assets/img/service/service-thumb-1.png',
+    'Support AX 7 environments with practical consulting that improves daily operations, resolves gaps, strengthens reporting, and prepares the business for future upgrades.',
+  image: '/assets/img/service/ERP_V.png',
   highlights: [
-    'AX 7 environment stabilization',
-    'Enhancements and business fit improvements',
-    'Integration and reporting support',
-    'Transition planning for future growth'
+    'AX 7 configuration and process support',
+    'Performance, reporting, and issue resolution',
+    'Data and integration improvement',
+    'Upgrade readiness and roadmap planning'
   ]
 };
 

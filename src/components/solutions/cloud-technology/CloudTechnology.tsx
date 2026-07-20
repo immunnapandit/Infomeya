@@ -2,19 +2,19 @@ import type { ServicePageConfig } from '../../../data/service-page-types';
 import WhatWeDoServiceLayout from '../../what-we-do/shared/WhatWeDoServiceLayout';
 
 const pageConfig: ServicePageConfig = {
-  title: 'Cloud Technology',
-  subtitle: 'Cloud services built for reliability, agility, and controlled growth',
+  title: '',
+  subtitle: '',
   category: 'solution',
-  focus: 'cloud modernization, infrastructure reliability, automation, and governance',
+  focus: 'cloud strategy, migration, modernization, security, scalability, and operational governance',
   summary:
-    'Build a practical cloud foundation that improves resilience, deployment speed, and operational visibility without adding unnecessary complexity.',
-  image: '/assets/img/service/Cloud.svg',
+    'Plan and modernize cloud environments with architecture, migration, security, monitoring, and optimization support aligned to business priorities.',
+  image: '/assets/img/service/cloud.png',
   highlights: [
-    'Cloud readiness reviews and migration planning',
-    'Infrastructure deployment and operational support',
-    'Automation, monitoring, and release enablement',
-    'Governance, optimization, and long-term scaling'
-  ],
+    'Cloud assessment and migration roadmap',
+    'Secure architecture and platform modernization',
+    'Scalability, monitoring, and cost awareness',
+    'Operational governance and managed support'
+  ]
 };
 
 export { pageConfig };

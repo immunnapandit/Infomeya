@@ -3,17 +3,17 @@ import WhatWeDoServiceLayout from '../../what-we-do/shared/WhatWeDoServiceLayout
 
 const pageConfig: ServicePageConfig = {
   title: 'Dynamics NAV 2018',
-  subtitle: 'Business-ready NAV support for modern operational needs',
+  subtitle: 'NAV 2018 optimization and future-ready planning',
   category: 'solution',
-  focus: 'NAV 2018 support, integration, and controlled transformation',
+  focus: 'NAV 2018 support, workflows, reporting, integrations, and Business Central transition planning',
   summary:
-    'Get a stable NAV 2018 operating model with better visibility, improved business fit, and guidance for the next phase of change.',
-  image: '/assets/img/service/service-thumb-2.png',
+    'Get more value from Dynamics NAV 2018 through support, workflow refinement, report improvements, integration fixes, and structured modernization planning.',
+  image: '/assets/img/service/Business Central.avif',
   highlights: [
     'NAV 2018 stabilization and support',
-    'Business-specific process improvements',
-    'Integration and data visibility enablement',
-    'Transformation planning and advisory'
+    'Workflow and integration improvements',
+    'Reporting visibility and user enablement',
+    'Business Central transition planning'
   ]
 };
 

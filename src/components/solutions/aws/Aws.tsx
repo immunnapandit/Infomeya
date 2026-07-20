@@ -3,18 +3,18 @@ import WhatWeDoServiceLayout from '../../what-we-do/shared/WhatWeDoServiceLayout
 
 const pageConfig: ServicePageConfig = {
   title: 'AWS',
-  subtitle: 'Cloud architecture, migration, and operational scalability on AWS',
+  subtitle: 'AWS cloud delivery with practical architecture discipline',
   category: 'solution',
-  focus: 'cloud migration, architecture, security, automation, and application scalability',
+  focus: 'AWS architecture, migration, application hosting, security, monitoring, and cost optimization',
   summary:
-    'Design and improve AWS environments that support secure growth, faster delivery, and reliable application performance across modern cloud workloads.',
-  image: '/assets/img/service/saas-concept-collage.jpg',
+    'Design and operate AWS environments that support reliable applications, secure infrastructure, performance visibility, and controlled cloud spending.',
+  image: '/assets/img/service/aws.png',
   highlights: [
-    'AWS migration planning and cloud architecture design',
-    'Infrastructure setup, security controls, and environment readiness',
-    'Automation, monitoring, and reliability improvements for operations',
-    'Cost optimization, governance, and continuous cloud support'
-  ],
+    'AWS assessment and architecture planning',
+    'Migration and application hosting support',
+    'Security, monitoring, and backup alignment',
+    'Cost, performance, and operations optimization'
+  ]
 };
 
 export { pageConfig };

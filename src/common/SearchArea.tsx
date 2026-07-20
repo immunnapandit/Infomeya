@@ -19,8 +19,8 @@ export default function SearchArea({
                 <div className="search__logo">
                   <Link to="/">
                     <img
-                      src="../../assets/img/logo/AtiSunyaLogo.png"
-                      alt="AtiSunya logo"
+                      src="../../assets/img/logo/InfomeyaLogo.jpeg"
+                      alt="Infomeya logo"
                       style={{ maxWidth: '180px', width: '100%', height: 'auto' }}
                     />
                   </Link>

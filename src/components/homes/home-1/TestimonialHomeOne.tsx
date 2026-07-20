@@ -29,6 +29,7 @@ const testimonials = [
   {
     quote:
       'Infomeya gave me clear direction, structured preparation, and practical support throughout my Microsoft Certified Trainer journey.',
+      'I had an excellent experience with Infomeya, With their clear guidance and professional support, I successfully received my Microsoft Certified Trainer (MCT) certificate.',
     name: 'Nishit Parikh, Australia',
     role: 'MCT Certified Trainer',
     linkedinUrl: 'https://www.linkedin.com/in/nishitpparikh/',
@@ -37,6 +38,7 @@ const testimonials = [
   {
     quote:
       'The Infomeya training approach was focused, practical, and easy to follow. It helped me build confidence and move forward with my MCT certification.',
+      'Infomeya training program played a key role in my journey to becoming a Microsoft Certified Trainer. The mentorship and practical approach truly made a difference.',
     name: 'Rizwan Ul Haq, Dubai',
     role: 'MCT Certified Trainer',
     linkedinUrl: 'https://www.linkedin.com/in/rizulhaq/',
@@ -69,6 +71,8 @@ export default function TestimonialHomeOne() {
                 <p>
                   Feedback from professionals and businesses who work with Infomeya
                   for learning, implementation, consulting, and support.
+                  Real feedback from organizations that trust Infomeya for
+                  transformation, implementation, and long-term support.
                 </p>
               </div>
               <div className="tv-testi-arrow-box d-flex">

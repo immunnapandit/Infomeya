@@ -30,7 +30,7 @@ function buildOrganizationSchema() {
     url: SITE_URL,
     logo: `${SITE_URL}${ORGANIZATION_LOGO}`,
     description: 'Microsoft Dynamics 365, Azure Cloud, AI and Power Platform Consulting Services.',
-    email: 'info@atisunya.co',
+    email: 'info@infomeya.com',
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'Noida',
@@ -39,9 +39,9 @@ function buildOrganizationSchema() {
     },
     areaServed: ['India', 'Global'],
     sameAs: [
-      'https://www.facebook.com/AtiSunya.co/',
-      'https://www.instagram.com/atisunyaerpai/',
-      'https://www.linkedin.com/company/atisunyaprivatelimited/',
+      'https://www.facebook.com/Infomeya.co/',
+      'https://www.instagram.com/infomeyaerpai/',
+      'https://www.linkedin.com/company/infomeyaprivatelimited/',
     ],
   };
 }
@@ -54,7 +54,7 @@ function buildProfessionalServiceSchema(path = '/') {
     url: `${SITE_URL}${path}`,
     image: `${SITE_URL}${DEFAULT_OG_IMAGE}`,
     description: 'Microsoft Dynamics 365, Azure Cloud, AI, Copilot, Power Platform, Managed Services, Consulting, Training and Implementation Partner.',
-    email: 'info@atisunya.co',
+    email: 'info@infomeya.com',
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'Noida',
@@ -112,18 +112,18 @@ function buildServiceFaqSchema(name: string) {
     mainEntity: [
       {
         '@type': 'Question',
-        name: `What ${name} services does AtiSunya provide?`,
+        name: `What ${name} services does Infomeya provide?`,
         acceptedAnswer: {
           '@type': 'Answer',
-          text: `AtiSunya provides consulting, implementation, integration, support, upgrades, training, and managed services for ${name}.`,
+          text: `Infomeya provides consulting, implementation, integration, support, upgrades, training, and managed services for ${name}.`,
         },
       },
       {
         '@type': 'Question',
-        name: 'Does AtiSunya serve clients in India?',
+        name: 'Does Infomeya serve clients in India?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Yes. AtiSunya serves organizations in Noida, Delhi NCR, across India, and globally.',
+          text: 'Yes. Infomeya serves organizations in Noida, Delhi NCR, across India, and globally.',
         },
       },
     ],
@@ -162,19 +162,19 @@ const solutionSeo: Record<string, { name: string; description: string; image?: s
   '/ai-solutions': {
     name: 'AI Solutions',
     description:
-      'Build practical AI automation, intelligent workflows, analytics, and enterprise copilots with AtiSunya for faster, smarter business operations.',
+      'Build practical AI automation, intelligent workflows, analytics, and enterprise copilots with Infomeya for faster, smarter business operations.',
     image: '/assets/img/service/AI.png',
   },
   '/solutions/microsoft-dynamics-365': {
     name: 'Microsoft Dynamics 365',
     description:
-      'Implement Microsoft Dynamics 365 with AtiSunya to connect ERP, CRM, finance, sales, operations, service, and reporting on one business platform.',
+      'Implement Microsoft Dynamics 365 with Infomeya to connect ERP, CRM, finance, sales, operations, service, and reporting on one business platform.',
     image: '/assets/img/service/MicrosoftD365.jpg',
   },
   '/microsoft-dynamics-365-consulting': {
     name: 'Microsoft Dynamics 365 Consulting',
     description:
-      'Work with a Dynamics 365 Partner in India for ERP, CRM, finance, operations, migration, support, and managed services from AtiSunya.',
+      'Work with a Dynamics 365 Partner in India for ERP, CRM, finance, operations, migration, support, and managed services from Infomeya.',
     image: '/assets/img/service/MicrosoftD365.jpg',
   },
   '/solutions/business-central': {
@@ -218,7 +218,7 @@ const solutionSeo: Record<string, { name: string; description: string; image?: s
   '/solutions/d365-for-customer-insights': {
     name: 'Dynamics 365 Customer Insights',
     description:
-      'Unify customer data, improve segmentation, and personalize engagement with Dynamics 365 Customer Insights consulting from AtiSunya.',
+      'Unify customer data, improve segmentation, and personalize engagement with Dynamics 365 Customer Insights consulting from Infomeya.',
   },
   '/solutions/d365-for-marketing': {
     name: 'Dynamics 365 Marketing',
@@ -244,19 +244,19 @@ const solutionSeo: Record<string, { name: string; description: string; image?: s
   '/azure-cloud-services': {
     name: 'Azure Cloud Services',
     description:
-      'Plan Azure cloud migration, modernization, architecture, security, automation, and managed cloud services with AtiSunya consultants in India.',
+      'Plan Azure cloud migration, modernization, architecture, security, automation, and managed cloud services with Infomeya consultants in India.',
     image: '/assets/img/service/Azure.png',
   },
   '/solutions/aws': {
     name: 'AWS Cloud Solutions',
     description:
-      'Build secure, scalable AWS cloud environments with AtiSunya for migration, modernization, infrastructure, and operational support.',
+      'Build secure, scalable AWS cloud environments with Infomeya for migration, modernization, infrastructure, and operational support.',
     image: '/assets/img/service/aws.png',
   },
   '/solutions/cloud-technology': {
     name: 'Cloud Technology',
     description:
-      'Modernize infrastructure, applications, security, monitoring, and cloud operations with AtiSunya cloud technology services.',
+      'Modernize infrastructure, applications, security, monitoring, and cloud operations with Infomeya cloud technology services.',
   },
   '/solutions/microsoft-power-platform': {
     name: 'Microsoft Power Platform',
@@ -267,13 +267,13 @@ const solutionSeo: Record<string, { name: string; description: string; image?: s
   '/power-platform-services': {
     name: 'Power Platform Services',
     description:
-      'Build Power Apps, Power Automate workflows, Power BI dashboards, and low-code business automation with AtiSunya Power Platform experts.',
+      'Build Power Apps, Power Automate workflows, Power BI dashboards, and low-code business automation with Infomeya Power Platform experts.',
     image: '/assets/img/service/PowerPlatform.svg',
   },
   '/microsoft-copilot-services': {
     name: 'Microsoft Copilot Consulting',
     description:
-      'Adopt Microsoft Copilot with practical consulting, AI readiness, workflow automation, governance, and enterprise enablement from AtiSunya.',
+      'Adopt Microsoft Copilot with practical consulting, AI readiness, workflow automation, governance, and enterprise enablement from Infomeya.',
     image: '/assets/img/service/AI.png',
   },
   '/solutions/microsoft-power-platform/power-automate-solutions': {
@@ -296,7 +296,7 @@ const solutionSeo: Record<string, { name: string; description: string; image?: s
   '/solutions/microsoft-dynamics-ax': {
     name: 'Microsoft Dynamics AX',
     description:
-      'Support, upgrade, and modernize Microsoft Dynamics AX environments with AtiSunya consulting, migration, and managed services.',
+      'Support, upgrade, and modernize Microsoft Dynamics AX environments with Infomeya consulting, migration, and managed services.',
   },
   '/solutions/microsoft-dynamics-ax/ax-7': {
     name: 'Dynamics AX 7',
@@ -317,7 +317,7 @@ const solutionSeo: Record<string, { name: string; description: string; image?: s
   '/solutions/microsoft-dynamics-crm/crm-2016': {
     name: 'Microsoft Dynamics CRM 2016',
     description:
-      'Maintain, integrate, and upgrade Microsoft Dynamics CRM 2016 with practical consulting and managed support from AtiSunya.',
+      'Maintain, integrate, and upgrade Microsoft Dynamics CRM 2016 with practical consulting and managed support from Infomeya.',
   },
   '/solutions/microsoft-dynamics-nav': {
     name: 'Microsoft Dynamics NAV',
@@ -375,13 +375,13 @@ const serviceSeo: Record<string, { name: string; description: string; image?: st
   '/what-we-do/support-managed-services': {
     name: 'Support and Managed Services',
     description:
-      'Keep business systems reliable with AtiSunya support, managed services, issue resolution, optimization, and ongoing improvements.',
+      'Keep business systems reliable with Infomeya support, managed services, issue resolution, optimization, and ongoing improvements.',
     image: '/assets/img/service/Support-management.png',
   },
   '/managed-services': {
     name: 'Managed Services',
     description:
-      'Keep Microsoft Dynamics 365, Azure, Power Platform, AI, ERP, CRM, and cloud systems reliable with AtiSunya managed services.',
+      'Keep Microsoft Dynamics 365, Azure, Power Platform, AI, ERP, CRM, and cloud systems reliable with Infomeya managed services.',
     image: '/assets/img/service/Support-management.png',
   },
   '/what-we-do/enterprise-management': {
@@ -399,13 +399,13 @@ const serviceSeo: Record<string, { name: string; description: string; image?: st
   '/what-we-do/consulting': {
     name: 'Technology Consulting',
     description:
-      'Plan technology roadmaps, business applications, cloud architecture, integrations, and transformation programs with AtiSunya consultants.',
+      'Plan technology roadmaps, business applications, cloud architecture, integrations, and transformation programs with Infomeya consultants.',
     image: '/assets/img/service/Consulting.png',
   },
   '/what-we-do/product-engineering': {
     name: 'Product Engineering',
     description:
-      'Design and build scalable software products, platforms, integrations, and digital experiences with AtiSunya product engineering.',
+      'Design and build scalable software products, platforms, integrations, and digital experiences with Infomeya product engineering.',
     image: '/assets/img/service/Product-engineering.png',
   },
   '/what-we-do/training': {
@@ -417,13 +417,13 @@ const serviceSeo: Record<string, { name: string; description: string; image?: st
   '/microsoft-training': {
     name: 'Microsoft Training',
     description:
-      'Upskill teams with Microsoft Dynamics 365, Azure, Power Platform, AI, Copilot, and enterprise technology training from AtiSunya.',
+      'Upskill teams with Microsoft Dynamics 365, Azure, Power Platform, AI, Copilot, and enterprise technology training from Infomeya.',
     image: '/assets/img/service/Training.png',
   },
   '/what-we-do/web-development': {
     name: 'Web Development',
     description:
-      'Create responsive websites, web applications, portals, and digital experiences with AtiSunya web development services.',
+      'Create responsive websites, web applications, portals, and digital experiences with Infomeya web development services.',
     image: '/assets/img/service/webdevelopment.svg',
   },
   '/microsoft-certified-trainer': {
@@ -438,17 +438,17 @@ const insightSeo: Record<string, { name: string; description: string }> = {
   '/insights/gallery': {
     name: 'Gallery',
     description:
-      'Explore the AtiSunya gallery featuring team moments, events, workshops, training programs, and business technology activities.',
+      'Explore the Infomeya gallery featuring team moments, events, workshops, training programs, and business technology activities.',
   },
   '/insights/webinars-events': {
     name: 'Webinars and Events',
     description:
-      'See AtiSunya webinars, events, sessions, and learning opportunities across Microsoft technologies, cloud, AI, and business applications.',
+      'See Infomeya webinars, events, sessions, and learning opportunities across Microsoft technologies, cloud, AI, and business applications.',
   },
   '/insights/success-stories': {
     name: 'Success Stories',
     description:
-      'Read AtiSunya success stories showing practical ERP, CRM, cloud, analytics, AI, and digital transformation outcomes.',
+      'Read Infomeya success stories showing practical ERP, CRM, cloud, analytics, AI, and digital transformation outcomes.',
   },
 };
 
@@ -457,143 +457,137 @@ function buildSeoForPath(pathname: string): SeoProps {
 
   const pageMap: Record<string, SeoProps> = {
     '/': {
-      title: 'Microsoft Dynamics 365, Azure Cloud, AI & Power Platform Experts | AtiSunya',
+      title: 'Microsoft Dynamics 365, Azure Cloud, AI & Power Platform Experts | Infomeya',
       description:
-        'Microsoft Dynamics 365, Azure Cloud, AI, Copilot, Power Platform, Managed Services, Consulting, Training and Implementation Partner. Transform your business with AtiSunya experts.',
+        'Microsoft Dynamics 365, Azure Cloud, AI, Copilot, Power Platform, Managed Services, Consulting, Training and Implementation Partner. Transform your business with Infomeya experts.',
       schema: [organizationSchema, buildWebsiteSchema(), buildProfessionalServiceSchema()],
     },
     '/about': {
-      title: 'About AtiSunya | Microsoft Dynamics 365 and Cloud Experts',
+      title: 'About Infomeya | Microsoft Dynamics 365 and Cloud Experts',
       description:
-        'Learn about AtiSunya, a technology partner focused on Dynamics 365, Azure, ERP, CRM, digital transformation, and enterprise delivery.',
+        'Learn about Infomeya, a technology partner focused on Dynamics 365, Azure, ERP, CRM, digital transformation, and enterprise delivery.',
       schema: organizationSchema,
     },
     '/contact': {
-      title: 'Contact AtiSunya | Talk to Our ERP, CRM and Cloud Team',
+      title: 'Contact Infomeya | Talk to Our ERP, CRM and Cloud Team',
       description:
-        'Contact AtiSunya to discuss Microsoft Dynamics 365, Azure cloud, AI solutions, enterprise applications, training, and support services.',
+        'Contact Infomeya to discuss Microsoft Dynamics 365, Azure cloud, AI solutions, enterprise applications, training, and support services.',
       schema: organizationSchema,
     },
     '/blog': {
-      title: 'AtiSunya Blog | ERP, CRM, Cloud and AI Insights',
+      title: 'Infomeya Blog | ERP, CRM, Cloud and AI Insights',
       description:
-        'Read AtiSunya insights on Microsoft Dynamics 365, ERP, CRM, cloud modernization, automation, analytics, and AI-led business transformation.',
+        'Read Infomeya insights on Microsoft Dynamics 365, ERP, CRM, cloud modernization, automation, analytics, and AI-led business transformation.',
       canonicalPath: '/blog',
       schema: [organizationSchema, buildWebsiteSchema()],
     },
     '/blog-grid': {
-      title: 'AtiSunya Blog | ERP, CRM, Cloud and AI Insights',
+      title: 'Infomeya Blog | ERP, CRM, Cloud and AI Insights',
       description:
-        'Read AtiSunya insights on Microsoft Dynamics 365, ERP, CRM, cloud modernization, automation, analytics, and AI-led business transformation.',
+        'Read Infomeya insights on Microsoft Dynamics 365, ERP, CRM, cloud modernization, automation, analytics, and AI-led business transformation.',
       canonicalPath: '/blog',
       schema: [organizationSchema, buildWebsiteSchema()],
     },
     '/blog-list': {
-      title: 'AtiSunya Blog | ERP, CRM, Cloud and AI Insights',
+      title: 'Infomeya Blog | ERP, CRM, Cloud and AI Insights',
       description:
-        'Read AtiSunya insights on Microsoft Dynamics 365, ERP, CRM, cloud modernization, automation, analytics, and AI-led business transformation.',
+        'Read Infomeya insights on Microsoft Dynamics 365, ERP, CRM, cloud modernization, automation, analytics, and AI-led business transformation.',
       canonicalPath: '/blog',
       noindex: true,
       schema: [organizationSchema, buildWebsiteSchema()],
     },
     '/faq': {
-      title: 'FAQ | AtiSunya',
+      title: 'FAQ | Infomeya',
       description:
-        'Find answers to common questions about AtiSunya services, Microsoft Dynamics 365 implementations, support, and technology consulting.',
+        'Find answers to common questions about Infomeya services, Microsoft Dynamics 365 implementations, support, and technology consulting.',
       schema: organizationSchema,
     },
     '/careers': {
-      title: 'Careers at AtiSunya',
+      title: 'Careers at Infomeya',
       description:
-        'Explore career opportunities at AtiSunya and join a team building solutions across Microsoft Dynamics 365, Azure, enterprise apps, and AI.',
+        'Explore career opportunities at Infomeya and join a team building solutions across Microsoft Dynamics 365, Azure, enterprise apps, and AI.',
       schema: organizationSchema,
     },
     '/careers/general-application': {
-      title: 'General Application | Careers at AtiSunya',
+      title: 'General Application | Careers at Infomeya',
       description:
-        'Share your profile with AtiSunya for future roles in Microsoft business applications, cloud, ERP, CRM, support, and technology consulting.',
+        'Share your profile with Infomeya for future roles in Microsoft business applications, cloud, ERP, CRM, support, and technology consulting.',
       schema: organizationSchema,
     },
     '/working-process': {
-      title: 'Our Working Process | AtiSunya',
+      title: 'Our Working Process | Infomeya',
       description:
-        'See how AtiSunya plans, delivers, and supports digital transformation projects across ERP, CRM, cloud, analytics, and AI services.',
+        'See how Infomeya plans, delivers, and supports digital transformation projects across ERP, CRM, cloud, analytics, and AI services.',
       schema: organizationSchema,
     },
     
     '/privacy-policy': {
-      title: 'Privacy Policy | AtiSunya',
-      description: 'Read the AtiSunya privacy policy and learn how we collect, use, and protect your information.',
+      title: 'Privacy Policy | Infomeya',
+      description: 'Read the Infomeya privacy policy and learn how we collect, use, and protect your information.',
       noindex: true,
       schema: organizationSchema,
     },
     '/terms-and-conditions': {
-      title: 'Terms and Conditions | AtiSunya',
-      description: 'Review the terms and conditions for using the AtiSunya website and services.',
-      noindex: true,
-      schema: organizationSchema,
-    },
-    '/pay-now': {
-      title: 'Pay Now | AtiSunya',
-      description: 'Securely complete your payment for AtiSunya services and training.',
+      title: 'Terms and Conditions | Infomeya',
+      description: 'Review the terms and conditions for using the Infomeya website and services.',
       noindex: true,
       schema: organizationSchema,
     },
     '/service': {
-      title: 'Services | ERP, CRM, Cloud, AI and Managed Services | AtiSunya',
+      title: 'Services | ERP, CRM, Cloud, AI and Managed Services | Infomeya',
       description:
-        'Explore AtiSunya services for ERP implementation, CRM, cloud modernization, BI analytics, AI, training, support, and managed services.',
-      schema: [organizationSchema, buildCollectionSchema('AtiSunya Services', 'ERP, CRM, cloud, AI, analytics, training, and managed services from AtiSunya.', '/service')],
+        'Explore Infomeya services for ERP implementation, CRM, cloud modernization, BI analytics, AI, training, support, and managed services.',
+      schema: [organizationSchema, buildCollectionSchema('Infomeya Services', 'ERP, CRM, cloud, AI, analytics, training, and managed services from Infomeya.', '/service')],
     },
     '/service-details': {
-      title: 'Service Details | AtiSunya',
+      title: 'Service Details | Infomeya',
       description:
-        'Learn more about AtiSunya technology services across Microsoft Dynamics 365, cloud, AI, analytics, training, and support.',
+        'Learn more about Infomeya technology services across Microsoft Dynamics 365, cloud, AI, analytics, training, and support.',
       canonicalPath: '/service',
       noindex: true,
       schema: organizationSchema,
     },
     '/team': {
-      title: 'Team | AtiSunya',
+      title: 'Team | Infomeya',
       description:
-        'Meet the AtiSunya team delivering Microsoft Dynamics 365, Azure, AI, ERP, CRM, analytics, and technology consulting solutions.',
+        'Meet the Infomeya team delivering Microsoft Dynamics 365, Azure, AI, ERP, CRM, analytics, and technology consulting solutions.',
       schema: organizationSchema,
     },
     '/team-details': {
-      title: 'Team Details | AtiSunya',
-      description: 'Learn more about AtiSunya team members and technology expertise.',
+      title: 'Team Details | Infomeya',
+      description: 'Learn more about Infomeya team members and technology expertise.',
       canonicalPath: '/team',
       noindex: true,
       schema: organizationSchema,
     },
     '/price': {
-      title: 'Pricing | AtiSunya',
+      title: 'Pricing | Infomeya',
       description:
-        'Explore AtiSunya service and training pricing information for technology consulting, implementation, and support needs.',
+        'Explore Infomeya service and training pricing information for technology consulting, implementation, and support needs.',
       schema: organizationSchema,
     },
     '/project': {
-      title: 'Projects | AtiSunya',
+      title: 'Projects | Infomeya',
       description:
-        'Explore AtiSunya project work across ERP, CRM, Microsoft Dynamics 365, cloud, analytics, AI, and enterprise technology.',
-      schema: [organizationSchema, buildCollectionSchema('AtiSunya Projects', 'AtiSunya project work across ERP, CRM, cloud, AI, analytics, and enterprise technology.', '/project')],
+        'Explore Infomeya project work across ERP, CRM, Microsoft Dynamics 365, cloud, analytics, AI, and enterprise technology.',
+      schema: [organizationSchema, buildCollectionSchema('Infomeya Projects', 'Infomeya project work across ERP, CRM, cloud, AI, analytics, and enterprise technology.', '/project')],
     },
     '/project-details': {
-      title: 'Project Details | AtiSunya',
-      description: 'Learn more about AtiSunya enterprise technology project delivery and outcomes.',
+      title: 'Project Details | Infomeya',
+      description: 'Learn more about Infomeya enterprise technology project delivery and outcomes.',
       canonicalPath: '/project',
       noindex: true,
       schema: organizationSchema,
     },
     '/home-2': {
-      title: 'AtiSunya Home Variant 2',
-      description: 'Alternate home page variant for AtiSunya.',
+      title: 'Infomeya Home Variant 2',
+      description: 'Alternate home page variant for Infomeya.',
       noindex: true,
       schema: organizationSchema,
     },
     '/home-3': {
-      title: 'AtiSunya Home Variant 3',
-      description: 'Alternate home page variant for AtiSunya.',
+      title: 'Infomeya Home Variant 3',
+      description: 'Alternate home page variant for Infomeya.',
       noindex: true,
       schema: organizationSchema,
     },
@@ -665,7 +659,7 @@ function buildSeoForPath(pathname: string): SeoProps {
     const industryPage = industryPages.find((page) => page.slug === industryMatch[1]);
 
     if (industryPage) {
-      const description = `${industryPage.summary} AtiSunya helps ${industryPage.title.toLowerCase()} teams improve ${industryPage.focus.toLowerCase()}.`;
+      const description = `${industryPage.summary} Infomeya helps ${industryPage.title.toLowerCase()} teams improve ${industryPage.focus.toLowerCase()}.`;
 
       return {
         title: `${industryPage.title} Solutions | ${SITE_NAME}`,
@@ -730,7 +724,7 @@ function buildSeoForPath(pathname: string): SeoProps {
   if (pathname.startsWith('/admin/') || pathname.startsWith('/blog-preview/')) {
     return {
       title: `Private Page | ${SITE_NAME}`,
-      description: 'Private AtiSunya website area.',
+      description: 'Private Infomeya website area.',
       noindex: true,
       schema: organizationSchema,
     };
@@ -742,7 +736,7 @@ function buildSeoForPath(pathname: string): SeoProps {
     return {
       title: `${roleName} | Careers at ${SITE_NAME}`,
       description:
-        'Review this AtiSunya career opportunity and apply to work on Microsoft business applications, cloud, ERP, CRM, AI, and technology services.',
+        'Review this Infomeya career opportunity and apply to work on Microsoft business applications, cloud, ERP, CRM, AI, and technology services.',
       schema: organizationSchema,
     };
   }
@@ -763,8 +757,8 @@ function buildSeoForPath(pathname: string): SeoProps {
       pathname.startsWith('/what-we-do/') ? 'service' : pathname.startsWith('/insights/') ? 'insight' : 'solution';
     const description =
       section === 'insight'
-        ? `Explore ${pageName} insights from AtiSunya covering Microsoft technologies, enterprise delivery, and practical business transformation.`
-        : `Discover ${pageName} ${section}s from AtiSunya for Microsoft Dynamics 365, Azure, automation, analytics, and scalable business transformation.`;
+        ? `Explore ${pageName} insights from Infomeya covering Microsoft technologies, enterprise delivery, and practical business transformation.`
+        : `Discover ${pageName} ${section}s from Infomeya for Microsoft Dynamics 365, Azure, automation, analytics, and scalable business transformation.`;
 
     return {
       title: `${pageName} | ${SITE_NAME}`,
@@ -777,7 +771,7 @@ function buildSeoForPath(pathname: string): SeoProps {
   return {
     title: `${SITE_NAME} | Technology Solutions and Consulting`,
     description:
-      'AtiSunya delivers Microsoft Dynamics 365, cloud, analytics, AI, and enterprise technology services for growing businesses.',
+      'Infomeya delivers Microsoft Dynamics 365, cloud, analytics, AI, and enterprise technology services for growing businesses.',
     noindex: pathname === '*',
     schema: organizationSchema,
   };

@@ -9,7 +9,7 @@ export default function Careers() {
     <Wrapper>
       <HeaderOne />
       <main>
-        <Breadcrumb title="Careers" subtitle="Build your future with ASPL" />
+        <Breadcrumb title="Careers" subtitle="Build your future with Infomeya" />
         <CareersArea />
       </main>
       <FooterOne />

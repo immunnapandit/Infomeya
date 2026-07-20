@@ -23,6 +23,15 @@ export default function AboutHomeTwo() {
                   digital systems. From discovery and solution design to
                   implementation, training, and support, we focus on technology that
                   improves daily work and creates long-term value.
+                  Infomeya - Your Ideas, Our Execution
+                </h4>
+                <p>
+                  At Infomeya, we bring your ideas to life through a complete
+                  end-to-end approach. From initial concept and planning to
+                  development, deployment, and ongoing support, we manage every
+                  stage with precision and care. Our focus is on delivering
+                  innovative, reliable, and scalable solutions that drive real
+                  business value.
                 </p>
               </div>
               <div className="tv-list-item">

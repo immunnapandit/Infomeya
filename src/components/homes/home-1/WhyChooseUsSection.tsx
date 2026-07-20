@@ -142,6 +142,9 @@ export default function WhyChooseUsSection() {
               Infomeya combines platform knowledge with practical execution, helping
               businesses improve operations, reduce manual work, and make better use
               of their digital ecosystem.
+              Working with Infomeya can help businesses accomplish their goals more
+              effectively and get the most out of their Microsoft technology
+              investments.
             </motion.p>
 
             <motion.div className="why-choose-us-grid" variants={cardGridVariants}>

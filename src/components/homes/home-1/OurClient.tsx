@@ -207,6 +207,8 @@ export default function OurClient() {
                     From manufacturing and banking to education, retail, and
                     enterprise technology, organizations work with Infomeya to
                     modernize systems, improve visibility, and deliver with clarity.
+                    enterprise technology, our clients rely on Infomeya for
+                    transformation and delivery.
                   </p>
                 </div>
               </div>

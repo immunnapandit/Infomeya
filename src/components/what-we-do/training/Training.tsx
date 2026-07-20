@@ -3,18 +3,18 @@ import GenericServiceArea from '../../solutions/generic/GenericServiceArea';
 
 const pageConfig: ServicePageConfig = {
   title: 'Training',
-  subtitle: 'Role-based enablement that improves adoption and outcomes',
+  subtitle: 'Role-based technology training for confident adoption',
   category: 'service',
-  focus: 'functional training, user readiness, and capability building',
+  focus: 'Microsoft training, enterprise workshops, certification readiness, and hands-on enablement',
   summary:
-    'Equip teams with practical training programs that improve confidence, consistency, and performance across business platforms.',
-  image: '/assets/img/service/Training.png',
+    'Help teams learn faster and use technology better through structured training programs, practical scenarios, guided labs, and adoption-focused learning paths.',
+  image: '/assets/img/service/MCTRT.png',
   highlights: [
-    'Role-based learning plans',
-    'Functional and platform training',
-    'Admin and support knowledge transfer',
-    'Adoption reinforcement and readiness',
-  ],
+    'Role-based learning plans and workshops',
+    'Microsoft technology and certification readiness',
+    'Hands-on labs and business scenarios',
+    'Post-training support and adoption guidance'
+  ]
 };
 
 export { pageConfig };

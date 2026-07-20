@@ -38,7 +38,7 @@ export default function HeaderOne() {
                         style={{ whiteSpace: 'nowrap' }}
                       >
                         <i className="fa-solid fa-envelope"></i>
-                        <a href="mailto:info@atisunya.co">info@atisunya.co</a>
+                        <a href="mailto:info@infomeya.com">info@infomeya.com</a>
                       </span>
                     </li>
                     <li className="d-none d-xxl-inline-block">
@@ -100,8 +100,8 @@ export default function HeaderOne() {
                   <div className="tv-header-logo">
                     <Link to="/">
                       <img
-                        src="/assets/img/logo/AtiSunya.png"
-                        alt="AtiSunya-logo"
+                        src="/assets/img/logo/InfomeyaLogo.jpeg"
+                        alt="Infomeya-logo"
                       />
                     </Link>
                   </div>
@@ -115,15 +115,6 @@ export default function HeaderOne() {
                 </div>
                 <div className="col-xxl-3 col-xl-3 col-6">
                   <div className="tv-header-right-action d-flex justify-content-end align-items-center">
-                    <Link
-                      to="/pay-now"
-                      className="tv-btn-primary d-none d-md-block"
-                    >
-                      <span className="btn-wrap">
-                        <span className="btn-text1">Pay Now</span>
-                        <span className="btn-text2">Pay Now</span>
-                      </span>
-                    </Link>
                     <Link
                       to="/contact"
                       className="tv-btn-primary d-none d-md-block"

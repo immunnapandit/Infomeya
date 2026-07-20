@@ -3,19 +3,18 @@ import WhatWeDoServiceLayout from '../shared/WhatWeDoServiceLayout';
 
 const pageConfig: ServicePageConfig = {
   title: 'Product Engineering',
-  subtitle: 'Microsoft Dynamics 365 Finance and Supply Chain Management',
+  subtitle: 'Product engineering from idea to scalable release',
   category: 'service',
-  focus:
-    'enterprise operations, finance workflows, and supply chain visibility',
+  focus: 'product discovery, architecture, development, integrations, testing, and iterative improvement',
   summary:
-    'Implement a connected operations platform that helps teams streamline finance, procurement, manufacturing, warehousing, and reporting.',
-  image: '/assets/img/service/Product-engineering.png',
+    'Build software products with a disciplined engineering approach that balances user needs, technical quality, delivery speed, and long-term maintainability.',
+  image: '/assets/img/service/flow chart.png',
   highlights: [
-    'Financial, sales and procurement management',
-    'Planning and advanced warehouse management',
-    'Discrete, process and lean manufacturing',
-    'Retail, project accounting and field service',
-  ],
+    'Product discovery and technical planning',
+    'Architecture, development, and integrations',
+    'Quality engineering and release readiness',
+    'Roadmap-led enhancements and support'
+  ]
 };
 
 export { pageConfig };

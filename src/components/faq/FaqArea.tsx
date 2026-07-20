@@ -12,9 +12,9 @@ const faqData: FaqAreaProps[] = [
   {
     isOpen: true,
     id: 'one',
-    question: 'Q1. What services does AtiSunya provide?',
+    question: 'Q1. What services does Infomeya provide?',
     answer:
-      'AtiSunya provides consulting, ERP and CRM implementation, Microsoft Dynamics solutions, Azure services, app development, BI and analytics, managed support, digital transformation, and Microsoft Certified Trainer readiness programs.',
+      'Infomeya provides consulting, ERP and CRM implementation, Microsoft Dynamics solutions, Azure services, app development, BI and analytics, managed support, digital transformation, and Microsoft Certified Trainer readiness programs.',
   },
   {
     isOpen: false,
@@ -61,9 +61,9 @@ const faqData: FaqAreaProps[] = [
   {
     isOpen: false,
     id: 'eight',
-    question: 'Q8. How can I contact AtiSunya for a consultation?',
+    question: 'Q8. How can I contact Infomeya for a consultation?',
     answer:
-      'You can reach us through the Contact Us page, email us at info@atisunya.co, or use the contact details listed in the footer to discuss your requirements.',
+      'You can reach us through the Contact Us page, email us at info@infomeya.com, or use the contact details listed in the footer to discuss your requirements.',
   },
 ];
 

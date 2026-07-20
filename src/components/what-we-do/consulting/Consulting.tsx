@@ -3,18 +3,18 @@ import WhatWeDoServiceLayout from '../shared/WhatWeDoServiceLayout';
 
 const pageConfig: ServicePageConfig = {
   title: 'Consulting',
-  subtitle: 'Advisory support that turns direction into delivery',
+  subtitle: 'Advisory that turns business questions into delivery direction',
   category: 'service',
-  focus: 'strategy, assessments, roadmap planning, and transformation guidance',
+  focus: 'assessments, solution strategy, business cases, roadmap planning, and delivery governance',
   summary:
-    'Get advisory support on platform choices, delivery strategy, operating models, and execution planning across business applications.',
-  image: '/assets/img/service/Consulting1.png',
+    'Get senior consulting support for platform decisions, transformation planning, operating model improvements, and execution governance across business applications.',
+  image: '/assets/img/service/Consulting.png',
   highlights: [
-    'Assessments and current-state reviews',
-    'Roadmap and business case development',
-    'Solution and delivery strategy',
-    'Execution guidance and governance',
-  ],
+    'Current-state assessments and opportunity scans',
+    'Roadmaps, estimates, and business case support',
+    'Solution architecture and delivery strategy',
+    'Governance, risk, and execution guidance'
+  ]
 };
 
 export { pageConfig };

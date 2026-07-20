@@ -3,18 +3,18 @@ import WhatWeDoServiceLayout from '../shared/WhatWeDoServiceLayout';
 
 const pageConfig: ServicePageConfig = {
   title: 'CRM Implementation',
-  subtitle: 'Customer process transformation with measurable outcomes',
+  subtitle: 'CRM delivery that strengthens every customer touchpoint',
   category: 'service',
-  focus: 'sales, service, marketing, and customer engagement programs',
+  focus: 'sales pipelines, service operations, marketing journeys, reporting, and adoption',
   summary:
-    'Implement CRM platforms around the way your teams sell, serve, and engage customers while improving visibility and adoption.',
-  image: '/assets/img/service/CRM.png',
+    'Shape CRM around the way teams attract, convert, support, and retain customers with cleaner workflows, useful automation, reliable data, and practical enablement.',
+  image: '/assets/img/service/service-thumb-3.png',
   highlights: [
-    'Customer process discovery and design',
-    'CRM configuration and automation',
-    'Data migration and integration support',
-    'Training and adoption enablement',
-  ],
+    'Customer journey and process mapping',
+    'Sales and service workflow configuration',
+    'Data migration, integration, and reporting',
+    'Role-based training and adoption support'
+  ]
 };
 
 export { pageConfig };

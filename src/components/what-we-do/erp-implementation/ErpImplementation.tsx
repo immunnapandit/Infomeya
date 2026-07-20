@@ -3,18 +3,18 @@ import WhatWeDoServiceLayout from '../shared/WhatWeDoServiceLayout';
 
 const pageConfig: ServicePageConfig = {
   title: 'ERP Implementation',
-  subtitle: 'Structured ERP delivery from discovery to go-live',
+  subtitle: 'ERP programs planned around process clarity and adoption',
   category: 'service',
-  focus: 'planning, design, rollout, and adoption for ERP programs',
+  focus: 'process discovery, solution design, migration, rollout, and post-go-live improvement',
   summary:
-    'Deliver ERP programs with the right mix of process design, configuration, testing, change management, and post-go-live support.',
-  image: '/assets/img/service/ERP_H.jpg',
+    'Modernize core business operations with ERP implementation support that connects requirements, configuration, validation, training, and stabilization into one accountable delivery path.',
+  image: '/assets/img/service/ERP_V.png',
   highlights: [
-    'Program planning and fit-gap workshops',
-    'Configuration, testing, and deployment',
-    'Change management and adoption',
-    'Stabilization after go-live',
-  ],
+    'Process-led fit-gap discovery',
+    'Configuration aligned to daily operations',
+    'Migration, testing, and user readiness',
+    'Go-live stabilization and continuous improvement'
+  ]
 };
 
 export { pageConfig };

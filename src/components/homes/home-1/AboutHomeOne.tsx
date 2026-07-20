@@ -11,8 +11,8 @@ export default function AboutHomeOne() {
                 About Company
               </span>
               <h4 className="tv-section-title pb-20 tv-spltv-text tv-spltv-in-right">
-                AtiSunya is a trusted Microsoft partner delivering digital
-                solutions.
+                Infomeya is a trusted Microsoft partner empowering businesses
+                with modern digital solutions.
               </h4>
             </div>
           </div>
@@ -47,8 +47,8 @@ export default function AboutHomeOne() {
                   <div className="icon-box-content">
                     <h3>Our Mission</h3>
                     <p>
-                      To drive digital transformation through reliable
-                      Microsoft-based solutions.
+                      To enable digital transformation with dependable
+                      Microsoft technology.
                     </p>
                   </div>
                 </div>
@@ -59,8 +59,8 @@ export default function AboutHomeOne() {
                   <div className="icon-box-content">
                     <h3>Our Vision</h3>
                     <p>
-                      To drive innovation and excellence across industries
-                      worldwide.
+                      To spark innovation and deliver excellence across
+                      industries globally.
                     </p>
                   </div>
                 </div>
@@ -71,8 +71,8 @@ export default function AboutHomeOne() {
                   <div className="icon-box-content">
                     <h3>Our Awards</h3>
                     <p>
-                      Recognized for excellence in delivering Microsoft-based
-                      solutions and digital transformation services.
+                      Known for outstanding delivery of Microsoft-powered
+                      solutions and transformation services.
                     </p>
                   </div>
                 </div>
@@ -86,8 +86,9 @@ export default function AboutHomeOne() {
               <div className="tv-about-middle">
                 <img src="/assets/img/about/about-1-1.png" alt="" />
                 <p>
-                  Honored for delivering excellence through certified expertise,
-                  trusted partnerships, and innovative technology solutions.
+                  Celebrated for blending certified expertise, strategic
+                  partnerships, and innovative technology to deliver strong
+                  business outcomes.
                 </p>
               </div>
             </div>

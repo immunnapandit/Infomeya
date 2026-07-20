@@ -1,5 +1,5 @@
 const CLOUDINARY_CLOUD_NAME = import.meta.env.VITE_CLOUDINARY_CLOUD_NAME || '';
-const DEFAULT_ASSET_FOLDER = 'aspl/assets/img';
+const DEFAULT_ASSET_FOLDER = 'infomeya/assets/img';
 
 export const CLOUDINARY_TRANSFORMS = {
   hero: 'f_auto,q_auto:good,c_fill,w_1920,h_900,dpr_auto',

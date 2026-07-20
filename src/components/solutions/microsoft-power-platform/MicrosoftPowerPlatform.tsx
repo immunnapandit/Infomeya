@@ -3,18 +3,18 @@ import WhatWeDoServiceLayout from '../../what-we-do/shared/WhatWeDoServiceLayout
 
 const pageConfig: ServicePageConfig = {
   title: 'Microsoft Power Platform',
-  subtitle: 'Low-code automation, apps, and analytics at scale',
+  subtitle: 'Low-code apps and automation governed for scale',
   category: 'solution',
-  focus: 'low-code apps, workflow automation, reporting integration, and governance',
+  focus: 'Power Apps, Power Automate, Power BI integration, Dataverse, governance, and adoption',
   summary:
-    'Build apps, automate repetitive work, and connect data into usable reporting with a Power Platform approach aligned to real business processes.',
-  image: '/assets/img/service/MicrosoftD365.jpg',
+    'Use Microsoft Power Platform to build useful apps, automate repeated work, connect data, and manage growth with the right governance and support model.',
+  image: '/assets/img/service/PowerPlatform.svg',
   highlights: [
-    'Power Apps development for business workflows',
-    'Power Automate process automation and approvals',
-    'Power BI connectivity and reporting support',
-    'Governance, adoption, and platform best practices'
-  ],
+    'Power Apps for practical business workflows',
+    'Power Automate approvals and process automation',
+    'Dataverse, Power BI, and system integration',
+    'Governance, adoption, and environment management'
+  ]
 };
 
 export { pageConfig };

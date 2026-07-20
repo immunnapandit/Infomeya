@@ -3,17 +3,17 @@ import WhatWeDoServiceLayout from '../../what-we-do/shared/WhatWeDoServiceLayout
 
 const pageConfig: ServicePageConfig = {
   title: 'Dynamics 365 Project Service Automation',
-  subtitle: 'Project delivery, resourcing, and profitability control',
+  subtitle: 'Project delivery visibility from estimate to completion',
   category: 'solution',
-  focus: 'project planning, execution, utilization, and billing',
+  focus: 'project planning, resourcing, time capture, billing, profitability, and delivery governance',
   summary:
-    'Manage project operations with stronger planning, better resource visibility, improved delivery governance, and faster commercial control.',
-  image: '/assets/img/service/service-thumb-3.png',
+    'Connect project sales, planning, resource allocation, time tracking, delivery reporting, and financial visibility for more predictable project operations.',
+  image: '/assets/img/service/Product-engineering.png',
   highlights: [
-    'Project lifecycle and governance setup',
-    'Resource planning and utilization visibility',
-    'Time, expense, and billing workflows',
-    'Project reporting and profitability insight'
+    'Project planning and estimate alignment',
+    'Resource, time, and expense process setup',
+    'Billing, profitability, and delivery visibility',
+    'Governance reporting and optimization'
   ]
 };
 

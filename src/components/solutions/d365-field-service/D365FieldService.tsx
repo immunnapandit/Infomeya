@@ -3,17 +3,17 @@ import WhatWeDoServiceLayout from '../../what-we-do/shared/WhatWeDoServiceLayout
 
 const pageConfig: ServicePageConfig = {
   title: 'Dynamics 365 Field Service',
-  subtitle: 'Service delivery with scheduling and mobile enablement',
+  subtitle: 'Field service operations with smarter scheduling and support',
   category: 'solution',
-  focus: 'work orders, dispatching, asset service, and technician productivity',
+  focus: 'work orders, scheduling, mobile service, asset history, dispatch, and service reporting',
   summary:
-    'Coordinate field teams more effectively with connected scheduling, service visibility, inventory readiness, and customer communication.',
-  image: '/assets/img/service/service-thumb-2.png',
+    'Improve field service delivery by connecting work orders, resources, assets, technicians, customers, and service performance in one operational flow.',
+  image: '/assets/img/service/Support-management.png',
   highlights: [
-    'Work order and service process design',
-    'Scheduling and dispatch optimization',
-    'Asset and service inventory visibility',
-    'Mobile workforce enablement'
+    'Work order and dispatch process setup',
+    'Resource scheduling and mobile technician enablement',
+    'Asset, warranty, and service history visibility',
+    'SLA reporting and service optimization'
   ]
 };
 

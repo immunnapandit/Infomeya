@@ -8,16 +8,16 @@ interface GenericServiceAreaProps {
 
 const categoryStats = {
   solution: [
-    { value: '120+', label: 'Solution rollouts and optimization engagements delivered' },
-    { value: '40+', label: 'Consultants and architects across Microsoft business apps' },
-    { value: '95%', label: 'Programs delivered with business-first adoption focus' },
-    { value: '24/7', label: 'Support readiness for critical business operations' }
+    { value: '120+', label: 'Solution programs and optimization engagements supported' },
+    { value: '40+', label: 'Microsoft business application specialists and architects' },
+    { value: '95%', label: 'Engagements shaped around adoption and usable outcomes' },
+    { value: '24/7', label: 'Support readiness for key operating systems' }
   ],
   service: [
-    { value: '150+', label: 'Programs supported across implementation and managed delivery' },
-    { value: '30+', label: 'Industry-aligned consultants and solution specialists' },
-    { value: '96%', label: 'Client satisfaction driven by practical execution' },
-    { value: '4-step', label: 'Discovery-to-optimization engagement approach' }
+    { value: '150+', label: 'Implementation and managed delivery programs supported' },
+    { value: '30+', label: 'Consultants and specialists with platform delivery depth' },
+    { value: '96%', label: 'Satisfaction shaped by clear ownership and execution' },
+    { value: '4-step', label: 'Discovery to optimization delivery model' }
   ]
 } as const;
 
@@ -40,8 +40,8 @@ function buildServiceTabs(page: ServicePageConfig) {
       description: page.summary,
       points: [
         `Align ${page.title} initiatives to ${page.focus}.`,
-        'Translate business goals into a realistic roadmap with the right delivery scope.',
-        'Reduce risk early through structured planning, governance, and stakeholder alignment.',
+        'Convert business goals into a practical roadmap with clear delivery scope.',
+        'Reduce risk early with structured planning, governance, and stakeholder alignment.',
         highlightOne
       ]
     },
@@ -51,12 +51,12 @@ function buildServiceTabs(page: ServicePageConfig) {
       badge: 'Practical Delivery',
       title: `Execution support that keeps ${page.title} moving`,
       description:
-        'We deliver with the structure needed to turn plans into outcomes while keeping teams aligned, timelines visible, and quality under control.',
+        'We help turn plans into outcomes while keeping teams aligned, timelines visible, and quality under control.',
       points: [
         highlightTwo,
         'Configuration, build, and rollout support matched to your operating model.',
         'Testing, validation, and change readiness embedded into delivery.',
-        'A delivery approach designed for speed without sacrificing control.'
+        'Delivery pacing designed to protect both progress and control.'
       ]
     },
     {
@@ -65,7 +65,7 @@ function buildServiceTabs(page: ServicePageConfig) {
       badge: 'Connected Operations',
       title: `Create stronger business flow around ${page.title}`,
       description:
-        'Connected systems and cleaner handoffs make adoption easier and results more measurable across teams.',
+        'Connected systems and cleaner handoffs make adoption easier and outcomes easier to measure.',
       points: [
         highlightThree,
         'Integrate data, reporting, and processes across your wider business landscape.',
@@ -79,7 +79,7 @@ function buildServiceTabs(page: ServicePageConfig) {
       badge: 'Continuous Improvement',
       title: `Support long-term value after the initial ${page.title} launch`,
       description:
-        'The strongest outcomes come from continuous refinement, guided support, and a roadmap that adapts as your business evolves.',
+        'Long-term value comes from guided support, useful enhancements, and a roadmap that adapts as the business changes.',
       points: [
         highlightFour,
         'Improve adoption, reporting, and process performance over time.',
@@ -135,8 +135,7 @@ export default function GenericServiceArea({ page }: GenericServiceAreaProps) {
                   <article className="tv-solution-highlight-card">
                     <h4>{highlight}</h4>
                     <p>
-                      Practical consulting, configuration, and enablement aligned
-                      to your business priorities.
+                      Focused consulting, configuration, and enablement shaped around your priorities.
                     </p>
                   </article>
                 </div>
@@ -148,7 +147,7 @@ export default function GenericServiceArea({ page }: GenericServiceAreaProps) {
             <div className="tv-page-heading text-center">
               <span className="tv-section-subtitle">How We Support</span>
               <h3 className="tv-section-title">
-                A clear approach for planning, delivery, and optimization
+                A focused path from planning to measurable improvement
               </h3>
             </div>
 
@@ -158,8 +157,7 @@ export default function GenericServiceArea({ page }: GenericServiceAreaProps) {
                   <span className="tv-solution-delivery-label">Focus Area</span>
                   <h4>{page.focus}</h4>
                   <p>
-                    We help teams move from planning to execution with a delivery
-                    model that stays simple, structured, and business-focused.
+                    We help teams move from planning to execution with a model that stays structured, transparent, and business-focused.
                   </p>
                 </div>
               </div>
@@ -241,7 +239,7 @@ export default function GenericServiceArea({ page }: GenericServiceAreaProps) {
           <div className="tv-page-heading text-center">
             <span className="tv-section-subtitle">How We Work</span>
             <h3 className="tv-section-title">
-              A delivery structure designed for clarity and business value
+              A delivery model built for clarity and measurable value
             </h3>
           </div>
 
@@ -289,8 +287,7 @@ export default function GenericServiceArea({ page }: GenericServiceAreaProps) {
                     <article key={point} className="tv-service-point-card">
                       <h4>{point}</h4>
                       <p>
-                        Practical support, structured execution, and clear ownership
-                        to keep teams moving forward.
+                        Structured delivery, practical guidance, and clear ownership keep teams moving forward.
                       </p>
                     </article>
                   ))}

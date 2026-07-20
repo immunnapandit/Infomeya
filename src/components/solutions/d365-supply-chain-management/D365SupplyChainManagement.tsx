@@ -3,17 +3,17 @@ import WhatWeDoServiceLayout from '../../what-we-do/shared/WhatWeDoServiceLayout
 
 const pageConfig: ServicePageConfig = {
   title: 'Dynamics 365 Supply Chain Management',
-  subtitle: 'Resilient planning, inventory, and operations control',
+  subtitle: 'Supply chain visibility from planning to fulfillment',
   category: 'solution',
-  focus: 'procurement, warehousing, production, and logistics visibility',
+  focus: 'procurement, inventory, warehouse, production, logistics, and demand planning',
   summary:
-    'Strengthen supply chain execution with better planning, warehouse efficiency, procurement control, and real-time operational insight.',
-  image: '/assets/img/service/service-thumb-1.png',
+    'Improve supply chain performance with Dynamics 365 capabilities that connect planning, sourcing, inventory, warehouse operations, and fulfillment visibility.',
+  image: '/assets/img/service/AdvanceWarehouse.jpg',
   highlights: [
-    'Demand and supply planning alignment',
-    'Warehouse and inventory optimization',
-    'Procurement and vendor collaboration',
-    'Operational dashboards and governance'
+    'Procurement and vendor process alignment',
+    'Inventory, warehouse, and fulfillment control',
+    'Planning, production, and logistics visibility',
+    'Analytics, automation, and continuous improvement'
   ]
 };
 

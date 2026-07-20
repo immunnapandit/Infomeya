@@ -3,17 +3,17 @@ import WhatWeDoServiceLayout from '../../what-we-do/shared/WhatWeDoServiceLayout
 
 const pageConfig: ServicePageConfig = {
   title: 'AI Solutions',
-  subtitle: 'Applied AI for automation, insight, and modern operations',
+  subtitle: 'AI solutions that turn business data into useful action',
   category: 'solution',
-  focus: 'AI copilots, process automation, and intelligent decision support',
+  focus: 'AI readiness, copilots, automation, analytics, intelligent workflows, and governance',
   summary:
-    'Use practical AI solutions to automate repetitive work, improve decision quality, and create better experiences across the enterprise.',
-  image: '/assets/img/service/AI.png',
+    'Move AI from idea to useful business capability with readiness assessment, practical use cases, secure implementation, and measurable workflow improvements.',
+  image: '/assets/img/service/ArtificalIntelligence.png',
   highlights: [
-    'AI use-case discovery and prioritization',
-    'Copilot and workflow automation design',
-    'Insight generation from business data',
-    'Responsible rollout and adoption support'
+    'AI opportunity discovery and readiness review',
+    'Copilot and intelligent workflow enablement',
+    'Data, model, and integration planning',
+    'Governance, adoption, and value tracking'
   ]
 };
 

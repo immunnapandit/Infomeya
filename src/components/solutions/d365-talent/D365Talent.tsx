@@ -3,17 +3,17 @@ import WhatWeDoServiceLayout from '../../what-we-do/shared/WhatWeDoServiceLayout
 
 const pageConfig: ServicePageConfig = {
   title: 'Dynamics 365 Human Resources',
-  subtitle: 'People operations built for growth and compliance',
+  subtitle: 'Human resources processes with better employee visibility',
   category: 'solution',
-  focus: 'HR processes, employee experience, and workforce visibility',
+  focus: 'employee records, HR workflows, onboarding, performance, leave, and workforce reporting',
   summary:
-    'Improve employee lifecycle management, organizational planning, policy consistency, and workforce insight with connected HR operations.',
-  image: '/assets/img/service/cloud.png',
+    'Streamline people operations with HR capabilities that improve employee data quality, service workflows, onboarding, performance tracking, and workforce insight.',
+  image: '/assets/img/service/hrms.jpg',
   highlights: [
-    'Employee lifecycle process setup',
-    'Leave, benefits, and policy workflows',
-    'Organization and workforce planning',
-    'HR reporting and process automation'
+    'Employee data and HR process setup',
+    'Onboarding and lifecycle workflow support',
+    'Performance, leave, and policy alignment',
+    'Workforce reporting and adoption guidance'
   ]
 };
 

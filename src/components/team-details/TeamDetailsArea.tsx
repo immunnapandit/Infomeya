@@ -17,7 +17,7 @@ export default function TeamDetailsArea() {
               <h2>Atul Verma</h2>
               <h6>Managing Director</h6>
               <p>
-                Atul helps lead AtiSunya Private Limited with a focus on
+                Atul helps lead Infomeya Private Limited with a focus on
                 enterprise consulting, Microsoft Dynamics 365 delivery, and
                 practical digital transformation outcomes for growing teams.
               </p>
@@ -25,9 +25,9 @@ export default function TeamDetailsArea() {
                 <a href="tel:216-564-3678">
                   <i className="fa-solid fa-phone"></i>216-564-3678
                 </a>
-                <a href="mailto:info@atisunya.com">
+                <a href="mailto:info@infomeya.comm">
                   <i className="fa-solid fa-envelope"></i>
-                  info@atisunya.com
+                  info@infomeya.comm
                 </a>
               </div>
               <div className="tv-header-top-social-box">

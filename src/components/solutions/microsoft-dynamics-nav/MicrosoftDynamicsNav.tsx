@@ -3,17 +3,17 @@ import WhatWeDoServiceLayout from '../../what-we-do/shared/WhatWeDoServiceLayout
 
 const pageConfig: ServicePageConfig = {
   title: 'Microsoft Dynamics NAV',
-  subtitle: 'Reliable business management for evolving operations',
+  subtitle: 'Dynamics NAV support with a practical modernization route',
   category: 'solution',
-  focus: 'NAV support, process improvements, and modernization readiness',
+  focus: 'NAV support, process improvements, extensions, reporting, and Business Central readiness',
   summary:
-    'Keep Dynamics NAV aligned to current business needs with dependable support, extension planning, and a thoughtful future-state roadmap.',
-  image: '/assets/img/service/cloud.png',
+    'Maintain and improve Dynamics NAV with reliable support, targeted enhancements, better reporting, and a thoughtful roadmap toward Business Central when the time is right.',
+  image: '/assets/img/service/Business Central.avif',
   highlights: [
     'NAV support and stabilization',
-    'Business process optimization',
-    'Extension and reporting improvements',
-    'Migration planning and advisory'
+    'Process, extension, and report improvements',
+    'Operational visibility and user enablement',
+    'Business Central migration advisory'
   ]
 };
 

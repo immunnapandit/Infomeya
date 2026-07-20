@@ -75,7 +75,7 @@ export default function MctEnrollmentPopup() {
         <span className="mct-popup__eyebrow">Microsoft Certified Trainer Path</span>
         <h2 id="mct-popup-title">Become a MCT Certified Trainer</h2>
         <p>
-          Upgrade your profile with AtiSunya's MCT readiness program. Build
+          Upgrade your profile with Infomeya's MCT readiness program. Build
           instructional skills, improve training delivery, and prepare for the
           Microsoft Certified Trainer journey with expert guidance.
         </p>

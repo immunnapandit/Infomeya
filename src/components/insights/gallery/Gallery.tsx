@@ -24,7 +24,7 @@ const galleryImages: GalleryImage[] = [
   {
     localSrc: '/assets/img/slider/Businees.jpg',
     publicId: 'aspl/gallery/business-consulting',
-    alt: 'AtiSunya business consulting'
+    alt: 'Infomeya business consulting'
   },
   {
     localSrc: '/assets/img/slider/financilabuilding.jpg',

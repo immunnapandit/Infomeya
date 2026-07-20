@@ -319,7 +319,7 @@ export default function BlogDetailsArea({ previewPost }: BlogDetailsAreaProps) {
 
   const shareLinks = useMemo(() => {
     const encodedUrl = encodeURIComponent(shareUrl);
-    const encodedTitle = encodeURIComponent(post?.title || 'ASPL Blog');
+    const encodedTitle = encodeURIComponent(post?.title || 'Infomeya Blog');
 
     return {
       facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`,

@@ -3,17 +3,17 @@ import WhatWeDoServiceLayout from '../../what-we-do/shared/WhatWeDoServiceLayout
 
 const pageConfig: ServicePageConfig = {
   title: 'CRM 2016',
-  subtitle: 'Stable operations with room for modernization',
+  subtitle: 'CRM 2016 enhancements for cleaner customer processes',
   category: 'solution',
-  focus: 'CRM 2016 support, process tuning, and extension planning',
+  focus: 'CRM 2016 customization, automation, analytics, support, and migration planning',
   summary:
-    'Maintain CRM 2016 performance while extending key capabilities, improving adoption, and preparing for future platform decisions.',
-  image: '/assets/img/service/MicrosoftD365.jpg',
+    'Extend and stabilize Dynamics CRM 2016 with better customer workflows, cleaner reporting, practical support, and a roadmap for the next platform stage.',
+  image: '/assets/img/service/service-thumb-3.png',
   highlights: [
-    'CRM 2016 support and monitoring',
-    'Process tuning and productivity improvements',
-    'Integration and data quality support',
-    'Roadmap planning for modernization'
+    'CRM 2016 customization and workflow tuning',
+    'Data, dashboard, and reporting improvement',
+    'Operational support and issue resolution',
+    'Modernization assessment and roadmap'
   ]
 };
 

@@ -11,10 +11,10 @@ export interface SeoProps {
   schema?: Record<string, unknown> | Array<Record<string, unknown>>;
 }
 
-export const SITE_NAME = 'AtiSunya';
-export const SITE_URL = 'https://www.atisunya.co';
-export const ORGANIZATION_LOGO = '/assets/img/logo/AtiSunyaLogo.png';
-export const DEFAULT_OG_IMAGE = '/assets/img/seo/atisunya-social-banner.jpg';
+export const SITE_NAME = 'Infomeya';
+export const SITE_URL = 'https://www.infomeya.com';
+export const ORGANIZATION_LOGO = '/assets/img/logo/InfomeyaLogo.jpeg';
+export const DEFAULT_OG_IMAGE = '/assets/img/seo/infomeya-social-banner.jpg';
 export const DEFAULT_KEYWORDS =
   'Microsoft Dynamics 365, D365 Finance and Operations, Azure Cloud, Power Platform, Microsoft Copilot, AI Solutions, Managed Services, Cloud Migration, ERP Implementation, Microsoft Training, Dynamics 365 Partner India';
 
@@ -90,7 +90,7 @@ export default function Seo({
 
     upsertMeta('name', 'description', description);
     upsertMeta('name', 'keywords', DEFAULT_KEYWORDS);
-    upsertMeta('name', 'author', 'AtiSunya Private Limited');
+    upsertMeta('name', 'author', 'Infomeya Private Limited');
     upsertMeta('name', 'geo.region', 'IN-UP');
     upsertMeta('name', 'geo.placename', 'Noida');
     upsertMeta('name', 'geo.position', '28.5355;77.3910');
@@ -106,8 +106,8 @@ export default function Seo({
     upsertMeta('name', 'twitter:title', title);
     upsertMeta('name', 'twitter:description', description);
     upsertMeta('name', 'twitter:image', imageUrl);
-    upsertMeta('name', 'twitter:site', '@AtiSunya');
-    upsertMeta('name', 'twitter:creator', '@AtiSunya');
+    upsertMeta('name', 'twitter:site', '@Infomeya');
+    upsertMeta('name', 'twitter:creator', '@Infomeya');
     upsertLink('canonical', canonicalUrl);
     upsertLink('sitemap', `${SITE_URL}/sitemap.xml`);
     upsertJsonLd(schema);

@@ -3,17 +3,17 @@ import WhatWeDoServiceLayout from '../shared/WhatWeDoServiceLayout';
 
 const pageConfig: ServicePageConfig = {
   title: 'Web Development',
-  subtitle: 'Modern websites and web applications built for business growth',
+  subtitle: 'Web experiences engineered for performance and growth',
   category: 'service',
-  focus: 'responsive websites, portals, integrations, performance, and ongoing enhancement',
+  focus: 'websites, portals, front-end engineering, CMS integration, performance, and maintenance',
   summary:
-    'Create fast, scalable web experiences that support lead generation, customer engagement, internal workflows, and long-term digital growth.',
+    'Create fast, secure, and maintainable web experiences that present your brand clearly, support business workflows, and scale with future content and functionality.',
   image: '/assets/img/service/App-development.png',
   highlights: [
-    'Business websites and custom web application delivery',
-    'Responsive frontend development and UX refinement',
-    'API integrations, portals, and business workflows',
-    'Performance optimization, support, and continuous improvement'
+    'Website and portal planning',
+    'Responsive UI development and integration',
+    'Performance, accessibility, and SEO readiness',
+    'Maintenance, enhancements, and support'
   ]
 };
 
