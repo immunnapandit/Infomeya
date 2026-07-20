@@ -62,7 +62,7 @@ export default function BecomeMct() {
       content: (
         <>
           <p>
-            AtiSunya helps IT professionals and aspiring educators grow into
+            Infomeya helps IT professionals and aspiring educators grow into
             confident, certified trainers. Our MCT Readiness Program is designed
             to strengthen your instructional skills, improve delivery quality,
             and help you step into the Microsoft training ecosystem with
@@ -97,7 +97,7 @@ export default function BecomeMct() {
       ),
     },
     {
-      title: 'Why Choose AtiSunya',
+      title: 'Why Choose Infomeya',
       subtitle: 'A guided and professional learning experience.',
       content: (
         <>
@@ -255,7 +255,7 @@ export default function BecomeMct() {
               Become a Microsoft Certified Trainer (MCT)
             </motion.h1>
             <motion.p variants={fadeUpVariants}>
-              Unlock your potential with AtiSunya - a trusted Microsoft
+              Unlock your potential with Infomeya - a trusted Microsoft
               Instructional Skills Certification Provider (ISCP).
             </motion.p>
 
@@ -292,7 +292,7 @@ export default function BecomeMct() {
                 <span className="pm-kicker">MCT Program</span>
                 <h2>Become a Microsoft Certified Trainer (MCT)</h2>
                 <p>
-                  Unlock your potential with AtiSunya - a trusted Microsoft
+                  Unlock your potential with Infomeya - a trusted Microsoft
                   Instructional Skills Certification Provider (ISCP)
                 </p>
               </div>
@@ -370,7 +370,7 @@ export default function BecomeMct() {
                   </div>
                   <div>
                     <span>Website</span>
-                    <strong>atisunya.co</strong>
+                    <strong>infomeya.com</strong>
                   </div>
                 </div>
               </motion.div>

@@ -16,7 +16,7 @@ export default function TermsConditions() {
                 <div className="tv-blog-details-wrapper">
                   <h3>Terms & Conditions</h3>
                   <p>
-                    By accessing and using the AtiSunya website, you agree to use the site only for
+                    By accessing and using the Infomeya website, you agree to use the site only for
                     lawful purposes and in a way that does not interfere with the security,
                     availability, or proper operation of our services.
                   </p>
@@ -29,16 +29,16 @@ export default function TermsConditions() {
                   <p>
                     Project scopes, timelines, commercial terms, and delivery obligations are
                     governed by separate proposals, statements of work, or signed agreements between
-                    AtiSunya and the client.
+                    Infomeya and the client.
                   </p>
                   <p>
-                    While we aim to keep website information accurate and current, AtiSunya does not
+                    While we aim to keep website information accurate and current, Infomeya does not
                     guarantee uninterrupted access or that all content will always be error-free.
                   </p>
                   <p>
                     For questions related to these terms, please contact
                     {' '}
-                    <a href="mailto:info@atisunya.co">info@atisunya.co</a>.
+                    <a href="mailto:info@infomeya.com">info@infomeya.com</a>.
                   </p>
                 </div>
               </div>

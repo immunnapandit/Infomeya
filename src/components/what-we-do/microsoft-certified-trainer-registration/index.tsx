@@ -11,7 +11,7 @@ export default function MicrosoftCertifiedTrainerRegistrationPage() {
       <main>
         <Breadcrumb
           title="Microsoft Certified Trainer Registration"
-          subtitle="Join the AtiSunya Trainer Network"
+          subtitle="Join the Infomeya Trainer Network"
         />
         <MicrosoftCertifiedTrainerRegistration />
       </main>

@@ -20,7 +20,7 @@ const heroSlides = [
     subtitle: 'Microsoft Technology Experts',
     title: 'Transform Your Business with Intelligent Digital Solutions',
     description:
-      'AtiSunya helps organizations modernize operations with Microsoft Dynamics 365, Azure Cloud, and innovative technology solutions designed for scalability and growth.',
+      'Infomeya helps organizations modernize operations with Microsoft Dynamics 365, Azure Cloud, and innovative technology solutions designed for scalability and growth.',
   },
   {
     backgroundImage: getCloudinaryAssetUrl(

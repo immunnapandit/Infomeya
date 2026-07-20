@@ -107,10 +107,10 @@ export default function TeamHomeOne() {
             <div className="tv-team-right-area">
               <div className="tv-section-title-box mb-40">
                 <span className="tv-section-subtitle tv-spltv-text tv-spltv-in-right">
-                  AtiSunya Team
+                  Infomeya Team
                 </span>
                 <h4 className="tv-section-title pb-20 tv-spltv-text tv-spltv-in-right">
-                  Meet the experts behind AtiSunya Private Limited.
+                  Meet the experts behind Infomeya Private Limited.
                 </h4>
                 <p>
                   Our leadership and consulting team helps businesses move faster with

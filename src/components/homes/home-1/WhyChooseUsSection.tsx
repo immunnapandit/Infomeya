@@ -139,7 +139,7 @@ export default function WhyChooseUsSection() {
             </motion.h2>
 
             <motion.p className="why-choose-us-copy" variants={introVariants}>
-              Working with AtiSunya can help businesses accomplish their goals more
+              Working with Infomeya can help businesses accomplish their goals more
               effectively and get the most out of their Microsoft technology
               investments.
             </motion.p>

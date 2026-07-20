@@ -34,7 +34,7 @@ export default function BlogHomeThree() {
               <h4 className="tv-section-title tv-spltv-text tv-spltv-in-right">
                 Recent Blog & Articles About Technology
               </h4>
-              <p>Read the latest published posts from the ASPL team.</p>
+              <p>Read the latest published posts from the Infomeya team.</p>
               <Link to="/blog" className="tv-btn-primary mt-50 p-relative">
                 <span className="btn-wrap">
                   <span className="btn-text1">More Blogs</span>

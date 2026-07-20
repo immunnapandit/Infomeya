@@ -142,7 +142,7 @@ export default function MicrosoftCertifiedTrainerRegistration() {
               <span className="mct-registration-kicker">
                 Microsoft Certified Trainer Registration
               </span>
-              <h1>Build global learning impact with AtiSunya</h1>
+              <h1>Build global learning impact with Infomeya</h1>
               <p>
                 Active Microsoft Certified Trainers can register their profile
                 for future corporate training, certification bootcamps,

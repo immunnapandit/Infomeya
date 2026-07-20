@@ -167,7 +167,7 @@ const DEFAULT_SUPPORTED_CURRENCY_OPTIONS: CurrencyOption[] = [
 const DEFAULT_SUPPORTED_CURRENCIES = DEFAULT_SUPPORTED_CURRENCY_OPTIONS.map(
   (currency) => currency.code
 );
-const DEFAULT_UPI_QR_IMAGE_URL = '/payments/atisunya-upi-qr.jpeg';
+const DEFAULT_UPI_QR_IMAGE_URL = '/payments/infomeya-upi-qr.jpeg';
 const CONVERSION_BASE_CURRENCY = 'INR';
 
 const CURRENCY_OPTION_LOOKUP = new Map(
@@ -177,7 +177,7 @@ const CURRENCY_OPTION_LOOKUP = new Map(
 const DEFAULT_GATEWAY_CONFIG: PaymentGatewayConfig = {
   keyId: (import.meta.env.VITE_RAZORPAY_KEY_ID || '').trim(),
   isConfigured: Boolean((import.meta.env.VITE_RAZORPAY_KEY_ID || '').trim()),
-  merchantName: 'AtiSunya',
+  merchantName: 'Infomeya',
   merchantDescription: 'Secure Payment',
   defaultCourse: '',
   defaultAmount: 0,
@@ -671,7 +671,7 @@ function buildUpiIntentLink({
 
   const params = new URLSearchParams({
     pa: upiId.trim(),
-    pn: merchantName.trim() || 'AtiSunya',
+    pn: merchantName.trim() || 'Infomeya',
     am: amount.toFixed(2),
     cu: currency.toUpperCase(),
     tn: course.trim() || 'Program Fee Payment',
@@ -1234,7 +1234,7 @@ export default function PayNow() {
     if (gatewayConfig.upiDetails?.qrImageUrl) {
       setStatus({
         tone: 'info',
-        message: `Scan the AtiSunya QR code to pay ${payableAmount}.`,
+        message: `Scan the Infomeya QR code to pay ${payableAmount}.`,
       });
       setIsQrPreviewOpen(true);
       return;
@@ -1358,7 +1358,7 @@ export default function PayNow() {
         key: gatewayConfig.keyId,
         amount: order.amount,
         currency: order.currency,
-        name: gatewayConfig.merchantName || order.merchantName || 'AtiSunya',
+        name: gatewayConfig.merchantName || order.merchantName || 'Infomeya',
         description:
           gatewayConfig.merchantDescription || order.merchantDescription || 'Secure Payment',
         image: gatewayConfig.logoUrl,
@@ -1917,7 +1917,7 @@ export default function PayNow() {
                 <div className="pn-modal-body">
                   <img
                     src={gatewayConfig.upiDetails.qrImageUrl}
-                    alt="AtiSunya enlarged UPI QR code"
+                    alt="Infomeya enlarged UPI QR code"
                   />
                   <p>
                     Scan this QR with any UPI app. If you are paying from the same device, use the

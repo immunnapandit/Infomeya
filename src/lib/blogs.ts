@@ -35,7 +35,7 @@ type BlogPostsResponse = {
 };
 
 const BLOG_REQUEST_TIMEOUT_MS = 5000;
-const BLOG_POSTS_CACHE_KEY = 'aspl-published-blog-posts-cache';
+const BLOG_POSTS_CACHE_KEY = 'infomeya-published-blog-posts-cache';
 
 function sortPublishedPosts(posts: BlogPost[]) {
   return posts

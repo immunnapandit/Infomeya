@@ -205,7 +205,7 @@ export default function OurClient() {
                   </h4>
                   <p>
                     From manufacturing and banking to education, retail, and
-                    enterprise technology, our clients rely on AtiSunya for
+                    enterprise technology, our clients rely on Infomeya for
                     transformation and delivery.
                   </p>
                 </div>

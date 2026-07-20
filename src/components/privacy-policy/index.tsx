@@ -16,7 +16,7 @@ export default function PrivacyPolicy() {
                 <div className="tv-blog-details-wrapper">
                   <h3>Privacy Policy</h3>
                   <p>
-                    AtiSunya respects your privacy and is committed to protecting the information
+                    Infomeya respects your privacy and is committed to protecting the information
                     you share with us through our website, forms, and service interactions.
                   </p>
                   <p>
@@ -38,7 +38,7 @@ export default function PrivacyPolicy() {
                     If you need details about the data we hold, or want to request correction or
                     deletion of your information, please contact us at
                     {' '}
-                    <a href="mailto:info@atisunya.co">info@atisunya.co</a>.
+                    <a href="mailto:info@infomeya.com">info@infomeya.com</a>.
                   </p>
                 </div>
               </div>

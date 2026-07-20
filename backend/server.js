@@ -31,9 +31,9 @@ setDataStorePaths(dataDir);
 
 const PORT = Number(process.env.PORT || 5001);
 const DEFAULT_ALLOWED_ORIGINS = [
-  'https://www.atisunya.co',
-  'https://atisunya.co',
-  'https://aspl.vercel.app',
+  'https://www.infomeya.com',
+  'https://infomeya.com',
+  'https://infomeya.vercel.app',
   'http://localhost:5173',
   'http://127.0.0.1:5173',
 ];
@@ -54,7 +54,7 @@ const RAZORPAY_CAPTURE_AUTHORIZED_PAYMENTS = parseBoolean(
   true
 );
 
-const PAYMENT_BRAND_NAME = (process.env.PAYMENT_BRAND_NAME || 'AtiSunya').trim();
+const PAYMENT_BRAND_NAME = (process.env.PAYMENT_BRAND_NAME || 'Infomeya').trim();
 const PAYMENT_BRAND_DESCRIPTION = (
   process.env.PAYMENT_BRAND_DESCRIPTION ||
   'Secure Payment'
@@ -69,7 +69,7 @@ const PAYMENT_LOGO_URL = (process.env.PAYMENT_LOGO_URL || '').trim();
 const PAYMENT_SUPPORT_EMAIL = (
   process.env.PAYMENT_SUPPORT_EMAIL ||
   process.env.CONTACT_TO_EMAIL ||
-  'info@atisunya.co'
+  'info@infomeya.com'
 ).trim();
 const PAYMENT_SUPPORT_PHONE = (process.env.PAYMENT_SUPPORT_PHONE || '+91-80-8181-0673').trim();
 const PAYMENT_SUPPORT_URL = (process.env.PAYMENT_SUPPORT_URL || '').trim();
@@ -87,18 +87,18 @@ const PAYMENT_BANK_ACCOUNT_TYPE = (process.env.PAYMENT_BANK_ACCOUNT_TYPE || '').
 const PAYMENT_BANK_MICR = (process.env.PAYMENT_BANK_MICR || '').trim();
 const PAYMENT_BANK_SWIFT_CODE = (process.env.PAYMENT_BANK_SWIFT_CODE || '').trim().toUpperCase();
 
-const CONTACT_TO_EMAIL = (process.env.CONTACT_TO_EMAIL || 'info@atisunya.co').trim();
+const CONTACT_TO_EMAIL = (process.env.CONTACT_TO_EMAIL || 'info@infomeya.com').trim();
 const MCT_ENROLLMENT_TO_EMAILS = parseCsvList(
   process.env.MCT_ENROLLMENT_TO_EMAILS,
-  ['info@atisunya.co', 'sangeeta@atisunya.co']
+  ['info@infomeya.com', 'sangeeta@infomeya.com']
 );
 const MCT_TRAINER_REGISTRATION_TO_EMAILS = parseCsvList(
   process.env.MCT_TRAINER_REGISTRATION_TO_EMAILS,
-  ['sangeeta@atisunya.co']
+  ['sangeeta@infomeya.com']
 );
 const MCT_TRAINER_REGISTRATION_CC_EMAILS = parseCsvList(
   process.env.MCT_TRAINER_REGISTRATION_CC_EMAILS,
-  ['info@atisunya.co']
+  ['info@infomeya.com']
 );
 const CONTACT_FROM_EMAIL = (
   process.env.CONTACT_FROM_EMAIL ||
@@ -109,7 +109,7 @@ const CONTACT_FROM_EMAIL = (
 const HR_TO_EMAIL = (process.env.HR_TO_EMAIL || CONTACT_TO_EMAIL).trim();
 const NEWSLETTER_TO_EMAIL = (process.env.NEWSLETTER_TO_EMAIL || CONTACT_TO_EMAIL).trim();
 const PUBLIC_SITE_URL = normalizeSiteUrl(
-  process.env.PUBLIC_SITE_URL || parseCsvList(FRONTEND_URL)[0] || 'https://www.atisunya.co'
+  process.env.PUBLIC_SITE_URL || parseCsvList(FRONTEND_URL)[0] || 'https://www.infomeya.com'
 );
 const CAREERS_ADMIN_TOKEN = (
   process.env.CAREERS_ADMIN_TOKEN || 'change-me-careers-admin-token'
@@ -118,7 +118,7 @@ const BLOG_ADMIN_TOKEN = (
   process.env.BLOG_ADMIN_TOKEN || 'change-me-blog-admin-token'
 ).trim();
 const MONGODB_URI = (process.env.MONGODB_URI || process.env.MONGO_URI || '').trim();
-const MONGODB_DB_NAME = (process.env.MONGODB_DB_NAME || 'aspl').trim();
+const MONGODB_DB_NAME = (process.env.MONGODB_DB_NAME || 'infomeya').trim();
 const MONGODB_REQUIRE_CONNECTION = parseBoolean(
   process.env.MONGODB_REQUIRE_CONNECTION,
   Boolean(MONGODB_URI)
@@ -130,7 +130,7 @@ const MONGODB_IMPORT_JSON_ON_EMPTY = parseBoolean(
 const CLOUDINARY_CLOUD_NAME = (process.env.CLOUDINARY_CLOUD_NAME || '').trim();
 const CLOUDINARY_API_KEY = (process.env.CLOUDINARY_API_KEY || '').trim();
 const CLOUDINARY_API_SECRET = process.env.CLOUDINARY_API_SECRET || '';
-const CLOUDINARY_FOLDER = (process.env.CLOUDINARY_FOLDER || 'aspl/blog').trim();
+const CLOUDINARY_FOLDER = (process.env.CLOUDINARY_FOLDER || 'infomeya/blog').trim();
 
 const SMTP_HOST = (process.env.SMTP_HOST || '').trim();
 const SMTP_PORT = Number.parseInt(process.env.SMTP_PORT || '', 10) || 587;
@@ -167,7 +167,7 @@ const EXCHANGE_RATE_CACHE_TTL_MS =
 
 const DEFAULT_CAREERS_SETTINGS = {
   careersPageTitle: 'Careers',
-  careersPageSubtitle: 'Build your future with ASPL',
+  careersPageSubtitle: 'Build your future with Infomeya',
   generalCtaTitle: 'Send Us Your Resume',
   generalCtaDescription:
     'Share your profile with us and tell us what kind of role you are looking for. If a matching opportunity opens up, our team will get in touch.',
@@ -198,7 +198,7 @@ const server = BunLikeServe({
         200,
         {
           ok: true,
-          service: 'aspl-razorpay-backend',
+          service: 'infomeya-razorpay-backend',
           timestamp: new Date().toISOString(),
         },
         req
@@ -406,7 +406,7 @@ function BunLikeServe({ port, fetch }) {
         });
 
         httpServer.listen(port, async () => {
-          console.log(`ASPL backend listening on http://localhost:${port}`);
+          console.log(`Infomeya backend listening on http://localhost:${port}`);
 
           try {
             await ensureMongoIndexes();
@@ -567,7 +567,7 @@ async function handleCreateOrder(req) {
   }
 
   const payload = validation.data;
-  const receipt = `aspl_${Date.now()}_${randomUUID().slice(0, 8)}`;
+  const receipt = `infomeya_${Date.now()}_${randomUUID().slice(0, 8)}`;
 
   const razorpayResponse = await fetch('https://api.razorpay.com/v1/orders', {
     method: 'POST',
@@ -1005,7 +1005,7 @@ async function sendContactEmail(contact) {
 
   await sendNotificationEmail({
     from: {
-      name: 'AtiSunya Website',
+      name: 'Infomeya Website',
       address: CONTACT_FROM_EMAIL,
     },
     to: CONTACT_TO_EMAIL,
@@ -1027,7 +1027,7 @@ async function sendMctEnrollmentEmail(enrollment) {
 
   await sendNotificationEmail({
     from: {
-      name: 'AtiSunya MCT Enrollment',
+      name: 'Infomeya MCT Enrollment',
       address: CONTACT_FROM_EMAIL,
     },
     to: MCT_ENROLLMENT_TO_EMAILS,
@@ -1051,7 +1051,7 @@ async function sendMctTrainerRegistrationEmail(registration) {
 
   await sendNotificationEmail({
     from: {
-      name: 'AtiSunya Trainer Network',
+      name: 'Infomeya Trainer Network',
       address: CONTACT_FROM_EMAIL,
     },
     to: MCT_TRAINER_REGISTRATION_TO_EMAILS,
@@ -1078,11 +1078,11 @@ async function sendMctTrainerRegistrationEmail(registration) {
 async function sendMctTrainerWelcomeEmail(registration) {
   await sendNotificationEmail({
     from: {
-      name: 'AtiSunya Learning & Training Team',
+      name: 'Infomeya Learning & Training Team',
       address: CONTACT_FROM_EMAIL,
     },
     to: registration.email,
-    subject: 'Welcome to the AtiSunya Trainer Network',
+    subject: 'Welcome to the Infomeya Trainer Network',
     text: buildMctTrainerWelcomeEmailText(registration),
     html: buildMctTrainerWelcomeEmailHtml(registration),
   });
@@ -1465,7 +1465,7 @@ function buildMctTrainerWelcomeEmailText(registration) {
   return [
     'Hello ' + registration.fullName + ',',
     '',
-    'Thank you for registering your interest in joining the AtiSunya Trainer Network.',
+    'Thank you for registering your interest in joining the Infomeya Trainer Network.',
     '',
     'We are excited to connect with talented Microsoft Certified Trainers from around the world and explore opportunities for collaboration across corporate training engagements, certification bootcamps, workshops, and Microsoft technology programs.',
     '',
@@ -1474,8 +1474,8 @@ function buildMctTrainerWelcomeEmailText(registration) {
     'We look forward to working with you and building impactful learning experiences together.',
     '',
     'Best Regards,',
-    'AtiSunya Learning & Training Team',
-    'AtiSunya',
+    'Infomeya Learning & Training Team',
+    'Infomeya',
   ].join('\n');
 }
 
@@ -1486,13 +1486,13 @@ function buildMctTrainerWelcomeEmailHtml(registration) {
       <body style="margin: 0; font-family: Arial, sans-serif; color: #222; line-height: 1.55; background: #f5f7fb;">
         <div style="max-width: 640px; margin: 0 auto; padding: 28px 16px;">
           <div style="background: #ffffff; border: 1px solid #e6e8ef; padding: 28px;">
-            <h1 style="margin: 0 0 18px; font-size: 26px; color: #111827;">Welcome to the AtiSunya Trainer Network</h1>
+            <h1 style="margin: 0 0 18px; font-size: 26px; color: #111827;">Welcome to the Infomeya Trainer Network</h1>
             <p>Hello ${escapeHtml(registration.fullName)},</p>
-            <p>Thank you for registering your interest in joining the AtiSunya Trainer Network.</p>
+            <p>Thank you for registering your interest in joining the Infomeya Trainer Network.</p>
             <p>We are excited to connect with talented Microsoft Certified Trainers from around the world and explore opportunities for collaboration across corporate training engagements, certification bootcamps, workshops, and Microsoft technology programs.</p>
             <p>Our team will review your profile and reach out when opportunities align with your expertise and experience.</p>
             <p>We look forward to working with you and building impactful learning experiences together.</p>
-            <p style="margin: 24px 0 0;">Best Regards,<br />AtiSunya Learning &amp; Training Team<br />AtiSunya</p>
+            <p style="margin: 24px 0 0;">Best Regards,<br />Infomeya Learning &amp; Training Team<br />Infomeya</p>
           </div>
         </div>
       </body>
@@ -2193,7 +2193,7 @@ function parseCsvList(value, fallback = []) {
 
 function normalizeSiteUrl(value) {
   const normalized = normalizeString(value).replace(/\/+$/, '');
-  return normalized || 'https://www.atisunya.co';
+  return normalized || 'https://www.infomeya.com';
 }
 
 function buildPublicUrl(path) {
@@ -2779,7 +2779,7 @@ async function handleNewsletterSubscribe(req) {
       200,
       {
         ok: true,
-        message: 'Thank you for subscribing to the AtiSunya newsletter.',
+        message: 'Thank you for subscribing to the Infomeya newsletter.',
       },
       req
     );
@@ -2793,7 +2793,7 @@ async function handleNewsletterSubscribe(req) {
       {
         ok: true,
         alreadySubscribed: true,
-        message: 'You are already subscribed to the AtiSunya newsletter.',
+        message: 'You are already subscribed to the Infomeya newsletter.',
       },
       req
     );
@@ -2819,7 +2819,7 @@ async function handleNewsletterSubscribe(req) {
     200,
     {
       ok: true,
-      message: 'Thank you for subscribing to the AtiSunya newsletter.',
+      message: 'Thank you for subscribing to the Infomeya newsletter.',
     },
     req
   );
@@ -2835,7 +2835,7 @@ async function sendCareerApplicationEmail(application, record) {
 
   await sendNotificationEmail({
     from: {
-      name: 'AtiSunya Careers',
+      name: 'Infomeya Careers',
       address: CONTACT_FROM_EMAIL,
     },
     to: targetEmail,
@@ -2870,7 +2870,7 @@ async function sendNewsletterSubscriptionEmail(subscription) {
 
   await sendNotificationEmail({
     from: {
-      name: 'AtiSunya Website',
+      name: 'Infomeya Website',
       address: CONTACT_FROM_EMAIL,
     },
     to: NEWSLETTER_TO_EMAIL,
@@ -2898,7 +2898,7 @@ async function sendBlogPostNewsletterEmail(post) {
   const url = buildPublicUrl(`/blog/${post.slug}`);
 
   return sendNewsletterBroadcast({
-    subject: `New blog from AtiSunya: ${sanitizeEmailHeaderValue(post.title)}`,
+    subject: `New blog from Infomeya: ${sanitizeEmailHeaderValue(post.title)}`,
     text: buildBlogPostNewsletterText(post, url),
     html: buildBlogPostNewsletterHtml(post, url),
   });
@@ -2908,7 +2908,7 @@ async function sendJobOpeningNewsletterEmail(opening) {
   const url = buildPublicUrl(`/careers/${opening.slug}`);
 
   return sendNewsletterBroadcast({
-    subject: `New job opening at AtiSunya: ${sanitizeEmailHeaderValue(opening.title)}`,
+    subject: `New job opening at Infomeya: ${sanitizeEmailHeaderValue(opening.title)}`,
     text: buildJobOpeningNewsletterText(opening, url),
     html: buildJobOpeningNewsletterHtml(opening, url),
   });
@@ -2927,7 +2927,7 @@ async function sendNewsletterBroadcast(message) {
     try {
       await sendNotificationEmail({
         from: {
-          name: 'AtiSunya Newsletter',
+          name: 'Infomeya Newsletter',
           address: CONTACT_FROM_EMAIL,
         },
         to: subscriber.email,
@@ -3313,7 +3313,7 @@ function validateBlogCommentPayload(data) {
 
 function buildBlogPostNewsletterText(post, url) {
   return [
-    'New blog post from AtiSunya',
+    'New blog post from Infomeya',
     '',
     post.title,
     '',
@@ -3335,7 +3335,7 @@ function buildBlogPostNewsletterHtml(post, url) {
 
 function buildJobOpeningNewsletterText(opening, url) {
   return [
-    'New job opening at AtiSunya',
+    'New job opening at Infomeya',
     '',
     opening.title,
     '',
@@ -3384,7 +3384,7 @@ function buildNewsletterAnnouncementHtml({ eyebrow, title, description, details 
             )}" style="display: inline-block; background: #0f52ba; color: #ffffff; text-decoration: none; padding: 12px 18px; font-weight: 700;">${escapeHtml(
               ctaLabel
             )}</a>
-            <p style="margin: 24px 0 0; color: #6b7280; font-size: 13px;">You are receiving this because you subscribed to the AtiSunya newsletter.</p>
+            <p style="margin: 24px 0 0; color: #6b7280; font-size: 13px;">You are receiving this because you subscribed to the Infomeya newsletter.</p>
           </div>
         </div>
       </body>

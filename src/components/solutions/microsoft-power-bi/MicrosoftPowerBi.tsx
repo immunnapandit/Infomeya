@@ -3,18 +3,18 @@ import WhatWeDoServiceLayout from '../../what-we-do/shared/WhatWeDoServiceLayout
 
 const pageConfig: ServicePageConfig = {
   title: 'Microsoft Power BI',
-  subtitle: 'Interactive dashboards and reporting that support faster decisions',
+  subtitle: 'Power BI reporting that makes performance easier to read',
   category: 'solution',
-  focus: 'dashboards, data modeling, KPI visibility, and reporting adoption',
+  focus: 'dashboard design, data modeling, KPI tracking, governance, and analytics adoption',
   summary:
-    'Turn business data into clear dashboards and decision-ready reporting that teams can trust and use in daily operations.',
-  image: '/assets/img/service/power-bi-icon.svg',
+    'Turn business data into dashboards and reports people can trust, with the right model, visuals, security, refresh design, and adoption support.',
+  image: '/assets/img/service/analytics.png',
   highlights: [
-    'Power BI dashboard strategy and design',
-    'Data modeling and report development',
-    'KPI tracking and decision-ready insights',
-    'User adoption, governance, and enhancement support'
-  ],
+    'Power BI dashboard strategy and UX',
+    'Data modeling, refresh, and report development',
+    'KPI tracking and leadership-ready insights',
+    'Governance, training, and enhancement support'
+  ]
 };
 
 export { pageConfig };

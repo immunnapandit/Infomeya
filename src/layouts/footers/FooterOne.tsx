@@ -43,7 +43,7 @@ export default function FooterOne() {
 
       setNewsletterStatus('success');
       setNewsletterMessage(
-        result?.message || 'Thank you for subscribing to the AtiSunya newsletter.'
+        result?.message || 'Thank you for subscribing to the Infomeya newsletter.'
       );
       setNewsletterEmail('');
       setNewsletterWebsite('');
@@ -133,7 +133,7 @@ export default function FooterOne() {
                 <div className="tv-footer-widget tv-footer-col-1">
                   <div className="tv-footer-widget-logo mb-30">
                     <Link to="/">
-                      <img src="/assets/img/logo/AtiSunyaLogo.png" alt="" />
+                      <img src="/assets/img/logo/InfomeyaLogo.jpeg" alt="" />
                     </Link>
                   </div>
                   <div className="tv-footer-widget-partner-badge">
@@ -144,7 +144,7 @@ export default function FooterOne() {
                   </div>
                   <div className="tv-footer-widget-text">
                     <p>
-                      AtiSunya is a technology-driven company delivering smart digital solutions, including web development, CRM, ERP, and business automation to help businesses grow and scale efficiently.
+                      Infomeya is a technology-driven company delivering smart digital solutions, including web development, CRM, ERP, and business automation to help businesses grow and scale efficiently.
                     </p>
                   </div>
                   <div className="tv-footer-widget-contact-info">
@@ -155,9 +155,9 @@ export default function FooterOne() {
                         </a>
                       </li>
                       <li>
-                        <a href="mailto:info@atisunya.co">
+                        <a href="mailto:info@infomeya.com">
                           <i className="fa-solid fa-envelope"></i>
-                          info@atisunya.co
+                          info@infomeya.com
                         </a>
                       </li>
                     </ul>
@@ -251,9 +251,9 @@ export default function FooterOne() {
                   <div className="tv-copyright-left text-center text-lg-start">
                     <p className="mb-0">
                       © 2026 All Rights Reserved | Developed by
-                      <a href="https://www.atisunya.co" target="_blank">
+                      <a href="https://www.infomeya.com" target="_blank">
                         {' '}
-                        AtiSunya Pvt. Ltd.
+                        Infomeya Pvt. Ltd.
                       </a>
                     </p>
                   </div>

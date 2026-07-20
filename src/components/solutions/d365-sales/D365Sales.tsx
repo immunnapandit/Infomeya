@@ -3,17 +3,17 @@ import WhatWeDoServiceLayout from '../../what-we-do/shared/WhatWeDoServiceLayout
 
 const pageConfig: ServicePageConfig = {
   title: 'Dynamics 365 Sales',
-  subtitle: 'Pipeline visibility and high-performance selling',
+  subtitle: 'Sales execution powered by connected customer intelligence',
   category: 'solution',
-  focus: 'lead management, opportunity execution, and forecasting',
+  focus: 'lead management, opportunity tracking, forecasting, pipeline reporting, and sales adoption',
   summary:
-    'Equip sales teams with structured pipelines, stronger account management, better forecasting, and Microsoft-powered productivity.',
-  image: '/assets/img/service/service-thumb-3.png',
+    'Help sales teams focus on the right opportunities with Dynamics 365 Sales processes that improve pipeline visibility, follow-up discipline, and forecasting confidence.',
+  image: '/assets/img/service/CRM.png',
   highlights: [
-    'Lead-to-opportunity process alignment',
-    'Forecasting and pipeline visibility',
-    'Sales productivity with Microsoft tools',
-    'Customer engagement and reporting'
+    'Lead-to-opportunity process design',
+    'Pipeline, forecasting, and activity tracking',
+    'Sales automation and customer data quality',
+    'Dashboards, coaching, and adoption support'
   ]
 };
 

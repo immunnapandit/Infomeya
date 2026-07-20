@@ -3,17 +3,17 @@ import WhatWeDoServiceLayout from '../../what-we-do/shared/WhatWeDoServiceLayout
 
 const pageConfig: ServicePageConfig = {
   title: 'CRM 2015',
-  subtitle: 'Support and enhancement for established CRM environments',
+  subtitle: 'CRM 2015 support for dependable customer operations',
   category: 'solution',
-  focus: 'legacy CRM support, configuration, and controlled change',
+  focus: 'CRM 2015 maintenance, workflows, forms, reports, integrations, and upgrade readiness',
   summary:
-    'Protect business continuity in CRM 2015 through structured support, targeted enhancements, and upgrade-aware delivery practices.',
-  image: '/assets/img/service/service-thumb-3.png',
+    'Keep Dynamics CRM 2015 useful with focused support for workflows, customizations, data quality, reporting, integrations, and future upgrade planning.',
+  image: '/assets/img/service/service-thumb-2.png',
   highlights: [
-    'Legacy CRM support coverage',
-    'Configuration and workflow enhancements',
-    'Reporting and usability improvements',
-    'Upgrade-aware change management'
+    'CRM 2015 environment and process review',
+    'Workflow, form, and report improvements',
+    'Issue resolution and integration support',
+    'Upgrade readiness and migration planning'
   ]
 };
 

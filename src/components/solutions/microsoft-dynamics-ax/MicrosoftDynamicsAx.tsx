@@ -3,17 +3,17 @@ import WhatWeDoServiceLayout from '../../what-we-do/shared/WhatWeDoServiceLayout
 
 const pageConfig: ServicePageConfig = {
   title: 'Microsoft Dynamics AX',
-  subtitle: 'Legacy ERP modernization and support strategy',
+  subtitle: 'Dynamics AX support and modernization with a clear path forward',
   category: 'solution',
-  focus: 'AX support, optimization, upgrade planning, and continuity',
+  focus: 'AX stabilization, enhancements, reporting, integrations, and migration readiness',
   summary:
-    'Keep Microsoft Dynamics AX stable while improving processes, managing technical debt, and planning the right modernization path forward.',
-  image: '/assets/img/service/cloud.png',
+    'Keep Microsoft Dynamics AX dependable while improving processes, reporting, integrations, and future-state planning for cloud or Dynamics 365 modernization.',
+  image: '/assets/img/service/ERP_H.jpg',
   highlights: [
-    'AX support and enhancement services',
-    'Performance and process optimization',
-    'Upgrade and migration planning',
-    'Risk-managed continuity strategy'
+    'AX environment review and stabilization',
+    'Functional enhancements and reporting improvements',
+    'Integration support and process optimization',
+    'Upgrade assessment and migration roadmap'
   ]
 };
 

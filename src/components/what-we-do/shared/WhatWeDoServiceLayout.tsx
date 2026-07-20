@@ -10,27 +10,27 @@ function buildBenefits(page: ServicePageConfig) {
   return [
     {
       title: page.highlights[0],
-      description: `Create a strong starting point for ${page.title.toLowerCase()} with structured planning aligned to ${page.focus}.`
+      description: `Set the right direction for ${page.title.toLowerCase()} with discovery, priorities, and delivery choices aligned to ${page.focus}.`
     },
     {
       title: page.highlights[1],
-      description: `Move from concept to execution with practical delivery support shaped around ${page.subtitle.toLowerCase()}.`
+      description: `Turn the roadmap into working capability with delivery support shaped around ${page.subtitle.toLowerCase()}.`
     },
     {
       title: page.highlights[2],
-      description: `Improve handoffs, visibility, and business flow by connecting teams, systems, and decisions around ${page.title.toLowerCase()}.`
+      description: `Improve visibility and handoffs by connecting teams, data, processes, and decisions around ${page.title.toLowerCase()}.`
     },
     {
       title: page.highlights[3],
-      description: `Sustain long-term value through controlled releases, measurable improvement, and dependable ownership.`
+      description: `Protect long-term value with measured releases, active feedback loops, and dependable ownership.`
     },
     {
-      title: 'Business alignment',
-      description: `Keep the service direction tied to real priorities with a focus on ${page.focus}.`
+      title: 'Outcome alignment',
+      description: `Keep scope, adoption, and success measures tied to the business priorities behind ${page.focus}.`
     },
     {
-      title: 'Scalable delivery',
-      description: `Build a delivery model that supports growth, change, and better consistency across the business over time.`
+      title: 'Sustainable growth',
+      description: `Build a delivery model that supports scale, change, and consistent operations as the business evolves.`
     }
   ];
 }
@@ -67,8 +67,7 @@ export default function WhatWeDoServiceLayout({ page }: WhatWeDoServiceLayoutPro
                 <h2>{page.subtitle}</h2>
                 <p>{page.summary}</p>
                 <p>
-                  We support organizations with a practical delivery approach that keeps planning, execution,
-                  adoption, and improvement connected through every stage of the engagement.
+                  Our teams connect planning, delivery, adoption, and improvement so each engagement moves from intent to measurable business progress.
                 </p>
                 <div className="tv-pe-actions">
                   <Link to="/contact" className="tv-btn-primary">
@@ -89,10 +88,9 @@ export default function WhatWeDoServiceLayout({ page }: WhatWeDoServiceLayoutPro
           <div className="row align-items-start g-4 g-xl-5">
             <div className="col-lg-7">
               <div className="tv-pe-content">
-                <h2>Support business outcomes with a clear and flexible delivery foundation</h2>
+                <h2>Build momentum with a clear delivery foundation</h2>
                 <p>
-                  Our approach to {page.title.toLowerCase()} is designed to align business goals, project
-                  priorities, and user expectations while keeping delivery simple and accountable.
+                  Our approach to {page.title.toLowerCase()} brings business goals, technical choices, project priorities, and user expectations into one practical working model.
                 </p>
                 <p>Key areas include:</p>
                 <ul className="tv-pe-bullet-list">
@@ -101,8 +99,7 @@ export default function WhatWeDoServiceLayout({ page }: WhatWeDoServiceLayoutPro
                   ))}
                 </ul>
                 <p className="tv-pe-note">
-                  This helps teams improve consistency, reduce delivery friction, and create a stronger path from
-                  implementation to long-term optimization.
+                  This gives teams a cleaner path from initial planning to adoption, optimization, and ongoing operational value.
                 </p>
               </div>
             </div>
@@ -126,7 +123,7 @@ export default function WhatWeDoServiceLayout({ page }: WhatWeDoServiceLayoutPro
         <div className="container">
           <div className="tv-pe-heading text-center">
             <span className="tv-pe-kicker">{benefitsLabel}</span>
-            <h2>How {page.title} supports stronger business execution</h2>
+            <h2>How {page.title} creates measurable business value</h2>
           </div>
 
           <div className="row g-4">

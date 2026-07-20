@@ -3,18 +3,18 @@ import WhatWeDoServiceLayout from '../../what-we-do/shared/WhatWeDoServiceLayout
 
 const pageConfig: ServicePageConfig = {
   title: 'Salesforce',
-  subtitle: 'CRM delivery focused on growth, automation, and customer engagement',
+  subtitle: 'Salesforce CRM shaped around growth and customer engagement',
   category: 'solution',
-  focus: 'customer lifecycle management, automation, analytics, and scalable CRM operations',
+  focus: 'customer lifecycle, sales automation, service workflows, analytics, integration, and CRM governance',
   summary:
-    'Support sales, service, and customer engagement teams with Salesforce solutions that improve visibility, streamline workflows, and create a more connected customer experience.',
+    'Support sales, service, and customer engagement teams with Salesforce solutions that improve workflow clarity, reporting, automation, and customer visibility.',
   image: '/assets/img/service/Salesforce.png',
   highlights: [
-    'Salesforce implementation shaped around customer and revenue goals',
-    'Workflow automation for lead management, service, and business processes',
-    'Reporting and pipeline visibility for better decision-making',
-    'Enhancement, governance, and support for long-term CRM maturity'
-  ],
+    'Salesforce implementation around revenue goals',
+    'Lead, service, and customer workflow automation',
+    'Pipeline reporting and management visibility',
+    'Enhancement, governance, and long-term support'
+  ]
 };
 
 export { pageConfig };

@@ -71,7 +71,7 @@ const highlightCards = [
   },
   {
     accent: 'gold',
-    text: 'Personalized guidance from AtiSunya trainers to improve delivery confidence and session control.',
+    text: 'Personalized guidance from Infomeya trainers to improve delivery confidence and session control.',
   },
   {
     accent: 'red',
@@ -117,14 +117,14 @@ const prerequisitePoints = [
   'Practical understanding of the certification content, labs, scenarios, and learner questions you may need to explain.',
 ];
 
-const whyAtiSunyaPoints = [
-  'AtiSunya combines Microsoft technology consulting experience with practical training delivery expertise.',
+const whyInfomeyaPoints = [
+  'Infomeya combines Microsoft technology consulting experience with practical training delivery expertise.',
   'Our readiness sessions are structured, instructor-led, and focused on measurable improvement in presentation quality.',
   'We help participants strengthen confidence, learner engagement, demo handling, and professional training presence.',
 ];
 
 const processSteps = [
-  'Register for the AtiSunya MCT readiness session and receive guidance on how to prepare for the training day.',
+  'Register for the Infomeya MCT readiness session and receive guidance on how to prepare for the training day.',
   'Attend the live instructor-led program where the trainer explains expectations, delivery standards, and the MCT application flow.',
   'Practice presenting a Microsoft certification topic with attention to clarity, structure, learner engagement, and technical accuracy.',
   'Complete the readiness evaluation by delivering your session and receiving professional review from the trainer.',
@@ -196,7 +196,7 @@ export default function MicrosoftCertifiedTrainerReadinessTraining() {
               <h1>Microsoft Certified Trainer Readiness - Course Overview</h1>
 
               <p>
-                AtiSunya&apos;s Microsoft Certified Trainer Readiness Training
+                Infomeya&apos;s Microsoft Certified Trainer Readiness Training
                 is built for certified technology professionals who want to
                 teach with more confidence, structure, and impact. The program
                 helps participants prepare for the readiness evaluation while
@@ -213,7 +213,7 @@ export default function MicrosoftCertifiedTrainerReadinessTraining() {
 
               <h2>
                 Key advantages of completing the Microsoft Certified Trainer
-                Readiness Course with AtiSunya:
+                Readiness Course with Infomeya:
               </h2>
 
               <ul className="mctrt-dot-list">
@@ -229,7 +229,7 @@ export default function MicrosoftCertifiedTrainerReadinessTraining() {
               </p>
 
               <p className="mctrt-emphasis">
-                AtiSunya supports flexible delivery models, including virtual
+                Infomeya supports flexible delivery models, including virtual
                 sessions for global learners and classroom-style sessions for
                 group or enterprise batches.
               </p>
@@ -274,7 +274,7 @@ export default function MicrosoftCertifiedTrainerReadinessTraining() {
             variants={staggerVariants}
           >
             <motion.div className="mctrt-snapshot-copy" variants={fadeUpVariants}>
-              <span>AtiSunya Program Snapshot</span>
+              <span>Infomeya Program Snapshot</span>
               <h2>Practical preparation for trainers who need to deliver, not just present.</h2>
             </motion.div>
 
@@ -300,7 +300,7 @@ export default function MicrosoftCertifiedTrainerReadinessTraining() {
             variants={fadeUpVariants}
           >
             <h2>
-              After completing AtiSunya&apos;s Microsoft Certified Trainer
+              After completing Infomeya&apos;s Microsoft Certified Trainer
               Readiness course, participants will be able to:
             </h2>
             <ul className="mctrt-check-list">
@@ -412,7 +412,7 @@ export default function MicrosoftCertifiedTrainerReadinessTraining() {
             viewport={viewport}
             variants={fadeUpVariants}
           >
-            <h2>Why opt AtiSunya for MCT Readiness Certification (MCTRC)?</h2>
+            <h2>Why opt Infomeya for MCT Readiness Certification (MCTRC)?</h2>
           </motion.div>
 
           <motion.div
@@ -422,7 +422,7 @@ export default function MicrosoftCertifiedTrainerReadinessTraining() {
             viewport={viewport}
             variants={staggerVariants}
           >
-            {whyAtiSunyaPoints.map((item) => (
+            {whyInfomeyaPoints.map((item) => (
               <motion.div
                 key={item}
                 className="mctrt-why-row"
@@ -484,7 +484,7 @@ export default function MicrosoftCertifiedTrainerReadinessTraining() {
               <span>MCT Readiness Course Outline</span>
               <h2>Sharpen your delivery. Strengthen your trainer profile.</h2>
               <p>
-                Begin your MCT readiness journey with AtiSunya&apos;s practical,
+                Begin your MCT readiness journey with Infomeya&apos;s practical,
                 instructor-led training experience.
               </p>
             </div>

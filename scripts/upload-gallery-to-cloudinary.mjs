@@ -3,7 +3,7 @@ import { createHash } from 'node:crypto';
 import { basename, extname, relative, resolve, sep } from 'node:path';
 
 const envPath = process.argv[2] || 'backend/.env';
-const cloudinaryFolder = process.argv[3] || 'aspl/assets/img';
+const cloudinaryFolder = process.argv[3] || 'infomeya/assets/img';
 const sourceFolder = process.argv[4] || 'public/assets/img';
 const allowedExtensions = new Set(['.jpg', '.jpeg', '.png', '.webp', '.avif', '.svg']);
 

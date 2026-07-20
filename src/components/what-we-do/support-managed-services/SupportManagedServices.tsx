@@ -3,18 +3,18 @@ import WhatWeDoServiceLayout from '../shared/WhatWeDoServiceLayout';
 
 const pageConfig: ServicePageConfig = {
   title: 'Support & Managed Services',
-  subtitle: 'Ongoing support that protects uptime and user confidence',
+  subtitle: 'Managed support that keeps business systems dependable',
   category: 'service',
-  focus: 'application support, monitoring, optimization, and governance',
+  focus: 'application support, monitoring, issue resolution, enhancements, and service governance',
   summary:
-    'Extend your team with dependable support services that improve system reliability, reduce business disruption, and keep change under control.',
-  image: '/assets/img/service/Support-management.png',
+    'Keep platforms stable and useful with managed services that combine responsive support, proactive checks, continuous improvements, and clear ownership.',
+  image: '/assets/img/service/whychoose.png',
   highlights: [
-    'L1 to L3 support coverage',
-    'Monitoring and issue management',
-    'Enhancement and release support',
-    'Operational governance and reporting',
-  ],
+    'Service desk and incident management',
+    'Environment health monitoring and maintenance',
+    'Enhancement backlog and release planning',
+    'SLA reporting and governance reviews'
+  ]
 };
 
 export { pageConfig };

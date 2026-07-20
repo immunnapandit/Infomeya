@@ -3,18 +3,18 @@ import WhatWeDoServiceLayout from '../shared/WhatWeDoServiceLayout';
 
 const pageConfig: ServicePageConfig = {
   title: 'App Development',
-  subtitle: 'Business applications designed around real operational needs',
+  subtitle: 'Custom applications built for real workflows',
   category: 'service',
-  focus: 'custom apps, workflow support, and user-focused digital tools',
+  focus: 'business apps, portals, workflow tools, integrations, and user experience',
   summary:
-    'Create business applications that streamline operations, improve usability, and connect data across teams and systems.',
-  image: '/assets/img/service/App-development.png',
+    'Design and build applications that simplify work, connect systems, improve usability, and give teams digital tools that match how the business actually operates.',
+  image: '/assets/img/service/webdevelopment.svg',
   highlights: [
-    'Solution discovery and UX planning',
-    'Custom app design and development',
-    'Integration and workflow support',
-    'Release management and enhancement',
-  ],
+    'Discovery, UX flows, and solution blueprinting',
+    'Custom web and business app development',
+    'API, data, and workflow integrations',
+    'Release support and product enhancements'
+  ]
 };
 
 export { pageConfig };

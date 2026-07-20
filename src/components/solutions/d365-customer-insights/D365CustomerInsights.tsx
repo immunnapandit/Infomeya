@@ -3,17 +3,17 @@ import WhatWeDoServiceLayout from '../../what-we-do/shared/WhatWeDoServiceLayout
 
 const pageConfig: ServicePageConfig = {
   title: 'Dynamics 365 Customer Insights',
-  subtitle: 'Customer intelligence for data-driven engagement',
+  subtitle: 'Customer data unified into meaningful engagement insight',
   category: 'solution',
-  focus: 'customer data unification, segmentation, and insights',
+  focus: 'customer profiles, segmentation, journey intelligence, analytics, and activation',
   summary:
-    'Turn fragmented customer data into actionable insight so teams can personalize journeys, identify opportunities, and improve retention.',
-  image: '/assets/img/service/MicrosoftD365.jpg',
+    'Use Dynamics 365 Customer Insights to combine customer data, understand behavior, segment audiences, and support more relevant engagement decisions.',
+  image: '/assets/img/service/AI1.jpg',
   highlights: [
-    'Customer data consolidation strategy',
+    'Customer data unification and profile strategy',
     'Segmentation and audience intelligence',
-    'Engagement analytics and activation',
-    'Connected insights across teams'
+    'Journey insights and activation support',
+    'Governance, analytics, and improvement planning'
   ]
 };
 

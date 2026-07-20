@@ -97,8 +97,8 @@ type SettingsApiResponse = {
 
 type AdminView = 'dashboard' | 'jobs' | 'add-job' | 'applications' | 'settings';
 
-const STORAGE_KEY = 'aspl-careers-admin-token';
-const SIDEBAR_STORAGE_KEY = 'aspl-careers-cms-sidebar-hidden';
+const STORAGE_KEY = 'infomeya-careers-admin-token';
+const SIDEBAR_STORAGE_KEY = 'infomeya-careers-cms-sidebar-hidden';
 const adminSearchParams = new URLSearchParams(window.location.search);
 const initialAdminView = adminSearchParams.get('view');
 const initialEditWindowJobId = adminSearchParams.get('edit');
@@ -120,11 +120,11 @@ const initialForm: AdminCareerForm = {
 
 const initialSettings: CareersSettingsForm = {
   careersPageTitle: 'Careers',
-  careersPageSubtitle: 'Build your future with ASPL',
+  careersPageSubtitle: 'Build your future with Infomeya',
   generalCtaTitle: 'Send Us Your Resume',
   generalCtaDescription:
     'Share your profile with us and tell us what kind of role you are looking for. If a matching opportunity opens up, our team will get in touch.',
-  notificationEmail: 'hr@atisunya.co',
+  notificationEmail: 'hr@infomeya.com',
 };
 
 const applicationStatuses: CareerApplicationStatus[] = [
@@ -1404,9 +1404,9 @@ export default function CareersAdmin() {
                     <ShieldCheck size={18} />
                     Secure careers admin
                   </span>
-                  <h2>ASPL Careers Content Management</h2>
+                  <h2>Infomeya Careers Content Management</h2>
                   <p>
-                    Keep ASPL hiring information accurate from one secure workspace.
+                    Keep Infomeya hiring information accurate from one secure workspace.
                     Update job openings, review candidate submissions, and control
                     careers page messaging with a clean publishing flow.
                   </p>
@@ -1444,7 +1444,7 @@ export default function CareersAdmin() {
             <div className={`tv-blog-cms-studio tv-careers-cms-studio ${isSidebarHidden ? 'is-sidebar-hidden' : ''}`}>
               <aside className="tv-blog-cms-sidebar">
                 <div className="tv-blog-cms-sidebar__brand">
-                  <img src="/assets/img/logo/AtiSunyaLogo.png" alt="AtiSunya" />
+                  <img src="/assets/img/logo/InfomeyaLogo.jpeg" alt="Infomeya" />
                   <button
                     type="button"
                     className="tv-blog-cms-sidebar__toggle"

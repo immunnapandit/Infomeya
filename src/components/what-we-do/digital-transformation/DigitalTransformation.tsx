@@ -3,18 +3,18 @@ import WhatWeDoServiceLayout from '../shared/WhatWeDoServiceLayout';
 
 const pageConfig: ServicePageConfig = {
   title: 'Digital Transformation',
-  subtitle: 'Practical transformation programs with business-first execution',
+  subtitle: 'Digital change programs with practical business momentum',
   category: 'service',
-  focus: 'modernization, process redesign, and change enablement',
+  focus: 'modernization roadmaps, process redesign, automation, data readiness, and change adoption',
   summary:
-    'Transform business operations with a realistic roadmap that connects technology change, process redesign, and user adoption.',
-  image: '/assets/img/service/Digital-transformation.png',
+    'Move from scattered digital initiatives to a focused transformation roadmap that connects technology choices with measurable process and adoption outcomes.',
+  image: '/assets/img/service/ArtificalIntelligence.png',
   highlights: [
-    'Transformation roadmap creation',
-    'Process redesign and prioritization',
-    'Technology and data modernization',
-    'Change leadership and adoption',
-  ],
+    'Transformation roadmap and priority planning',
+    'Process redesign and automation opportunities',
+    'Cloud, data, and platform modernization',
+    'Change enablement and adoption tracking'
+  ]
 };
 
 export { pageConfig };

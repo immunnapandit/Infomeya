@@ -3,17 +3,17 @@ import WhatWeDoServiceLayout from '../../what-we-do/shared/WhatWeDoServiceLayout
 
 const pageConfig: ServicePageConfig = {
   title: 'Dynamics 365 Marketing',
-  subtitle: 'Journey orchestration and measurable campaign execution',
+  subtitle: 'Marketing journeys connected to customer intent',
   category: 'solution',
-  focus: 'campaigns, nurture journeys, and marketing performance',
+  focus: 'campaign planning, customer journeys, segmentation, automation, and performance insight',
   summary:
-    'Design and optimize marketing journeys that connect data, automation, campaign planning, and measurable customer engagement.',
-  image: '/assets/img/service/service-thumb-1.png',
+    'Plan and run marketing programs that connect audience data, automated journeys, campaign execution, and reporting for stronger customer engagement.',
+  image: '/assets/img/service/Digital-transformation.png',
   highlights: [
-    'Journey design and campaign workflows',
-    'Lead nurturing and marketing automation',
-    'Sales and marketing handoff alignment',
-    'Performance measurement and refinement'
+    'Campaign and journey design',
+    'Audience segmentation and targeting',
+    'Marketing automation and lead nurturing',
+    'Performance reporting and optimization'
   ]
 };
 

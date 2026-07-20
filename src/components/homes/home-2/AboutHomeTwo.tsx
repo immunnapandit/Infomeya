@@ -16,10 +16,10 @@ export default function AboutHomeTwo() {
                   About Us
                 </span>
                 <h4 className="tv-section-title tv-spltv-text tv-spltv-in-right">
-                  AtiSunya - Your Ideas, Our Execution
+                  Infomeya - Your Ideas, Our Execution
                 </h4>
                 <p>
-                  At AtiSunya, we bring your ideas to life through a complete
+                  At Infomeya, we bring your ideas to life through a complete
                   end-to-end approach. From initial concept and planning to
                   development, deployment, and ongoing support, we manage every
                   stage with precision and care. Our focus is on delivering

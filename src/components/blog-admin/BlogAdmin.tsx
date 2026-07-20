@@ -95,8 +95,8 @@ type EditorState = {
   link: boolean;
 };
 
-const STORAGE_KEY = 'aspl-blog-admin-token';
-const SIDEBAR_STORAGE_KEY = 'aspl-blog-cms-sidebar-hidden';
+const STORAGE_KEY = 'infomeya-blog-admin-token';
+const SIDEBAR_STORAGE_KEY = 'infomeya-blog-cms-sidebar-hidden';
 const defaultEditorState: EditorState = {
   block: 'P',
   bold: false,
@@ -1000,7 +1000,7 @@ export default function BlogAdmin() {
   };
 
   const openDraftPreview = () => {
-    const previewKey = `aspl-blog-preview-${Date.now()}`;
+    const previewKey = `infomeya-blog-preview-${Date.now()}`;
     const previewPost = {
       id: selectedPostId || 'draft-preview',
       slug: formState.slug || slugify(formState.title) || 'draft-preview',
@@ -1268,7 +1268,7 @@ export default function BlogAdmin() {
               name="authorName"
               value={formState.authorName}
               onChange={handleInputChange}
-              placeholder="example: ASPL Team"
+              placeholder="example: Infomeya Team"
               required
             />
             <span className="tv-blog-field-help">Enter the writer or team name shown with this post.</span>
@@ -1621,9 +1621,9 @@ export default function BlogAdmin() {
                     <ShieldCheck size={18} />
                     Secure blog admin
                   </span>
-                  <h2>ASPL Blog Content Management</h2>
+                  <h2>Infomeya Blog Content Management</h2>
                   <p>
-                    Manage ASPL insights from a focused editorial workspace. Draft,
+                    Manage Infomeya insights from a focused editorial workspace. Draft,
                     optimize, upload media, and publish articles to the public blog
                     with consistent structure and SEO-ready details.
                   </p>
@@ -1653,7 +1653,7 @@ export default function BlogAdmin() {
             <div className={`tv-blog-cms-studio ${isSidebarHidden ? 'is-sidebar-hidden' : ''}`}>
               <aside className="tv-blog-cms-sidebar">
                 <div className="tv-blog-cms-sidebar__brand">
-                  <img src="/assets/img/logo/AtiSunyaLogo.png" alt="AtiSunya" />
+                  <img src="/assets/img/logo/InfomeyaLogo.jpeg" alt="Infomeya" />
                   <button
                     type="button"
                     className="tv-blog-cms-sidebar__toggle"

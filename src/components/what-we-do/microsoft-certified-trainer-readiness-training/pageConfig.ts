@@ -2,20 +2,18 @@ import type { ServicePageConfig } from '../../../data/service-page-types';
 
 const pageConfig: ServicePageConfig = {
   title: 'Microsoft Certified Trainer Readiness Training',
-  subtitle:
-    'Course overview, trainer preparation, eligibility guidance, and global batches',
+  subtitle: 'MCT readiness training with practical coaching and review',
   category: 'service',
-  focus:
-    'instructional skills development, Microsoft certification readiness, and trainer confidence',
+  focus: 'trainer readiness, presentation practice, certification preparation, and instructor confidence',
   summary:
-    "AtiSunya's Microsoft Certified Trainer Readiness Training helps certified professionals refine their teaching approach, practice technical delivery, and move forward with clearer MCT application readiness.",
-  image: '/assets/img/service/BannerImage_AtiSunya.jpg',
+    'Prepare aspiring trainers with structured coaching, delivery practice, feedback, and Microsoft learning guidance designed to build classroom confidence.',
+  image: '/assets/img/service/Training.png',
   highlights: [
-    'Guided trainer readiness sessions',
-    'Practical teach-back evaluation support',
-    'Microsoft certification pathway guidance',
-    'Readiness certificate assistance',
-  ],
+    'Trainer readiness assessment',
+    'Presentation coaching and delivery practice',
+    'Microsoft learning path and certification guidance',
+    'Feedback-led improvement and final preparation'
+  ]
 };
 
 export default pageConfig;

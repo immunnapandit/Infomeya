@@ -3,18 +3,18 @@ import WhatWeDoServiceLayout from '../shared/WhatWeDoServiceLayout';
 
 const pageConfig: ServicePageConfig = {
   title: 'BI & Analytics',
-  subtitle: 'Reporting, dashboards, and insight that drive action',
+  subtitle: 'Insight systems that turn business data into action',
   category: 'service',
-  focus: 'business reporting, data visibility, and decision intelligence',
+  focus: 'KPI planning, data models, dashboards, governance, and decision intelligence',
   summary:
-    'Build reporting ecosystems that make it easier to track performance, identify trends, and support timely business decisions.',
-  image: '/assets/img/service/analytics.png',
+    'Build analytics foundations that help leaders track performance, spot exceptions, compare trends, and act with confidence across departments and business systems.',
+  image: '/assets/img/service/power-bi-icon.svg',
   highlights: [
-    'KPI and reporting framework design',
-    'Dashboard and analytics delivery',
-    'Data modeling and quality alignment',
-    'Decision-ready business insight',
-  ],
+    'KPI framework and metric ownership',
+    'Power BI dashboards and analytics delivery',
+    'Trusted data models and quality checks',
+    'Governed reporting for faster decisions'
+  ]
 };
 
 export { pageConfig };

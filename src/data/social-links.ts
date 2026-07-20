@@ -1,5 +1,5 @@
 export const socialLinks = {
-  facebook: 'https://www.facebook.com/AtiSunya.co/',
-  instagram: 'https://www.instagram.com/atisunyaerpai/',
-  linkedin: 'https://www.linkedin.com/company/atisunyaprivatelimited/',
+  facebook: 'https://www.facebook.com/Infomeya.co/',
+  instagram: 'https://www.instagram.com/infomeyaerpai/',
+  linkedin: 'https://www.linkedin.com/company/infomeyaprivatelimited/',
 } as const;

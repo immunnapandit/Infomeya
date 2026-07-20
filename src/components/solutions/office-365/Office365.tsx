@@ -3,17 +3,17 @@ import WhatWeDoServiceLayout from '../../what-we-do/shared/WhatWeDoServiceLayout
 
 const pageConfig: ServicePageConfig = {
   title: 'Office 365',
-  subtitle: 'Productivity, collaboration, and secure workplace modernization',
+  subtitle: 'Secure productivity and collaboration for modern teams',
   category: 'solution',
-  focus: 'mail migration, collaboration tools, identity, security, and user adoption',
+  focus: 'Microsoft 365 migration, Teams, SharePoint, OneDrive, identity, security, and adoption',
   summary:
-    'Modernize communication and teamwork with Office 365 services that improve collaboration, simplify administration, and support secure hybrid work.',
-  image: '/assets/img/service/Microsoft.svg',
+    'Modernize workplace communication with Microsoft 365 services that improve collaboration, simplify administration, strengthen security, and support hybrid work.',
+  image: '/assets/img/service/Office365.png',
   highlights: [
-    'Exchange Online and email migration planning',
-    'Microsoft Teams, SharePoint, and OneDrive rollout',
+    'Exchange Online and mailbox migration planning',
+    'Teams, SharePoint, and OneDrive rollout',
     'Identity, access, and security configuration',
-    'User enablement, governance, and adoption support'
+    'Governance, training, and adoption support'
   ]
 };
 

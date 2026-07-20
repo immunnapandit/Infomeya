@@ -21,7 +21,7 @@ export default function OffCanvasArea({
           </div>
           <div className="itoffcanvas__logo">
             <Link to="/">
-              <img src="../../assets/img/logo/AtiSunyaLogo.png" alt="" />
+              <img src="../../assets/img/logo/InfomeyaLogo.jpeg" alt="" />
             </Link>
           </div>
           <div className="itoffcanvas__text">
@@ -44,7 +44,7 @@ export default function OffCanvasArea({
               </div>
               <div className="itoffcanvas__info-address">
                 <span>Email</span>
-                <a href="mailto:info@atisunya.co">info@atisunya.co</a>
+                <a href="mailto:info@infomeya.com">info@infomeya.com</a>
               </div>
             </div>
             <div className="tv-info-wrapper mb-20 d-flex align-items-center">
@@ -68,7 +68,7 @@ export default function OffCanvasArea({
               <div className="itoffcanvas__info-address">
                 <span>Location</span>
                 <a
-                  href="https://www.google.com/maps/dir//AtiSunya+Private+Limited,+LOGIX+TECHNOVA,+A522,+Block+B,+Sector+132,+Noida,+Uttar+Pradesh+201304/@28.5134549,77.3898596,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x390ce928dd54fc73:0x531361528b9b0680!2m2!1d77.3793737!2d28.5085151?entry=ttu&g_ep=EgoyMDI2MDQyMC4wIKXMDSoASAFQAw%3D%3D"
+                  href="https://www.google.com/maps/dir//Infomeya+Private+Limited,+LOGIX+TECHNOVA,+A522,+Block+B,+Sector+132,+Noida,+Uttar+Pradesh+201304/@28.5134549,77.3898596,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x390ce928dd54fc73:0x531361528b9b0680!2m2!1d77.3793737!2d28.5085151?entry=ttu&g_ep=EgoyMDI2MDQyMC4wIKXMDSoASAFQAw%3D%3D"
                   target="_blank"
                 >
                   A-522, Tower-A, Logix Technova, Sec-132, Noida{' '}

@@ -8,7 +8,7 @@ const globalLocations = [
     phone: '(+91) 82-9915-6511, (+91) 80-8181-0673',
     thumbClassName: 'is-ahmedabad',
     thumbSrc: '/assets/img/slider/India.jpg',
-    mapSrc: 'https://www.google.com/maps?q=AtiSunya%20Private%20Limited%2C%20LOGIX%20TECHNOVA%2C%20A522%2C%20Block%20B%2C%20Sector%20132%2C%20Noida%2C%20Uttar%20Pradesh%20201304&z=17&output=embed',
+    mapSrc: 'https://www.google.com/maps?q=Infomeya%20Private%20Limited%2C%20LOGIX%20TECHNOVA%2C%20A522%2C%20Block%20B%2C%20Sector%20132%2C%20Noida%2C%20Uttar%20Pradesh%20201304&z=17&output=embed',
     mapCountry: 'India',
     mapLabel: 'Noida',
     flagSrc: 'https://flagcdn.com/w160/in.png',

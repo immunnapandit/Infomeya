@@ -3,17 +3,17 @@ import WhatWeDoServiceLayout from '../../what-we-do/shared/WhatWeDoServiceLayout
 
 const pageConfig: ServicePageConfig = {
   title: 'Dynamics 365 Commerce',
-  subtitle: 'Unified retail experiences across channels',
+  subtitle: 'Commerce operations built for connected customer experiences',
   category: 'solution',
-  focus: 'store operations, digital commerce, and customer experience',
+  focus: 'retail operations, POS, inventory, customer journeys, order management, and analytics',
   summary:
-    'Create consistent retail journeys across stores, ecommerce, fulfillment, and loyalty programs using a single commerce foundation.',
-  image: '/assets/img/service/service-thumb-2.png',
+    'Support modern commerce with connected retail processes that align stores, online channels, inventory, promotions, customer data, and operational reporting.',
+  image: '/assets/img/service/warehouse.jpg',
   highlights: [
     'Omnichannel retail process design',
-    'POS, ecommerce, and fulfillment alignment',
-    'Customer experience and loyalty enablement',
-    'Merchandising and pricing support'
+    'POS, inventory, and order flow enablement',
+    'Customer engagement and promotion support',
+    'Store operations reporting and optimization'
   ]
 };
 

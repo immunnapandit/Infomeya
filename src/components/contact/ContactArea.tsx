@@ -89,7 +89,7 @@ export default function ContactArea() {
                       Let's talk about your next Microsoft-led transformation
                     </h4>
                     <p>
-                      AtiSunya helps businesses modernize operations with
+                      Infomeya helps businesses modernize operations with
                       Microsoft Dynamics 365, Azure cloud, Power Platform, AI
                       solutions, training, and managed support. Share your
                       requirement and our team will connect with the right next
@@ -213,7 +213,7 @@ export default function ContactArea() {
                     <div className="content">
                       <h4>Consulting, delivery, and support</h4>
                       <p>
-                        Engage AtiSunya for advisory, implementation,
+                        Engage Infomeya for advisory, implementation,
                         optimization, user enablement, and long-term managed
                         services across Microsoft platforms.
                       </p>
