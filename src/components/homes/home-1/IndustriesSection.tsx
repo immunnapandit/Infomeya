@@ -34,12 +34,12 @@ export default function IndustriesSection() {
           </span>
 
           <h2 className="industries-title tv-section-title tv-spltv-text tv-spltv-in-right">
-            Explore Industries
+            Industries We Help Digitize
           </h2>
 
           <p className="industries-description">
-            Our cutting-edge technology and business solutions cater to diverse
-            industries.
+            Infomeya creates practical digital systems for teams with complex
+            operations, fast-moving data, and industry-specific workflows.
           </p>
         </motion.div>
 

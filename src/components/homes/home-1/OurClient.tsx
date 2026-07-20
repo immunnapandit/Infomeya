@@ -201,10 +201,12 @@ export default function OurClient() {
                     Our Clients
                   </span>
                   <h4 className="tv-section-title tv-spltv-text tv-spltv-in-right">
-                    Trusted by brands across industries.
+                    Trusted by teams across industries.
                   </h4>
                   <p>
                     From manufacturing and banking to education, retail, and
+                    enterprise technology, organizations work with Infomeya to
+                    modernize systems, improve visibility, and deliver with clarity.
                     enterprise technology, our clients rely on Infomeya for
                     transformation and delivery.
                   </p>
