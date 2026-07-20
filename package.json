@@ -1,0 +1,53 @@
+{
+  "name": "aspl",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/start-dev.mjs",
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "backend": "node backend/server.js",
+    "backend:dev": "node --watch backend/server.js",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1",
+    "@vercel/speed-insights": "^2.0.0",
+    "cloudinary": "^2.9.0",
+    "framer-motion": "^12.35.2",
+    "gsap": "^3.14.2",
+    "lucide-react": "^0.577.0",
+    "mongodb": "^6.21.0",
+    "nodemailer": "^8.0.7",
+    "react": "^19.2.0",
+    "react-countup": "^6.5.3",
+    "react-dom": "^19.2.0",
+    "react-icons": "^5.6.0",
+    "react-intersection-observer": "^10.0.0",
+    "react-responsive-modal": "^7.1.0",
+    "react-router-dom": "^7.10.1",
+    "sass": "^1.96.0",
+    "swiper": "^12.0.3",
+    "yet-another-react-lightbox": "^3.27.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.5",
+    "@types/react-dom": "^19.2.3",
+    "@types/swiper": "^5.4.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "eslint": "^9.39.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "prettier": "^3.8.1",
+    "sass-embedded": "^1.96.0",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.46.4",
+    "vite": "^7.2.4"
+  }
+}
