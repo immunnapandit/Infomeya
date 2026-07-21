@@ -18,13 +18,13 @@ export default function AboutHomeTwo() {
                 <h4 className="tv-section-title tv-spltv-text tv-spltv-in-right">
                   Infomeya - Practical Technology for Growing Businesses
                 </h4>
-                <p>
+                {/* <p>
                   Infomeya helps organizations turn business needs into dependable
                   digital systems. From discovery and solution design to
                   implementation, training, and support, we focus on technology that
                   improves daily work and creates long-term value.
                   Infomeya - Your Ideas, Our Execution
-                </h4>
+                </p> */}
                 <p>
                   At Infomeya, we bring your ideas to life through a complete
                   end-to-end approach. From initial concept and planning to

@@ -149,15 +149,15 @@ export default function FooterOne() {
                   </div>
                   <div className="tv-footer-widget-contact-info">
                     <ul>
-                      <li>
+                      {/* <li>
                         <a href="">
                           <i className="fa-solid fa-phone"></i>(+91)-80-8181-0673, (+91)-82-9915-6511
                         </a>
-                      </li>
+                      </li> */}
                       <li>
-                        <a href="mailto:info@infomeya.com">
+                        <a href="mailto:ramprasad.mani@infomeya.com">
                           <i className="fa-solid fa-envelope"></i>
-                          info@infomeya.com
+                          ramprasad.mani@infomeya.com
                         </a>
                       </li>
                     </ul>
