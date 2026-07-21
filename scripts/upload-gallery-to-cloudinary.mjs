@@ -117,11 +117,12 @@ for (const path of images) {
   const result = await response.json().catch(() => null);
 
   if (!response.ok || !result?.secure_url) {
-    throw new Error(
-      `Cloudinary upload failed for ${path}: ${
+    console.error(
+      `SKIPPED: Cloudinary upload failed for ${path}: ${
         result?.error?.message || response.statusText
       }`
     );
+    continue;
   }
 
   console.log(`${result.public_id} -> ${result.secure_url}`);
