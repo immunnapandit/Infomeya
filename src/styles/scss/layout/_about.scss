@@ -52,105 +52,39 @@
     @media #{$sm} {
       margin-top: 30px;
     }
-    .thumb {
-      margin-left: 30px;
-      @media #{$md} {
-        margin-left: 0;
-      }
-      @media #{$xs} {
-        margin-left: 0;
-      }
-      @media #{$sm} {
-        margin-left: 0;
-      }
-    }
-    .shap {
-      position: absolute;
-      left: 0;
-      top: 0;
-      @media #{$xxl} {
-      }
-      @media #{$xl} {
-      }
-      @media #{$lg} {
-        display: none;
-      }
-      @media #{$md} {
-        width: 70px;
-      }
-      @media #{$xs} {
-        display: none;
-      }
-      @media #{$sm} {
-        display: none;
-      }
-    }
-    .abs {
-      position: absolute;
-      right: 0;
-      bottom: -130px;
-      @media #{$xxl} {
-      }
-      @media #{$xl} {
-        max-width: 180px;
-        bottom: -100px;
-      }
-      @media #{$lg} {
-        display: none;
-      }
-      @media #{$md} {
-        bottom: -80px;
-      }
-      @media #{$xs} {
-        display: none;
-      }
-      @media #{$sm} {
-        display: none;
-      }
-    }
-    .video-play {
-      position: absolute;
-      left: -15px;
-      bottom: -130px;
-      @media #{$xxl} {
-      }
-      @media #{$xl} {
-        bottom: -100px;
-      }
-      @media #{$lg} {
-        display: none;
-      }
-      @media #{$md} {
-        bottom: -80px;
-        left: 0;
-      }
-      @media #{$xs} {
-        position: relative;
-        bottom: 0;
-        margin-top: 30px;
-        width: 100%;
-        left: 0;
-      }
-      @media #{$sm} {
-        position: relative;
-        bottom: 0;
-        margin-top: 30px;
-        width: 100%;
-        left: 0;
-      }
-      .play-icon {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        background: var(--tv-theme-1);
-        height: 80px;
-        width: 80px;
-        line-height: 80px;
-        border-radius: 50%;
-        margin-left: -40px;
-        margin-top: -40px;
-      }
-    }
+  }
+}
+
+.about-home-two-visual {
+  display: flex;
+  justify-content: center;
+}
+
+.about-home-two-frame {
+  position: relative;
+  width: 100%;
+  max-width: 560px;
+  padding: 10px;
+  border-radius: calc(var(--tv-card-radius) + 10px);
+  background: linear-gradient(150deg, rgba(0, 104, 240, 0.22), rgba(0, 104, 240, 0));
+  box-shadow: var(--tv-card-shadow);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+
+  &:hover {
+    transform: translateY(var(--tv-card-lift));
+    box-shadow: var(--tv-card-shadow-hover);
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    border-radius: var(--tv-card-radius);
+  }
+
+  @media #{$xs, $sm} {
+    max-width: 420px;
   }
 }
 
@@ -163,16 +97,6 @@
 
   @media #{$sm, $xs} {
     padding-bottom: 60px;
-  }
-}
-
-.about-home-two-support-image {
-  @media #{$xs} {
-    display: none;
-  }
-
-  @media #{$sm} {
-    display: none;
   }
 }
 

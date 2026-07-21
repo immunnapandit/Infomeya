@@ -17,7 +17,7 @@ const services = [
     title: 'Microsoft Dynamics 365',
     desc: 'ERP and CRM consulting to connect departments, strengthen controls, and make business information easier to act on.',
     img: '/assets/img/service/Dynamics365.svg',
-    accent: '#2B4DFF',
+    accent: '#0068f0',
     href: '/solutions/microsoft-dynamics-365',
   },
   {

@@ -72,16 +72,16 @@
   height: 100%;
   min-height: 420px;
   background: var(--tv-common-white);
-  border: 1px solid rgba(18, 32, 74, 0.08);
-  border-radius: 10px;
+  border: 1px solid rgba(18, 32, 74, 0.06);
+  border-radius: var(--tv-card-radius);
   overflow: hidden;
-  box-shadow: 0 14px 36px rgba(18, 32, 74, 0.06);
+  box-shadow: var(--tv-card-shadow);
   transition: transform 0.35s ease, box-shadow 0.35s ease;
 }
 
 .training-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 24px 54px rgba(18, 32, 74, 0.11);
+  transform: translateY(var(--tv-card-lift));
+  box-shadow: var(--tv-card-shadow-hover);
 }
 
 .training-card-image {
@@ -166,21 +166,23 @@
 }
 
 .training-nav-btn {
-  width: 44px;
-  height: 44px;
+  width: 48px;
+  height: 48px;
   border: 0;
   border-radius: 50%;
-  background: #202020;
+  background: var(--tv-heading-primary);
   color: #fff;
+  box-shadow: 0 12px 26px rgba(16, 34, 63, 0.14);
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  transition: transform 0.3s ease, background-color 0.3s ease, opacity 0.3s ease;
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease;
 }
 
 .training-nav-btn:hover {
   transform: translateY(-2px);
   background: var(--tv-theme-1);
+  box-shadow: 0 16px 32px rgba(0, 104, 240, 0.24);
 }
 
 .training-nav-btn.swiper-button-disabled {

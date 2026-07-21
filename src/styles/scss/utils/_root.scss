@@ -13,4 +13,11 @@
       --tv-#{$color}-#{$shade}: #{$value};
     }
   }
+
+  // Shared "premium card" language reused across homepage sections
+  --tv-card-radius: 24px;
+  --tv-card-radius-sm: 16px;
+  --tv-card-shadow: 0 20px 45px rgba(16, 34, 63, 0.08);
+  --tv-card-shadow-hover: 0 26px 55px rgba(0, 104, 240, 0.16);
+  --tv-card-lift: -8px;
 }

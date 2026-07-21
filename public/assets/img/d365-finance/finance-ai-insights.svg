@@ -3,9 +3,9 @@
   <g opacity=".45">
     <path d="M110 168H250M370 168H510M110 260H250M370 260H510M110 352H250M370 352H510" stroke="#CFE0FF" stroke-width="3"/>
     <path d="M250 104V416M310 104V416M370 104V416" stroke="#CFE0FF" stroke-width="3"/>
-    <circle cx="110" cy="168" r="5" fill="#2B4DFF"/>
-    <circle cx="510" cy="260" r="5" fill="#2B4DFF"/>
-    <circle cx="250" cy="416" r="5" fill="#2B4DFF"/>
+    <circle cx="110" cy="168" r="5" fill="#0068f0"/>
+    <circle cx="510" cy="260" r="5" fill="#0068f0"/>
+    <circle cx="250" cy="416" r="5" fill="#0068f0"/>
   </g>
   <g filter="url(#card)">
     <rect x="56" y="176" width="276" height="66" rx="12" fill="white"/>
@@ -25,14 +25,14 @@
   <defs>
     <linearGradient id="ai" x1="250" y1="230" x2="370" y2="350" gradientUnits="userSpaceOnUse">
       <stop stop-color="#0A165E"/>
-      <stop offset=".55" stop-color="#2B4DFF"/>
+      <stop offset=".55" stop-color="#0068f0"/>
       <stop offset="1" stop-color="#5AB8FF"/>
     </linearGradient>
     <filter id="card" x="30" y="150" width="570" height="286" filterUnits="userSpaceOnUse">
       <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0A165E" flood-opacity=".12"/>
     </filter>
     <filter id="glow" x="214" y="194" width="192" height="192" filterUnits="userSpaceOnUse">
-      <feDropShadow dx="0" dy="20" stdDeviation="18" flood-color="#2B4DFF" flood-opacity=".28"/>
+      <feDropShadow dx="0" dy="20" stdDeviation="18" flood-color="#0068f0" flood-opacity=".28"/>
     </filter>
   </defs>
 </svg>

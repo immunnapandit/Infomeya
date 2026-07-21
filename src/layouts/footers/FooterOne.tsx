@@ -136,12 +136,6 @@ export default function FooterOne() {
                       <img src="/assets/img/logo/InfomeyaLogo.jpeg" alt="" />
                     </Link>
                   </div>
-                  <div className="tv-footer-widget-partner-badge">
-                    <img
-                      src="/assets/img/footer/MicrosoftSilverPartner.png"
-                      alt="Microsoft Silver Partner"
-                    />
-                  </div>
                   <div className="tv-footer-widget-text">
                     <p>
                       Infomeya is a technology-driven company delivering smart digital solutions, including web development, CRM, ERP, and business automation to help businesses grow and scale efficiently.

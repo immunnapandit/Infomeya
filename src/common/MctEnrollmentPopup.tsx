@@ -55,7 +55,7 @@ export default function MctEnrollmentPopup() {
         whileHover={{
           y: -6,
           boxShadow:
-            '0 34px 90px rgba(10, 22, 94, 0.24), 0 0 0 1px rgba(43, 77, 255, 0.2)',
+            '0 34px 90px rgba(10, 22, 94, 0.24), 0 0 0 1px rgba(0, 104, 240, 0.2)',
         }}
         transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}
       >

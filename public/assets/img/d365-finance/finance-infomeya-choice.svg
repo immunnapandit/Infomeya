@@ -9,11 +9,11 @@
   <g filter="url(#logo)">
     <circle cx="354" cy="120" r="112" fill="#EDF3FB"/>
     <text x="280" y="158" fill="#0A165E" font-family="Outfit, Inter, Arial" font-size="130" font-weight="800">A.</text>
-    <rect x="414" y="144" width="42" height="42" fill="#2B4DFF"/>
+    <rect x="414" y="144" width="42" height="42" fill="#0068f0"/>
   </g>
   <g filter="url(#check)">
     <circle cx="458" cy="54" r="28" fill="white"/>
-    <path d="M446 53L455 62L471 43" stroke="#2B4DFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M446 53L455 62L471 43" stroke="#0068f0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
   <defs>
     <filter id="logo" x="218" y="-16" width="272" height="272" filterUnits="userSpaceOnUse">

@@ -61,7 +61,7 @@
   --tv-gray-2: #1D265D;
   --tv-yellow-color: #ECB014;
   --tv-text-body: #585B6F;
-  --tv-theme-1: #2B4DFF;
+  --tv-theme-1: #0068f0;
 }
 
 @media (min-width: 1400px) {
@@ -6647,7 +6647,7 @@ body .ui-tooltip {
   height: 100%;
   content: "";
   z-index: -1;
-  background-image: url("data:image/svg+xml,%3Csvg width='384' height='100' viewBox='0 0 384 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M324.5 51.2295C313.7 90.2459 287.333 100 275.5 100H0V0H384C368.667 0.819672 335.3 12.2131 324.5 51.2295Z' fill='%232B4DFF'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg width='384' height='100' viewBox='0 0 384 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M324.5 51.2295C313.7 90.2459 287.333 100 275.5 100H0V0H384C368.667 0.819672 335.3 12.2131 324.5 51.2295Z' fill='%230068f0'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
 }
 @media only screen and (min-width: 1600px) and (max-width: 1800px) {
@@ -8946,7 +8946,7 @@ span.service-icon {
 }
 .tv-team-details .tv-team-single-content .tv-progress-wrap .tv-progress-bar-item .tv-progress-bar .progress {
   height: 10px;
-  background: rgba(43, 77, 255, 0.5);
+  background: rgba(0, 104, 240, 0.5);
   overflow: visible;
 }
 .tv-team-details .tv-team-single-content .tv-progress-wrap .tv-progress-bar-item .tv-progress-bar .progress .progress-bar {
@@ -10117,7 +10117,7 @@ img.shap-icon {
   left: 50%;
   bottom: -67%;
   width: 2px;
-  background: linear-gradient(to top, #2B4DFF, rgba(43, 77, 255, 0));
+  background: linear-gradient(to top, #0068f0, rgba(0, 104, 240, 0));
 }
 .hero-slider-wrap3 .tv-header-top-social-box:before {
   position: absolute;
@@ -10126,7 +10126,7 @@ img.shap-icon {
   left: 50%;
   top: -67%;
   width: 2px;
-  background: linear-gradient(to bottom, #2B4DFF, rgba(43, 77, 255, 0));
+  background: linear-gradient(to bottom, #0068f0, rgba(0, 104, 240, 0));
 }
 .hero-slider-wrap3 .tv-testi-arrow-box {
   position: absolute;
@@ -10177,7 +10177,7 @@ img.shap-icon {
   left: 50%;
   top: 118%;
   width: 1px;
-  background: linear-gradient(to bottom, #2B4DFF, rgba(255, 255, 255, 0));
+  background: linear-gradient(to bottom, #0068f0, rgba(255, 255, 255, 0));
 }
 
 /*----------------------------------------*/

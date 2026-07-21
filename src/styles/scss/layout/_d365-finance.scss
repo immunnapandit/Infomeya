@@ -6,7 +6,7 @@
   --d365-blue-soft: #eef3ff;
   --d365-accent: #1637d9;
   --d365-body: var(--tv-text-body);
-  --d365-line: rgba(43, 77, 255, 0.13);
+  --d365-line: rgba(0, 104, 240, 0.13);
   --d365-border: rgba(10, 22, 94, 0.09);
   --d365-shadow: 0 24px 60px rgba(10, 22, 94, 0.08);
 
@@ -42,7 +42,7 @@
   .tv-benefits-section,
   .tv-why-section {
     background:
-      radial-gradient(circle at 86% 12%, rgba(43, 77, 255, 0.06), transparent 32%),
+      radial-gradient(circle at 86% 12%, rgba(0, 104, 240, 0.06), transparent 32%),
       linear-gradient(180deg, #ffffff 0%, #f8faff 100%);
   }
 
@@ -163,7 +163,7 @@
     align-items: center;
     padding: 62px 0 66px;
     background:
-      radial-gradient(circle at 82% 20%, rgba(43, 77, 255, 0.08), transparent 34%),
+      radial-gradient(circle at 82% 20%, rgba(0, 104, 240, 0.08), transparent 34%),
       linear-gradient(180deg, #ffffff 0%, #fbfcff 100%);
 
     @media #{$md, $sm, $xs} {
@@ -320,12 +320,12 @@
       color: #697596;
       font-size: 17px;
       font-weight: 700;
-      border: 1px solid rgba(43, 77, 255, 0.08);
+      border: 1px solid rgba(0, 104, 240, 0.08);
       transition: transform 0.25s ease, border-color 0.25s ease, background-color 0.25s ease;
 
       &:hover {
         transform: translateX(4px);
-        border-color: rgba(43, 77, 255, 0.2);
+        border-color: rgba(0, 104, 240, 0.2);
         background: #f5f8ff;
       }
 
@@ -407,7 +407,7 @@
     height: 24px;
     border-radius: 50%;
     background: var(--d365-blue);
-    box-shadow: 0 0 0 10px rgba(43, 77, 255, 0.08);
+    box-shadow: 0 0 0 10px rgba(0, 104, 240, 0.08);
     animation: tvD365Float 4s ease-in-out infinite;
   }
 
@@ -429,8 +429,8 @@
     width: 220px;
     height: 210px;
     border-radius: 14px;
-    background: linear-gradient(145deg, #0a165e 0 34%, #2b4dff 34% 55%, #5ab8ff 55% 100%);
-    box-shadow: 0 30px 62px rgba(43, 77, 255, 0.2);
+    background: linear-gradient(145deg, #0a165e 0 34%, #0068f0 34% 55%, #5ab8ff 55% 100%);
+    box-shadow: 0 30px 62px rgba(0, 104, 240, 0.2);
     clip-path: polygon(0 52%, 68% 0, 100% 22%, 100% 82%, 82% 70%, 64% 83%, 0 100%);
     animation: tvD365Float 5.5s ease-in-out infinite;
 
@@ -460,7 +460,7 @@
     min-width: 260px;
     min-height: 78px;
     padding: 16px 28px;
-    border: 1px solid rgba(43, 77, 255, 0.18);
+    border: 1px solid rgba(0, 104, 240, 0.18);
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.82);
     color: var(--d365-navy);
@@ -525,7 +525,7 @@
     gap: 20px;
     min-height: 72px;
     padding: 18px 28px;
-    border: 1px solid rgba(43, 77, 255, 0.18);
+    border: 1px solid rgba(0, 104, 240, 0.18);
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.78);
     color: var(--d365-navy);
@@ -654,7 +654,7 @@
     z-index: 2;
     min-width: 265px;
     padding: 18px 20px;
-    border: 1px solid rgba(43, 77, 255, 0.18);
+    border: 1px solid rgba(0, 104, 240, 0.18);
     border-radius: 9px;
     background: rgba(255, 255, 255, 0.8);
     color: var(--d365-navy);
@@ -694,7 +694,7 @@
       padding: 14px;
       border-radius: 22px;
       color: #ffffff;
-      background: linear-gradient(135deg, #0a165e, #2b4dff 55%, #5ab8ff 100%);
+      background: linear-gradient(135deg, #0a165e, #0068f0 55%, #5ab8ff 100%);
       box-shadow: 0 18px 32px rgba(75, 74, 157, 0.2);
     }
   }
@@ -876,7 +876,7 @@
 
     &:hover {
       transform: translateY(-5px);
-      border-color: rgba(43, 77, 255, 0.2);
+      border-color: rgba(0, 104, 240, 0.2);
       box-shadow: 0 22px 48px rgba(10, 22, 94, 0.1);
     }
 
@@ -942,7 +942,7 @@
     left: 72px;
     right: 72px;
     height: 2px;
-    background: linear-gradient(90deg, rgba(43, 77, 255, 0.08), rgba(43, 77, 255, 0.48), rgba(43, 77, 255, 0.08));
+    background: linear-gradient(90deg, rgba(0, 104, 240, 0.08), rgba(0, 104, 240, 0.48), rgba(0, 104, 240, 0.08));
   }
 
   .tv-badge-card {
@@ -955,10 +955,10 @@
     justify-content: center;
     width: 190px;
     height: 188px;
-    border: 1px solid rgba(43, 77, 255, 0.18);
+    border: 1px solid rgba(0, 104, 240, 0.18);
     border-radius: 12px;
     background: rgba(255, 255, 255, 0.82);
-    box-shadow: 0 22px 45px rgba(43, 77, 255, 0.1);
+    box-shadow: 0 22px 45px rgba(0, 104, 240, 0.1);
     backdrop-filter: blur(9px);
 
     .tv-finance-logo-mark {
@@ -982,12 +982,12 @@
     color: #ffffff;
     font-size: 78px;
     font-weight: 400;
-    box-shadow: 0 20px 40px rgba(43, 77, 255, 0.18);
+    box-shadow: 0 20px 40px rgba(0, 104, 240, 0.18);
   }
 
   .tv-soft-plus {
     position: absolute;
-    color: rgba(43, 77, 255, 0.13);
+    color: rgba(0, 104, 240, 0.13);
     font-size: 58px;
     font-weight: 800;
   }
@@ -1029,7 +1029,7 @@
 
     &:hover {
       transform: translateY(-5px);
-      border-color: rgba(43, 77, 255, 0.22);
+      border-color: rgba(0, 104, 240, 0.22);
       box-shadow: 0 24px 52px rgba(10, 22, 94, 0.11);
     }
 
@@ -1182,7 +1182,7 @@
 
     &:hover {
       transform: translateY(-4px);
-      border-color: rgba(43, 77, 255, 0.2);
+      border-color: rgba(0, 104, 240, 0.2);
       box-shadow: 0 22px 48px rgba(10, 22, 94, 0.1);
     }
 

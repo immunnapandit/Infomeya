@@ -9,5 +9,5 @@
   <path d="M384 66L444 126" stroke="white" stroke-width="16"/>
   <path d="M436 18L492 18L492 74" fill="#DDE6FF"/>
   <path d="M430 32L478 80" stroke="#0A165E" stroke-width="12"/>
-  <circle cx="476" cy="86" r="8" fill="#2B4DFF"/>
+  <circle cx="476" cy="86" r="8" fill="#0068f0"/>
 </svg>

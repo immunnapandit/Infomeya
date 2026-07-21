@@ -446,7 +446,7 @@
       left: 50%;
       bottom: -67%;
       width: 2px;
-      background: linear-gradient(to top, #2b4dff, rgba(43, 77, 255, 0));
+      background: linear-gradient(to top, #0068f0, rgba(0, 104, 240, 0));
     }
     &:before {
       position: absolute;
@@ -455,7 +455,7 @@
       left: 50%;
       top: -67%;
       width: 2px;
-      background: linear-gradient(to bottom, #2b4dff, rgba(43, 77, 255, 0));
+      background: linear-gradient(to bottom, #0068f0, rgba(0, 104, 240, 0));
     }
   }
   .tv-testi-arrow-box {
@@ -509,5 +509,5 @@
   left: 50%;
   top: 118%;
   width: 1px;
-  background: linear-gradient(to bottom, #2b4dff, #ffffff00);
+  background: linear-gradient(to bottom, #0068f0, #ffffff00);
 }
