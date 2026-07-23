@@ -56,9 +56,9 @@ export default function FooterTwo() {
                       <li>
                         <Link to="/#services">Services</Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link to="/careers">Careers</Link>
-                      </li>
+                      </li> */}
                       <li>
                         <Link to="/blog">Blogs</Link>
                       </li>
