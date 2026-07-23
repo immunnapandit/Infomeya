@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { CONTACT_API_URL } from '../../config/api';
-import GlobalFootprints from '../shared/GlobalFootprints';
+// import GlobalFootprints from '../shared/GlobalFootprints';
 
 type ContactFormState = {
   fullName: string;
@@ -318,9 +318,9 @@ export default function ContactArea() {
         </div>
       </div>
 
-      <div className="container pb-130">
+      {/* <div className="container pb-130">
         <GlobalFootprints />
-      </div>
+      </div> */}
     </>
   );
 }

@@ -59,7 +59,7 @@ export default function OffCanvasArea({
                 </a>
               </div>
             </div> */}
-            {/* <div className="tv-info-wrapper mb-20 d-flex align-items-center">
+            <div className="tv-info-wrapper mb-20 d-flex align-items-center">
               <div className="itoffcanvas__info-icon">
                 <a href="#">
                   <i className="fas fa-map-marker-alt"></i>
@@ -68,13 +68,14 @@ export default function OffCanvasArea({
               <div className="itoffcanvas__info-address">
                 <span>Location</span>
                 <a
-                  href="https://www.google.com/maps/dir//Infomeya+Private+Limited,+LOGIX+TECHNOVA,+A522,+Block+B,+Sector+132,+Noida,+Uttar+Pradesh+201304/@28.5134549,77.3898596,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x390ce928dd54fc73:0x531361528b9b0680!2m2!1d77.3793737!2d28.5085151?entry=ttu&g_ep=EgoyMDI2MDQyMC4wIKXMDSoASAFQAw%3D%3D"
+                  href="https://www.google.com/maps/search/?api=1&query=1+Commonwealth+Lane+%2306-17+One+Commonwealth+Singapore+149544"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  A-522, Tower-A, Logix Technova, Sec-132, Noida{' '}
+                  1 Commonwealth Lane, #06-17, One Commonwealth, Singapore (149544)
                 </a>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>

@@ -31,6 +31,16 @@ export default function FooterTwo() {
                           ramprasad.mani@infomeya.com
                         </a>
                       </li>
+                      <li>
+                        <a
+                          href="https://www.google.com/maps/search/?api=1&query=1+Commonwealth+Lane+%2306-17+One+Commonwealth+Singapore+149544"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <i className="fa-solid fa-location-dot"></i>
+                          1 Commonwealth Lane, #06-17, One Commonwealth, Singapore (149544)
+                        </a>
+                      </li>
                     </ul>
                   </div>
                 </div>

@@ -121,14 +121,13 @@
     position: relative;
     z-index: 1;
 
-    .video-play {
-      position: absolute;
-      left: 28%;
-      margin-left: -40px;
+    .tv-cta2-image {
+      display: block;
+      width: 100%;
+      aspect-ratio: 945 / 571;
+      object-fit: cover;
+      border-radius: 20px;
       @media #{$md, $sm, $xs} {
-        position: relative;
-        left: 50%;
-        margin-left: -20px;
         margin-bottom: 30px;
       }
     }

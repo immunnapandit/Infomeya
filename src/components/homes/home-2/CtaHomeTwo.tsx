@@ -11,7 +11,7 @@ export default function CtaHomeTwo() {
               <div className="tv-cta2-left">
                 <img
                   className="tv-cta2-image"
-                  src="/assets/img/about/about3.jpg"
+                  src="/assets/img/contact/cta-bg-2-1.png"
                   alt=""
                 />
               </div>

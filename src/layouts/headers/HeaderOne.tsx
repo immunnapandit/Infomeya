@@ -41,7 +41,7 @@ export default function HeaderOne() {
                         <a href="mailto:ramprasad.mani@infomeya.com">ramprasad.mani@infomeya.com</a>
                       </span>
                     </li>
-                    {/* <li className="d-none d-xxl-inline-block">
+                    <li className="d-none d-xxl-inline-block">
                       <span
                         className="d-inline-flex align-items-center flex-nowrap"
                         style={{ whiteSpace: 'nowrap' }}
@@ -49,13 +49,14 @@ export default function HeaderOne() {
                         <i className="fa-solid fa-location-dot"></i>
                         <a
                           target="_blank"
-                          href="https://www.google.com/maps/@23.843848,90.3081992,17.5z?entry=ttu&amp;g_ep=EgoyMDI1MDEwMS4wIKXMDSoASAFQAw%3D%3D"
+                          rel="noopener noreferrer"
+                          href="https://www.google.com/maps/search/?api=1&query=1+Commonwealth+Lane+%2306-17+One+Commonwealth+Singapore+149544"
                           style={{ whiteSpace: 'nowrap' }}
                         >
-                          A-522, Tower-A, Logix Technova, Sec-132, Noida
+                          1 Commonwealth Lane, #06-17, One Commonwealth, Singapore (149544)
                         </a>
                       </span>
-                    </li> */}
+                    </li>
                   </ul>
                 </div>
               </div>

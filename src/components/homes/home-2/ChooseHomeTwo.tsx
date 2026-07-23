@@ -27,9 +27,10 @@ export default function ChooseHomeTwo() {
                   IT Solutions Designed to Drive Results
                 </h4>
                 <p>
-                  Monotonectally synergize granular markets and front market
-                  Collaboratively visualize strat fomediaries after based
-                  models, Synergistically task state of the art infrastructures.
+                  Infomeya blends deep expertise in Microsoft Dynamics 365,
+                  Azure, and enterprise application development with a
+                  client-first approach — helping teams simplify operations,
+                  connect systems, and scale with confidence.
                 </p>
               </div>
               <img src="assets/img/choose/why-choose-1-3.png" alt="" />
@@ -79,8 +80,9 @@ export default function ChooseHomeTwo() {
                 <div className="content">
                   <h5>Our Mission</h5>
                   <p>
-                    Our mission is push engage boundaries, enga audiences, and
-                    driv engage innovation through innovation
+                    To help organizations modernize with technology that
+                    truly fits — practical, scalable solutions that reduce
+                    complexity and drive real results.
                   </p>
                 </div>
               </div>
@@ -133,8 +135,9 @@ export default function ChooseHomeTwo() {
                 <div className="content">
                   <h5>Our Vision</h5>
                   <p>
-                    Our mission is push engage boundaries, enga audiences, and
-                    driv engage innovation through innovation
+                    To be the long-term technology partner growing businesses
+                    trust — guiding every stage of digital transformation
+                    with reliability and care.
                   </p>
                 </div>
               </div>
@@ -169,10 +172,10 @@ export default function ChooseHomeTwo() {
                   </span>
                 </div>
                 <div className="content">
-                  <h5>Our Awards</h5>
+                  <h5>Proven Experience</h5>
                   <p>
-                    Our mission is push engage boundaries, enga audiences, and
-                    driv engage innovation through innovation
+                    20+ years of combined industry experience delivering
+                    dependable, enterprise-grade technology solutions.
                   </p>
                 </div>
               </div>
