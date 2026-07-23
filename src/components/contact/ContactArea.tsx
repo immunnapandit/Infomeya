@@ -219,6 +219,39 @@ export default function ContactArea() {
                       </p>
                     </div>
                   </div>
+
+                  <div
+                    className="tv-card-box mb-40 wow itfadeUp"
+                    data-wow-delay=".4s"
+                  >
+                    <div className="icon">
+                      <svg
+                        width="40"
+                        height="40"
+                        viewBox="0 0 40 40"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M20 2.5C12.6 2.5 6.66663 8.43336 6.66663 15.8334C6.66663 25.8334 20 37.5 20 37.5C20 37.5 33.3333 25.8334 33.3333 15.8334C33.3333 8.43336 27.4 2.5 20 2.5ZM20 20.8334C17.2333 20.8334 15 18.6 15 15.8334C15 13.0667 17.2333 10.8334 20 10.8334C22.7666 10.8334 25 13.0667 25 15.8334C25 18.6 22.7666 20.8334 20 20.8334Z"
+                          fill="white"
+                        />
+                      </svg>
+                    </div>
+                    <div className="content">
+                      <h4>Our office</h4>
+                      <p>
+                        <a
+                          href="https://www.google.com/maps/search/?api=1&query=1+Commonwealth+Lane+%2306-17+One+Commonwealth+Singapore+149544"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          1 Commonwealth Lane, #06-17, One Commonwealth,
+                          Singapore (149544)
+                        </a>
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
 
