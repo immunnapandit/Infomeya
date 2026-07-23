@@ -1,5 +1,5 @@
 import Breadcrumb from '../../common/Breadcrumb';
-import FooterOne from '../../layouts/footers/FooterOne';
+import FooterTwo from '../../layouts/footers/FooterTwo';
 import HeaderOne from '../../layouts/headers/HeaderOne';
 import Wrapper from '../../layouts/Wrapper';
 import ProcessHomeOne from '../homes/home-1/ProcessHomeOne';
@@ -12,7 +12,7 @@ export default function WorkingProcess() {
         <Breadcrumb title="Working Process" subtitle="Working Process" />
         <ProcessHomeOne />
       </main>
-      <FooterOne />
+      <FooterTwo />
     </Wrapper>
   );
 }

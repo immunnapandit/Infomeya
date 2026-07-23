@@ -2,14 +2,15 @@ import HeroHomeOne from './HeroHomeOne';
 // import TestimonialHomeOne from './TestimonialHomeOne';
 import Wrapper from '../../../layouts/Wrapper';
 import HeaderOne from '../../../layouts/headers/HeaderOne';
-import FooterOne from '../../../layouts/footers/FooterOne';
+import FooterTwo from '../../../layouts/footers/FooterTwo';
 import ServiceHomeTwo from '../home-2/ServiceHomeTwo';
 import BlogHomeTwo from '../home-2/BlogHomeTwo';
-import AboutHomeTwo from '../home-2/AboutHomeTwo';
 import IndustriesSection from './IndustriesSection';
 import OurTraining from './OurTraining';
 import SolutionsSection from './SolutionsSection';
-import WhyChooseUsSection from './WhyChooseUsSection';
+import AboutHomeThree from '../home-3/AboutHomeThree';
+import ChooseHomeTwo from '../home-2/ChooseHomeTwo';
+import CtaHomeTwo from '../home-2/CtaHomeTwo';
 
 export default function HomeOne() {
   return (
@@ -17,17 +18,19 @@ export default function HomeOne() {
       <HeaderOne />
       <main className="home-one-page">
         <HeroHomeOne />
-        <AboutHomeTwo />
+        <AboutHomeThree/>
         <ServiceHomeTwo />
         <SolutionsSection />
         <IndustriesSection />
-        <WhyChooseUsSection />
+        <ChooseHomeTwo />
         <OurTraining />
         {/* <TestimonialHomeOne /> */}
          {/* <OurClient /> */}
+         <CtaHomeTwo />
         <BlogHomeTwo />
+        
       </main>
-      <FooterOne />
+      <FooterTwo />
     </Wrapper>
   );
 }

@@ -1,4 +1,6 @@
 import { Link } from 'react-router-dom';
+import { socialLinks } from '../../data/social-links';
+
 export default function FooterTwo() {
   return (
     <footer>
@@ -13,27 +15,20 @@ export default function FooterTwo() {
                 <div className="tv-footer-widget tv-footer-col-1">
                   <div className="tv-footer-widget-logo mb-30">
                     <Link to="/">
-                      <img src="/assets/img/logo/logo-white2.png" alt="" />
+                      <img src="/assets/img/logo/InfomeyaLogo.jpeg" alt="" />
                     </Link>
                   </div>
                   <div className="tv-footer-widget-text">
                     <p>
-                      Each demo built with Teba will look different. You can
-                      customize almost anythin appearance of your website with
-                      only a few.
+                      Infomeya is a technology-driven company delivering smart digital solutions, including web development, CRM, ERP, and business automation to help businesses grow and scale efficiently.
                     </p>
                   </div>
                   <div className="tv-footer-widget-contact-info">
                     <ul>
                       <li>
-                        <a href="">
-                          <i className="fa-solid fa-phone"></i>123-456-7890
-                        </a>
-                      </li>
-                      <li>
-                        <a href="mailto:techor@example.com">
+                        <a href="mailto:ramprasad.mani@infomeya.com">
                           <i className="fa-solid fa-envelope"></i>
-                          techor@example.com
+                          ramprasad.mani@infomeya.com
                         </a>
                       </li>
                     </ul>
@@ -46,19 +41,19 @@ export default function FooterTwo() {
                   <div className="tv-footer-widget-menu">
                     <ul>
                       <li>
-                        <a href="#">About Us</a>
+                        <Link to="/about">About Us</Link>
                       </li>
                       <li>
-                        <a href="#">Our Team</a>
+                        <Link to="/#services">Services</Link>
                       </li>
                       <li>
-                        <a href="#">Pricing Plans</a>
+                        <Link to="/careers">Careers</Link>
                       </li>
                       <li>
-                        <a href="#">Blogs</a>
+                        <Link to="/blog">Blogs</Link>
                       </li>
                       <li>
-                        <a href="#">Contact Us</a>
+                        <Link to="/contact">Contact Us</Link>
                       </li>
                     </ul>
                   </div>
@@ -71,19 +66,22 @@ export default function FooterTwo() {
                     <div className="tv-footer-widget-menu">
                       <ul>
                         <li>
-                          <a href="#">UI/UX Design</a>
+                          <Link to="/solutions/microsoft-dynamics-365">Dynamics 365</Link>
                         </li>
                         <li>
-                          <a href="#">App Development</a>
+                          <Link to="/solutions/microsoft-azure">Azure</Link>
                         </li>
                         <li>
-                          <a href="#">Digital Marketing</a>
+                          <Link to="/what-we-do/erp-implementation">ERP Development</Link>
                         </li>
                         <li>
-                          <a href="#">Web Development</a>
+                          <Link to="/ai-solutions">Artificial Intelligence</Link>
                         </li>
                         <li>
-                          <a href="#">Cyber Security</a>
+                          <Link to="/solutions/office-365">Office 365</Link>
+                        </li>
+                        <li>
+                          <Link to="/what-we-do/web-development">Web Development</Link>
                         </li>
                       </ul>
                     </div>
@@ -97,16 +95,16 @@ export default function FooterTwo() {
                     <div className="tv-footer-widget-menu">
                       <ul>
                         <li>
-                          <a href="#">Working Process</a>
+                          <Link to="/working-process">Working Process</Link>
                         </li>
                         <li>
-                          <a href="#">Privacy Policy</a>
+                          <Link to="/privacy-policy">Privacy Policy</Link>
                         </li>
                         <li>
-                          <a href="#">Terms & Conditions</a>
+                          <Link to="/terms-and-conditions">Terms & Conditions</Link>
                         </li>
                         <li>
-                          <a href="#">Faqs</a>
+                          <Link to="/faq">Faqs</Link>
                         </li>
                       </ul>
                     </div>
@@ -123,23 +121,35 @@ export default function FooterTwo() {
                 <div className="col-lg-6">
                   <div className="tv-copyright-left text-center text-lg-start">
                     <p className="mb-0">
-                      © 2025 <a href="#">Techor</a>All Rights Reserved, Created
-                      by <a href="#">HurrayTheme</a>
+                      © 2026 All Rights Reserved | Developed by
+                      <a href="https://www.infomeya.com" target="_blank">
+                        {' '}
+                        Infomeya Pvt. Ltd.
+                      </a>
                     </p>
                   </div>
                 </div>
                 <div className="col-lg-6 text-end">
                   <div className="tv-footer-widget-social style-2">
-                    <a href="#">
+                    <a
+                      href={socialLinks.facebook}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <i className="fa-brands fa-facebook-f"></i>
                     </a>
-                    <a href="#">
-                      <i className="fa-brands fa-twitter"></i>
-                    </a>
-                    <a href="#">
+                    <a
+                      href={socialLinks.instagram}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <i className="fa-brands fa-instagram"></i>
                     </a>
-                    <a href="#">
+                    <a
+                      href={socialLinks.linkedin}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <i className="fa-brands fa-linkedin-in"></i>
                     </a>
                   </div>

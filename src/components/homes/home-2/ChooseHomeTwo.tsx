@@ -12,7 +12,7 @@ export default function ChooseHomeTwo() {
             <div className="tv-why-choose-left">
               <img
                 className="wow img-anim-left"
-                src="assets/img/choose/why-choose-1-1.png"
+                src="assets/img/choose/why11.jpg"
                 alt=""
               />
             </div>
@@ -34,7 +34,7 @@ export default function ChooseHomeTwo() {
               </div>
               <img src="assets/img/choose/why-choose-1-3.png" alt="" />
               <img
-                src="assets/img/choose/why-choose-1-2.png"
+                src="assets/img/choose/why2.jpg"
                 alt=""
                 className="abs wow img-anim-left"
               />

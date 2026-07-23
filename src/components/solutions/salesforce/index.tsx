@@ -1,5 +1,5 @@
 import Breadcrumb from '../../../common/Breadcrumb';
-import FooterOne from '../../../layouts/footers/FooterOne';
+import FooterTwo from '../../../layouts/footers/FooterTwo';
 import HeaderOne from '../../../layouts/headers/HeaderOne';
 import Wrapper from '../../../layouts/Wrapper';
 import Salesforce, { pageConfig } from './Salesforce';
@@ -12,7 +12,7 @@ export default function SalesforcePage() {
         <Breadcrumb title={pageConfig.title} subtitle={pageConfig.subtitle} />
         <Salesforce />
       </main>
-      <FooterOne />
+      <FooterTwo />
     </Wrapper>
   );
 }

@@ -149,6 +149,15 @@
         display: none;
       }
     }
+    .img2 {
+      width: 100%;
+      max-width: 313px;
+      aspect-ratio: 313 / 328;
+      object-fit: cover;
+      @media #{$lg, $md, $sm, $xs} {
+        max-width: 100%;
+      }
+    }
     gap: 20px;
     @media #{$lg, $md, $sm, $xs} {
       display: block !important;

@@ -1,5 +1,5 @@
 import Breadcrumb from '../../common/Breadcrumb';
-import FooterOne from '../../layouts/footers/FooterOne';
+import FooterTwo from '../../layouts/footers/FooterTwo';
 import HeaderOne from '../../layouts/headers/HeaderOne';
 import Wrapper from '../../layouts/Wrapper';
 import BlogListArea from './BlogListArea';
@@ -12,7 +12,7 @@ export default function BlogList() {
         <Breadcrumb title="Blog List" subtitle="Blog List" />
         <BlogListArea />
       </main>
-      <FooterOne />
+      <FooterTwo />
     </Wrapper>
   );
 }

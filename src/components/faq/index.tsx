@@ -1,5 +1,5 @@
 import Breadcrumb from '../../common/Breadcrumb';
-import FooterOne from '../../layouts/footers/FooterOne';
+import FooterTwo from '../../layouts/footers/FooterTwo';
 import HeaderOne from '../../layouts/headers/HeaderOne';
 import Wrapper from '../../layouts/Wrapper';
 import FaqArea from './FaqArea';
@@ -12,7 +12,7 @@ export default function Faq() {
         <Breadcrumb title="FAQ" subtitle="FAQ" />
         <FaqArea />
       </main>
-      <FooterOne />
+      <FooterTwo />
     </Wrapper>
   );
 }

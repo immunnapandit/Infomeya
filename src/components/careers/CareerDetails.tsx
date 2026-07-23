@@ -18,7 +18,7 @@ import {
   type JobOpening,
 } from '../../data/career-openings';
 import { fetchCareerOpeningBySlug } from '../../lib/careers';
-import FooterOne from '../../layouts/footers/FooterOne';
+import FooterTwo from '../../layouts/footers/FooterTwo';
 import HeaderOne from '../../layouts/headers/HeaderOne';
 import Wrapper from '../../layouts/Wrapper';
 
@@ -180,7 +180,7 @@ export default function CareerDetails() {
             </div>
           </section>
         </main>
-        <FooterOne />
+        <FooterTwo />
       </Wrapper>
     );
   }
@@ -209,7 +209,7 @@ export default function CareerDetails() {
             </div>
           </section>
         </main>
-        <FooterOne />
+        <FooterTwo />
       </Wrapper>
     );
   }
@@ -388,7 +388,7 @@ export default function CareerDetails() {
           </div>
         </section>
       </main>
-      <FooterOne />
+      <FooterTwo />
     </Wrapper>
   );
 }

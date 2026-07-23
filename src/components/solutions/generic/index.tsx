@@ -1,6 +1,6 @@
 import Breadcrumb from '../../../common/Breadcrumb';
 import type { ServicePageConfig } from '../../../data/service-page-types';
-import FooterOne from '../../../layouts/footers/FooterOne';
+import FooterTwo from '../../../layouts/footers/FooterTwo';
 import HeaderOne from '../../../layouts/headers/HeaderOne';
 import Wrapper from '../../../layouts/Wrapper';
 import GenericServiceArea from './GenericServiceArea';
@@ -17,7 +17,7 @@ export default function GenericServicePage({ page }: GenericServicePageProps) {
         <Breadcrumb title={page.title} subtitle={page.subtitle} />
         <GenericServiceArea page={page} />
       </main>
-      <FooterOne />
+      <FooterTwo />
     </Wrapper>
   );
 }

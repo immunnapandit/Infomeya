@@ -1,5 +1,5 @@
 import Breadcrumb from '../../../common/Breadcrumb';
-import FooterOne from '../../../layouts/footers/FooterOne';
+import FooterTwo from '../../../layouts/footers/FooterTwo';
 import HeaderOne from '../../../layouts/headers/HeaderOne';
 import Wrapper from '../../../layouts/Wrapper';
 import Crm2015, { pageConfig } from './Crm2015';
@@ -12,7 +12,7 @@ export default function Crm2015Page() {
         <Breadcrumb title={pageConfig.title} subtitle={pageConfig.subtitle} />
         <Crm2015 />
       </main>
-      <FooterOne />
+      <FooterTwo />
     </Wrapper>
   );
 }

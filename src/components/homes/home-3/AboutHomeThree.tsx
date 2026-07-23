@@ -10,7 +10,7 @@ export default function AboutHomeThree() {
               <div>
                 <img
                   className="img1"
-                  src="assets/img/about/about-3-1.png"
+                  src="assets/img/about/about2.jpg"
                   alt="about-img"
                 />
               </div>
@@ -21,7 +21,11 @@ export default function AboutHomeThree() {
                   </h2>
                   <h6>Experience in IT Industry</h6>
                 </div>
-                <img src="assets/img/about/about-3-2.png" alt="about-img" />
+                <img
+                  className="img2"
+                  src="assets/img/about/about1.jpg"
+                  alt="about-img"
+                />
               </div>
             </div>
           </div>
@@ -30,16 +34,17 @@ export default function AboutHomeThree() {
               <div className="tv-service-left-area">
                 <div className="tv-section-title-box mb-40">
                   <span className="tv-section-subtitle tv-spltv-text tv-spltv-in-right">
-                    About Your Company
+                    About Infomeya
                   </span>
                   <h4 className="tv-section-title tv-spltv-text tv-spltv-in-right">
                     We Execute Ideas From Start to Finish
                   </h4>
                   <p>
-                    Monotonectally synergize granular markets and front market
-                    Collaboratively visualize strat fomediaries after based
-                    models, Synergistically task state of the art
-                    infrastructures.
+                    Infomeya helps growing organizations modernize operations
+                    and connect systems with practical, reliable solutions
+                    across Microsoft Dynamics 365, Azure Cloud, and modern
+                    application development — built to scale as your business
+                    grows.
                   </p>
                 </div>
                 <div
@@ -85,7 +90,7 @@ export default function AboutHomeThree() {
                           </clipPath>
                         </defs>
                       </svg>
-                      Innovative Solutions
+                      Microsoft Dynamics 365 & Azure Experts
                     </li>
                     <li>
                       <svg
@@ -125,7 +130,7 @@ export default function AboutHomeThree() {
                           </clipPath>
                         </defs>
                       </svg>
-                      User-Friendly Interface
+                      Seamless System Integration
                     </li>
                     <li>
                       <svg
@@ -165,7 +170,7 @@ export default function AboutHomeThree() {
                           </clipPath>
                         </defs>
                       </svg>
-                      Secure Transactions
+                      Secure & Scalable Cloud Platforms
                     </li>
                     <li>
                       <svg
@@ -205,7 +210,7 @@ export default function AboutHomeThree() {
                           </clipPath>
                         </defs>
                       </svg>
-                      Secure Transactions
+                      Dedicated Ongoing Support
                     </li>
                   </ul>
                 </div>
@@ -213,21 +218,12 @@ export default function AboutHomeThree() {
                   className="about-btn-wrap d-flex align-items-center wow itfadeUp"
                   data-wow-delay=".3s"
                 >
-                  <Link to="/about" className="tv-btn-primary p-relative">
+                  <Link to="/contact" className="tv-btn-primary p-relative">
                     <span className="btn-wrap">
-                      <span className="btn-text1">Learn More</span>
-                      <span className="btn-text2">Learn More</span>
+                      <span className="btn-text1">Contact Us</span>
+                      <span className="btn-text2">Contact Us</span>
                     </span>
                   </Link>
-                  <div className="phone-contact-wrap">
-                    <i className="fa-solid fa-phone"></i>
-                    <div className="contact-content">
-                      <p>Call Us Now</p>
-                      <h4>
-                        <a href="mailto:5553456800">(555) 345-6800</a>
-                      </h4>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>

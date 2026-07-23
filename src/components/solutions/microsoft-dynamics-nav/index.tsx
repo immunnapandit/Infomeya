@@ -1,5 +1,5 @@
 import Breadcrumb from '../../../common/Breadcrumb';
-import FooterOne from '../../../layouts/footers/FooterOne';
+import FooterTwo from '../../../layouts/footers/FooterTwo';
 import HeaderOne from '../../../layouts/headers/HeaderOne';
 import Wrapper from '../../../layouts/Wrapper';
 import MicrosoftDynamicsNav, { pageConfig } from './MicrosoftDynamicsNav';
@@ -12,7 +12,7 @@ export default function MicrosoftDynamicsNavPage() {
         <Breadcrumb title={pageConfig.title} subtitle={pageConfig.subtitle} />
         <MicrosoftDynamicsNav />
       </main>
-      <FooterOne />
+      <FooterTwo />
     </Wrapper>
   );
 }

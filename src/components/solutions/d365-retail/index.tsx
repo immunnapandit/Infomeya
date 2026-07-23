@@ -1,5 +1,5 @@
 import Breadcrumb from '../../../common/Breadcrumb';
-import FooterOne from '../../../layouts/footers/FooterOne';
+import FooterTwo from '../../../layouts/footers/FooterTwo';
 import HeaderOne from '../../../layouts/headers/HeaderOne';
 import Wrapper from '../../../layouts/Wrapper';
 import D365Retail, { pageConfig } from './D365Retail';
@@ -12,7 +12,7 @@ export default function D365RetailPage() {
         <Breadcrumb title={pageConfig.title} subtitle={pageConfig.subtitle} />
         <D365Retail />
       </main>
-      <FooterOne />
+      <FooterTwo />
     </Wrapper>
   );
 }

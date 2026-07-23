@@ -1,5 +1,5 @@
 import Breadcrumb from '../../../common/Breadcrumb';
-import FooterOne from '../../../layouts/footers/FooterOne';
+import FooterTwo from '../../../layouts/footers/FooterTwo';
 import HeaderOne from '../../../layouts/headers/HeaderOne';
 import Wrapper from '../../../layouts/Wrapper';
 import DigitalTransformation, { pageConfig } from './DigitalTransformation';
@@ -12,7 +12,7 @@ export default function DigitalTransformationPage() {
         <Breadcrumb title={pageConfig.title} subtitle={pageConfig.subtitle} />
         <DigitalTransformation />
       </main>
-      <FooterOne />
+      <FooterTwo />
     </Wrapper>
   );
 }

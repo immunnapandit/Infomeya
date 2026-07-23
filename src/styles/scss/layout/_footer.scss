@@ -445,6 +445,23 @@
   }
 }
 
+.tv-footer-wrap.sytle-2 {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding-top: 78px !important;
+
+  @media #{$lg} {
+    padding-top: 66px !important;
+  }
+
+  @media #{$md, $sm, $xs} {
+    padding-top: 54px !important;
+  }
+
+  @media #{$xs} {
+    padding-top: 42px !important;
+  }
+}
+
 // Footer Top area css
 .tv-footer-top-area-form {
   background: var(--tv-theme-1);

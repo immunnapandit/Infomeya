@@ -1,5 +1,5 @@
 import Breadcrumb from '../../../common/Breadcrumb';
-import FooterOne from '../../../layouts/footers/FooterOne';
+import FooterTwo from '../../../layouts/footers/FooterTwo';
 import HeaderOne from '../../../layouts/headers/HeaderOne';
 import Wrapper from '../../../layouts/Wrapper';
 import D365FinanceArea from './D365FinanceArea';
@@ -15,7 +15,7 @@ export default function D365Finance() {
         />
         <D365FinanceArea />
       </main>
-      <FooterOne />
+      <FooterTwo />
     </Wrapper>
   );
 }

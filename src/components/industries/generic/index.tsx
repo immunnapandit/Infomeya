@@ -1,6 +1,6 @@
 import Breadcrumb from '../../../common/Breadcrumb';
 import type { IndustryPageConfig } from '../../../data/industry-pages';
-import FooterOne from '../../../layouts/footers/FooterOne';
+import FooterTwo from '../../../layouts/footers/FooterTwo';
 import HeaderOne from '../../../layouts/headers/HeaderOne';
 import Wrapper from '../../../layouts/Wrapper';
 import IndustryDetailArea from './IndustryDetailArea';
@@ -19,7 +19,7 @@ export default function GenericIndustryPage({
         <Breadcrumb title={page.title} subtitle={page.subtitle} />
         <IndustryDetailArea page={page} />
       </main>
-      <FooterOne />
+      <FooterTwo />
     </Wrapper>
   );
 }

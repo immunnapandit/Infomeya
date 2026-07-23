@@ -1,5 +1,5 @@
 import Breadcrumb from '../../../common/Breadcrumb';
-import FooterOne from '../../../layouts/footers/FooterOne';
+import FooterTwo from '../../../layouts/footers/FooterTwo';
 import HeaderOne from '../../../layouts/headers/HeaderOne';
 import Wrapper from '../../../layouts/Wrapper';
 import PowerAutomateSolutions, { pageConfig } from './PowerAutomateSolutions';
@@ -12,7 +12,7 @@ export default function PowerAutomateSolutionsPage() {
         <Breadcrumb title={pageConfig.title} subtitle={pageConfig.subtitle} />
         <PowerAutomateSolutions />
       </main>
-      <FooterOne />
+      <FooterTwo />
     </Wrapper>
   );
 }

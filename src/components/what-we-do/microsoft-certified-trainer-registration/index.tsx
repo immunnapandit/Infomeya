@@ -1,5 +1,5 @@
 import Breadcrumb from '../../../common/Breadcrumb';
-import FooterOne from '../../../layouts/footers/FooterOne';
+import FooterTwo from '../../../layouts/footers/FooterTwo';
 import HeaderOne from '../../../layouts/headers/HeaderOne';
 import Wrapper from '../../../layouts/Wrapper';
 import MicrosoftCertifiedTrainerRegistration from './MicrosoftCertifiedTrainerRegistration';
@@ -15,7 +15,7 @@ export default function MicrosoftCertifiedTrainerRegistrationPage() {
         />
         <MicrosoftCertifiedTrainerRegistration />
       </main>
-      <FooterOne />
+      <FooterTwo />
     </Wrapper>
   );
 }

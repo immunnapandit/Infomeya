@@ -1,5 +1,5 @@
 import Breadcrumb from '../../../common/Breadcrumb';
-import FooterOne from '../../../layouts/footers/FooterOne';
+import FooterTwo from '../../../layouts/footers/FooterTwo';
 import HeaderOne from '../../../layouts/headers/HeaderOne';
 import Wrapper from '../../../layouts/Wrapper';
 import Ax7, { pageConfig } from './Ax7';
@@ -12,7 +12,7 @@ export default function Ax7Page() {
         <Breadcrumb title={pageConfig.title} subtitle={pageConfig.subtitle} />
         <Ax7 />
       </main>
-      <FooterOne />
+      <FooterTwo />
     </Wrapper>
   );
 }

@@ -3,7 +3,7 @@ import TestimonialHomeOne from '../homes/home-1/TestimonialHomeOne';
 import Wrapper from '../../layouts/Wrapper';
 import HeaderOne from '../../layouts/headers/HeaderOne';
 import Breadcrumb from '../../common/Breadcrumb';
-import FooterOne from '../../layouts/footers/FooterOne';
+import FooterTwo from '../../layouts/footers/FooterTwo';
 
 export default function Service() {
   return (
@@ -14,7 +14,7 @@ export default function Service() {
         <ServiceArea />
         <TestimonialHomeOne />
       </main>
-      <FooterOne />
+      <FooterTwo />
     </Wrapper>
   );
 }

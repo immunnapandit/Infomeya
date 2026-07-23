@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import Breadcrumb from '../../common/Breadcrumb';
 import HeaderOne from '../../layouts/headers/HeaderOne';
 import Wrapper from '../../layouts/Wrapper';
-import FooterOne from '../../layouts/footers/FooterOne';
+import FooterTwo from '../../layouts/footers/FooterTwo';
 
 export default function NotFound() {
   return (
@@ -48,7 +48,7 @@ export default function NotFound() {
           </div>
         </div>
       </main>
-      <FooterOne />
+      <FooterTwo />
     </Wrapper>
   );
 }

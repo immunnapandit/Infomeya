@@ -6,7 +6,7 @@ import CounterHomeOne from '../homes/home-1/CounterHomeOne';
 import Wrapper from '../../layouts/Wrapper';
 import HeaderOne from '../../layouts/headers/HeaderOne';
 import Breadcrumb from '../../common/Breadcrumb';
-import FooterOne from '../../layouts/footers/FooterOne';
+import FooterTwo from '../../layouts/footers/FooterTwo';
 
 export default function About() {
   return (
@@ -20,7 +20,7 @@ export default function About() {
         {/* <TeamHomeOne />  */}
         {/* <TestimonialHomeTwo /> */}
       </main>
-      <FooterOne />
+      <FooterTwo />
     </Wrapper>
   );
 }

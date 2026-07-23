@@ -3,7 +3,7 @@ import PricingHomeOne from '../homes/home-1/PricingHomeOne';
 import Wrapper from '../../layouts/Wrapper';
 import HeaderOne from '../../layouts/headers/HeaderOne';
 import Breadcrumb from '../../common/Breadcrumb';
-import FooterOne from '../../layouts/footers/FooterOne';
+import FooterTwo from '../../layouts/footers/FooterTwo';
 
 export default function Price() {
   return (
@@ -14,7 +14,7 @@ export default function Price() {
         <PricingHomeOne style_2={true} />
         <FaqHomeTwo />
       </main>
-      <FooterOne />
+      <FooterTwo />
     </Wrapper>
   );
 }

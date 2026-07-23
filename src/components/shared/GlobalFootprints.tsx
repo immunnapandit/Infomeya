@@ -55,6 +55,18 @@ const globalLocations = [
     markerPosition: { x: '64%', y: '54%' }
   },
   {
+    id: 'singapore',
+    title: 'Singapore',
+    address: '1 Commonwealth Lane, #06-17, One Commonwealth, Singapore (149544)',
+    thumbClassName: 'is-singapore',
+    thumbSrc: '/assets/img/slider/meeting.jpg',
+    mapSrc: 'https://www.google.com/maps?q=1%20Commonwealth%20Lane%2C%20%2306-17%2C%20One%20Commonwealth%2C%20Singapore%20149544&z=17&output=embed',
+    mapCountry: 'Singapore',
+    mapLabel: 'Singapore',
+    flagSrc: 'https://flagcdn.com/w160/sg.png',
+    markerPosition: { x: '58%', y: '55%' }
+  },
+  {
     id: 'germany',
     title: 'Germany, Berlin',
     address: 'Heidestrasse 17 Mitte, 10557 Berlin, Germany',

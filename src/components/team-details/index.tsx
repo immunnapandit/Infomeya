@@ -1,5 +1,5 @@
 import Breadcrumb from '../../common/Breadcrumb';
-import FooterOne from '../../layouts/footers/FooterOne';
+import FooterTwo from '../../layouts/footers/FooterTwo';
 import HeaderOne from '../../layouts/headers/HeaderOne';
 import Wrapper from '../../layouts/Wrapper';
 import TeamDetailsArea from './TeamDetailsArea';
@@ -12,7 +12,7 @@ export default function TeamDetails() {
         <Breadcrumb title="Team Details" subtitle="Team Details" />
         <TeamDetailsArea />
       </main>
-      <FooterOne />
+      <FooterTwo />
     </Wrapper>
   );
 }

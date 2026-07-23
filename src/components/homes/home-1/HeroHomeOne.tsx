@@ -20,7 +20,7 @@ const heroSlides = [
     subtitle: 'Infomeya Digital Solutions',
     title: 'Modernize Operations with Technology That Fits',
     description:
-      'Infomeya helps growing teams connect systems, simplify processes, and build reliable digital foundations across Microsoft Dynamics 365, Azure, and modern cloud platforms. Infomeya helps organizations modernize operations with Microsoft Dynamics 365, Azure Cloud, and innovative technology solutions designed for scalability and growth.',
+      'Infomeya helps growing teams connect systems, simplify processes, and build reliable digital foundations across Microsoft Dynamics 365, Azure, and modern cloud platforms.',
   },
   {
     backgroundImage: getCloudinaryAssetUrl(
