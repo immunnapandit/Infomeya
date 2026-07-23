@@ -159,7 +159,7 @@ export default function AboutHomeTwo() {
                 <img
                   className="thumb"
                   src={getCloudinaryAssetUrl(
-                    'assets/img/about/about-2-1.png',
+                    'assets/img/about/about-2-1.jpg',
                     CLOUDINARY_TRANSFORMS.largeVisual,
                   )}
                   alt="Infomeya team delivering technology solutions"
