@@ -8,7 +8,6 @@ import BlogHomeTwo from '../home-2/BlogHomeTwo';
 import AboutHomeTwo from '../home-2/AboutHomeTwo';
 import IndustriesSection from './IndustriesSection';
 import OurTraining from './OurTraining';
-import OurClient from './OurClient';
 import SolutionsSection from './SolutionsSection';
 import WhyChooseUsSection from './WhyChooseUsSection';
 
@@ -25,7 +24,7 @@ export default function HomeOne() {
         <WhyChooseUsSection />
         <OurTraining />
         {/* <TestimonialHomeOne /> */}
-         <OurClient />
+         {/* <OurClient /> */}
         <BlogHomeTwo />
       </main>
       <FooterOne />

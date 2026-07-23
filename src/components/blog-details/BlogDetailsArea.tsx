@@ -482,7 +482,7 @@ export default function BlogDetailsArea({ previewPost }: BlogDetailsAreaProps) {
                                   >
                                     <path
                                       d="M9.16927 16.6693L0.835938 10.0026L9.16927 3.33594V7.5026C13.7716 7.5026 17.5026 11.2336 17.5026 15.8359C17.5026 16.0634 17.4935 16.2887 17.4756 16.5115C16.2197 14.1278 13.7176 12.5026 10.8359 12.5026H9.16927V16.6693Z"
-                                      fill="#2B4DFF"
+                                      fill="#0068f0"
                                     />
                                   </svg>
                                   Reply

@@ -33,45 +33,30 @@
   }
   &-title {
     font-weight: 700;
-    font-size: 80px;
-    line-height: 1.14;
+    font-size: 52px;
+    line-height: 1.2;
     margin-bottom: 20px;
     text-transform: capitalize;
     color: var(--tv-common-white);
     font-family: var(--tv-ff-heading);
     @media #{$xl} {
-      font-size: 60px;
+      font-size: 44px;
     }
     @media #{$lg} {
-      font-size: 55px;
+      font-size: 40px;
     }
     @media #{$md} {
-      font-size: 60px;
+      font-size: 38px;
     }
     @media #{$xs} {
-      font-size: 37px;
+      font-size: 28px;
     }
     @media #{$sm} {
-      font-size: 49px;
+      font-size: 32px;
     }
   }
   &-content {
-    padding: 232px 0;
-    @media #{$xxl} {
-      padding: 170px 0;
-    }
-    @media #{$xl} {
-      padding: 150px 0;
-    }
-    @media #{$lg} {
-      padding: 150px 0;
-    }
-    @media #{$md} {
-      padding: 140px 0;
-    }
-    @media #{$xs} {
-      padding: 120px 0;
-    }
+    padding: 0;
     & p {
       font-weight: 600;
       font-size: 17px;
@@ -93,6 +78,22 @@
   &-overlay {
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100vh;
+    min-height: 640px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media #{$md} {
+      min-height: 560px;
+    }
+    @media #{$xs} {
+      height: 100svh;
+      min-height: 520px;
+    }
+    @media #{$sm} {
+      height: 100svh;
+      min-height: 560px;
+    }
     &::after {
       position: absolute;
       content: '';
@@ -445,7 +446,7 @@
       left: 50%;
       bottom: -67%;
       width: 2px;
-      background: linear-gradient(to top, #2b4dff, rgba(43, 77, 255, 0));
+      background: linear-gradient(to top, #0068f0, rgba(0, 104, 240, 0));
     }
     &:before {
       position: absolute;
@@ -454,7 +455,7 @@
       left: 50%;
       top: -67%;
       width: 2px;
-      background: linear-gradient(to bottom, #2b4dff, rgba(43, 77, 255, 0));
+      background: linear-gradient(to bottom, #0068f0, rgba(0, 104, 240, 0));
     }
   }
   .tv-testi-arrow-box {
@@ -508,5 +509,5 @@
   left: 50%;
   top: 118%;
   width: 1px;
-  background: linear-gradient(to bottom, #2b4dff, #ffffff00);
+  background: linear-gradient(to bottom, #0068f0, #ffffff00);
 }

@@ -18,7 +18,7 @@ export default function HeaderOne() {
               <div className="col-xl-8 col-lg-7 col-md-6 col-sm-6">
                 <div className="tv-header-top-list-box">
                   <ul className="d-flex align-items-center flex-nowrap mb-0">
-                    <li className="d-none d-lg-inline-block">
+                    {/* <li className="d-none d-lg-inline-block">
                       <span
                         className="d-inline-flex align-items-center flex-nowrap"
                         style={{ whiteSpace: 'nowrap' }}
@@ -31,17 +31,17 @@ export default function HeaderOne() {
                           (+91) 80-8181-0673, (+91) 82-9915-6511
                         </a>
                       </span>
-                    </li>
+                    </li> */}
                     <li>
                       <span
                         className="d-inline-flex align-items-center flex-nowrap"
                         style={{ whiteSpace: 'nowrap' }}
                       >
                         <i className="fa-solid fa-envelope"></i>
-                        <a href="mailto:info@infomeya.com">info@infomeya.com</a>
+                        <a href="mailto:ramprasad.mani@infomeya.com">ramprasad.mani@infomeya.com</a>
                       </span>
                     </li>
-                    <li className="d-none d-xxl-inline-block">
+                    {/* <li className="d-none d-xxl-inline-block">
                       <span
                         className="d-inline-flex align-items-center flex-nowrap"
                         style={{ whiteSpace: 'nowrap' }}
@@ -55,7 +55,7 @@ export default function HeaderOne() {
                           A-522, Tower-A, Logix Technova, Sec-132, Noida
                         </a>
                       </span>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>

@@ -1,4 +1,4 @@
-const PRODUCTION_API_BASE_URL = 'https://aspl-server-1.onrender.com';
+const PRODUCTION_API_BASE_URL = 'https://infomeya.onrender.com';
 const DEVELOPMENT_API_BASE_URL = 'http://localhost:5001';
 
 const API_BASE_URL = import.meta.env.PROD

@@ -44,10 +44,10 @@ export default function OffCanvasArea({
               </div>
               <div className="itoffcanvas__info-address">
                 <span>Email</span>
-                <a href="mailto:info@infomeya.com">info@infomeya.com</a>
+                <a href="mailto:ramprasad.mani@infomeya.com">ramprasad.mani@infomeya.com</a>
               </div>
             </div>
-            <div className="tv-info-wrapper mb-20 d-flex align-items-center">
+            {/* <div className="tv-info-wrapper mb-20 d-flex align-items-center">
               <div className="itoffcanvas__info-icon">
                 <a href="#">
                   <i className="fal fa-phone-alt"></i>
@@ -58,8 +58,8 @@ export default function OffCanvasArea({
                 <a href="tel:(+91) 80-8181-0673,(+91) 82-9915-6511">(+91) 80-8181-0673, (+91) 82-9915-6511
                 </a>
               </div>
-            </div>
-            <div className="tv-info-wrapper mb-20 d-flex align-items-center">
+            </div> */}
+            {/* <div className="tv-info-wrapper mb-20 d-flex align-items-center">
               <div className="itoffcanvas__info-icon">
                 <a href="#">
                   <i className="fas fa-map-marker-alt"></i>
@@ -74,7 +74,7 @@ export default function OffCanvasArea({
                   A-522, Tower-A, Logix Technova, Sec-132, Noida{' '}
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

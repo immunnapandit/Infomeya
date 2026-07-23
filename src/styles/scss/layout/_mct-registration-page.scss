@@ -295,7 +295,7 @@
 .mct-registration-fields select:focus,
 .mct-registration-fields textarea:focus {
   border-color: var(--tv-theme-1);
-  box-shadow: 0 0 0 3px rgba(43, 77, 255, 0.1);
+  box-shadow: 0 0 0 3px rgba(0, 104, 240, 0.1);
 }
 
 .mct-registration-input-icon {
@@ -354,7 +354,7 @@
 .mct-registration-checkbox-grid label:hover,
 .mct-registration-checkbox-grid label:focus-within {
   transform: translateY(-1px);
-  border-color: rgba(43, 77, 255, 0.32);
+  border-color: rgba(0, 104, 240, 0.32);
   box-shadow: 0 10px 22px rgba(15, 49, 58, 0.06);
 }
 
@@ -376,7 +376,7 @@
   gap: 10px;
   min-height: 50px;
   padding: 0 14px;
-  border: 1px dashed rgba(43, 77, 255, 0.36);
+  border: 1px dashed rgba(0, 104, 240, 0.36);
   border-radius: 8px;
   background: #ffffff;
   color: var(--tv-text-body);

@@ -61,7 +61,7 @@
     flex-direction: column;
     width: 100%;
     min-height: 100%;
-    border-radius: 26px;
+    border-radius: var(--tv-card-radius);
     overflow: hidden;
     background: rgba(255, 255, 255, 0.82);
     backdrop-filter: blur(12px);
@@ -200,7 +200,7 @@
     width: 50px;
     height: 4px;
     border-radius: 999px;
-    background: linear-gradient(90deg, var(--accent), rgba(43, 77, 255, 0.18));
+    background: linear-gradient(90deg, var(--accent), rgba(0, 104, 240, 0.18));
     margin-bottom: 14px;
     flex-shrink: 0;
   }
@@ -283,7 +283,7 @@
 
   .service-pagination .swiper-pagination-bullet-active {
     width: 26px;
-    background: linear-gradient(90deg, #2b4dff, #6c4dff);
+    background: linear-gradient(90deg, #0068f0, #6c4dff);
   }
 }
 

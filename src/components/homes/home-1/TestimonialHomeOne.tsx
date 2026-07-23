@@ -28,8 +28,7 @@ const settings = {
 const testimonials = [
   {
     quote:
-      'Infomeya gave me clear direction, structured preparation, and practical support throughout my Microsoft Certified Trainer journey.',
-      'I had an excellent experience with Infomeya, With their clear guidance and professional support, I successfully received my Microsoft Certified Trainer (MCT) certificate.',
+      'Infomeya gave me clear direction, structured preparation, and practical support throughout my Microsoft Certified Trainer journey. I had an excellent experience with Infomeya, With their clear guidance and professional support, I successfully received my Microsoft Certified Trainer (MCT) certificate.',
     name: 'Nishit Parikh, Australia',
     role: 'MCT Certified Trainer',
     linkedinUrl: 'https://www.linkedin.com/in/nishitpparikh/',
@@ -37,8 +36,7 @@ const testimonials = [
   },
   {
     quote:
-      'The Infomeya training approach was focused, practical, and easy to follow. It helped me build confidence and move forward with my MCT certification.',
-      'Infomeya training program played a key role in my journey to becoming a Microsoft Certified Trainer. The mentorship and practical approach truly made a difference.',
+      'The Infomeya training approach was focused, practical, and easy to follow. It helped me build confidence and move forward with my MCT certification. Infomeya training program played a key role in my journey to becoming a Microsoft Certified Trainer. The mentorship and practical approach truly made a difference.',
     name: 'Rizwan Ul Haq, Dubai',
     role: 'MCT Certified Trainer',
     linkedinUrl: 'https://www.linkedin.com/in/rizulhaq/',

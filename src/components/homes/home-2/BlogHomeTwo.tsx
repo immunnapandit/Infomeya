@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { motion, type Variants } from 'framer-motion';
+import { ArrowRight } from 'lucide-react';
 import { type BlogPost } from '../../../data/blog-posts';
 import {
   fetchPublishedBlogPosts,
@@ -10,7 +12,27 @@ import {
   CLOUDINARY_TRANSFORMS,
   getCloudinaryAssetUrl,
 } from '../../../lib/cloudinary';
-import { animationCreate } from '../../../utils/utils';
+
+const containerVariants: Variants = {
+  hidden: {},
+  show: {
+    transition: {
+      staggerChildren: 0.12,
+    },
+  },
+};
+
+const fadeUp: Variants = {
+  hidden: { opacity: 0, y: 28 },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.6,
+      ease: 'easeOut',
+    },
+  },
+};
 
 export default function BlogHomeTwo() {
   const [posts, setPosts] = useState<BlogPost[]>(() =>
@@ -41,69 +63,82 @@ export default function BlogHomeTwo() {
     };
   }, []);
 
-  useEffect(() => {
-    if (!posts.length) {
-      return undefined;
-    }
-
-    const timer = window.setTimeout(() => animationCreate(), 50);
-    return () => window.clearTimeout(timer);
-  }, [posts.length]);
-
   if (!posts.length) {
     return null;
   }
 
   return (
-    <div className="tv-blog2-area pt-130 pb-130">
+    <section className="blog-premium-section">
       <div className="container">
-        <div className="row">
-          <div className="col text-center">
-            <div className="tv-section-title-box mb-60">
-              <span className="tv-section-subtitle tv-spltv-text tv-spltv-in-right">
-                Infomeya Insights
-              </span>
-              <h4 className="tv-section-title  tv-spltv-text tv-spltv-in-right">
-                Latest Ideas on Business Technology
-              </h4>
-            </div>
-          </div>
-        </div>
-        <div className="row">
-          {posts.map((post, index) => (
-            <div
+        <motion.div
+          className="section-header text-center tv-section-title-box"
+          variants={containerVariants}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, amount: 0.3 }}
+        >
+          <motion.span
+            className="tv-section-subtitle tv-spltv-text tv-spltv-in-right"
+            variants={fadeUp}
+          >
+            Infomeya Insights
+          </motion.span>
+          <motion.h2
+            className="tv-section-title tv-spltv-text tv-spltv-in-right"
+            variants={fadeUp}
+          >
+            Latest Ideas on Business Technology
+          </motion.h2>
+        </motion.div>
+
+        <motion.div
+          className="blog-premium-grid"
+          variants={containerVariants}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, amount: 0.15 }}
+        >
+          {posts.map((post) => (
+            <motion.article
               key={post.id}
-              className="col-xl-4 col-lg-4 col-md-6 wow itfadeUp"
-              data-wow-delay={`${0.3 + index * 0.2}s`}
-              data-wow-duration=".9s"
+              className="blog-card-premium"
+              variants={fadeUp}
+              whileHover={{ y: -8 }}
+              transition={{ duration: 0.35 }}
             >
-              <div className="single-blog-item style-2">
-                <Link to={`/blog/${post.slug}`} className="blog-thumb-link">
-                  <img
-                    src={getCloudinaryAssetUrl(
-                      post.imageUrl,
-                      CLOUDINARY_TRANSFORMS.blogCard,
-                    )}
-                    alt={post.title}
-                  />
-                </Link>
-                <div className="blog-content">
-                  <div className="blog-meta">
-                    <span className="author">{post.authorName}</span>
-                    <span className="date">{formatBlogDate(post.publishedAt)}</span>
-                  </div>
-                  <h2>
-                    <Link to={`/blog/${post.slug}`}>{post.title}</Link>
-                  </h2>
-                  <Link to={`/blog/${post.slug}`} className="read-more-btn">
-                    Read More<i className="fa-solid fa-arrow-right"></i>
-                  </Link>
+              <Link
+                to={`/blog/${post.slug}`}
+                className="blog-card-premium-image"
+              >
+                <img
+                  src={getCloudinaryAssetUrl(
+                    post.imageUrl,
+                    CLOUDINARY_TRANSFORMS.blogCard,
+                  )}
+                  alt={post.title}
+                />
+              </Link>
+              <div className="blog-card-premium-content">
+                <div className="blog-card-premium-meta">
+                  <span>{post.authorName}</span>
+                  <span className="blog-card-premium-dot" aria-hidden="true" />
+                  <span>{formatBlogDate(post.publishedAt)}</span>
                 </div>
+                <h3>
+                  <Link to={`/blog/${post.slug}`}>{post.title}</Link>
+                </h3>
+                <Link
+                  to={`/blog/${post.slug}`}
+                  className="blog-card-premium-more"
+                >
+                  Read More
+                  <ArrowRight size={18} strokeWidth={2.2} />
+                </Link>
               </div>
-            </div>
+            </motion.article>
           ))}
-        </div>
+        </motion.div>
       </div>
-    </div>
+    </section>
   );
 }

@@ -20,8 +20,7 @@ const heroSlides = [
     subtitle: 'Infomeya Digital Solutions',
     title: 'Modernize Operations with Technology That Fits',
     description:
-      'Infomeya helps growing teams connect systems, simplify processes, and build reliable digital foundations across Microsoft Dynamics 365, Azure, and modern cloud platforms.',
-      'Infomeya helps organizations modernize operations with Microsoft Dynamics 365, Azure Cloud, and innovative technology solutions designed for scalability and growth.',
+      'Infomeya helps growing teams connect systems, simplify processes, and build reliable digital foundations across Microsoft Dynamics 365, Azure, and modern cloud platforms. Infomeya helps organizations modernize operations with Microsoft Dynamics 365, Azure Cloud, and innovative technology solutions designed for scalability and growth.',
   },
   {
     backgroundImage: getCloudinaryAssetUrl(
@@ -35,7 +34,7 @@ const heroSlides = [
   },
   {
     backgroundImage: getCloudinaryAssetUrl(
-      '/assets/img/slider/cloud4.png',
+      '/assets/img/slider/meeting.jpg',
       CLOUDINARY_TRANSFORMS.hero,
     ),
     subtitle: 'Built for Scalable Growth',
@@ -82,8 +81,8 @@ export default function HeroHomeOne() {
                         <h1
                           className="tv-slider-title p-relative"
                           style={{
-                            fontSize: 'clamp(2rem, 4.5vw, 4rem)',
-                            lineHeight: 1.15,
+                            fontSize: 'clamp(1.75rem, 3.2vw, 3.25rem)',
+                            lineHeight: 1.2,
                           }}
                         >
                           {slide.title}

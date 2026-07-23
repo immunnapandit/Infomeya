@@ -189,7 +189,7 @@ export const industryPages: IndustryPageConfig[] = [
       'Support fast-growing technology teams with connected operations, project workflows, reporting, automation, and scalable digital processes.',
     cardDescription:
       'Build scalable business operations with connected systems for delivery, collaboration, reporting, automation, and service management.',
-    image: '/assets/img/service/AI1.jpg',
+    image: '/assets/img/service/AI1.png',
     focus: 'Project delivery, service workflows, automation, reporting, and scalable operations',
     highlights: [
       'Scalable workflows',

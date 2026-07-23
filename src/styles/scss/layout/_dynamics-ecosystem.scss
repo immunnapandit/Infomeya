@@ -62,9 +62,9 @@
   border-radius: 50%;
   background: radial-gradient(
     circle,
-    rgba(43, 77, 255, 0.16) 0%,
-    rgba(43, 77, 255, 0.06) 45%,
-    rgba(43, 77, 255, 0) 72%
+    rgba(0, 104, 240, 0.16) 0%,
+    rgba(0, 104, 240, 0.06) 45%,
+    rgba(0, 104, 240, 0) 72%
   );
   filter: blur(2px);
   z-index: 0;
@@ -76,7 +76,7 @@
   border-radius: 36px;
   background: linear-gradient(
     135deg,
-    rgba(43, 77, 255, 0.14) 0%,
+    rgba(0, 104, 240, 0.14) 0%,
     rgba(90, 75, 218, 0.08) 45%,
     rgba(255, 255, 255, 0.6) 100%
   );
@@ -97,7 +97,7 @@
   align-items: stretch;
   justify-content: center;
   padding: 10px;
-  box-shadow: 0 24px 55px rgba(15, 23, 42, 0.1), 0 12px 28px rgba(43, 77, 255, 0.06);
+  box-shadow: 0 24px 55px rgba(15, 23, 42, 0.1), 0 12px 28px rgba(0, 104, 240, 0.06);
   transition: transform 0.35s ease, box-shadow 0.35s ease, filter 0.35s ease;
 }
 
@@ -111,7 +111,7 @@
 }
 
 .dynamics-ecosystem-card:hover {
-  box-shadow: 0 30px 68px rgba(15, 23, 42, 0.13), 0 16px 36px rgba(43, 77, 255, 0.09);
+  box-shadow: 0 30px 68px rgba(15, 23, 42, 0.13), 0 16px 36px rgba(0, 104, 240, 0.09);
   filter: saturate(1.02);
 }
 
